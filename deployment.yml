@@ -69,5 +69,5 @@ stages:
             displayName: 'Deploy to Azure Static Web Apps'
             inputs:
               app_location: '$(Pipeline.Workspace)/static-web-app'
-              azure_static_web_apps_api_token: '$(AZURE_STATIC_WEB_APPS_API_TOKEN)'
+              azure_static_web_apps_api_token: '0444c9d136e2f3669a608b48a9e13e65e2e6107d84da71d471861cbc544cada603-9755d5a8-fce8-4d15-bcb6-35a4484c879301e242802359471e'
               action: 'upload'
