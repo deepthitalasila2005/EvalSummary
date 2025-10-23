@@ -21,53 +21,39 @@ variables:
   # Azure subscription service connection name
   azureSubscription: 'LocalEvalResources-MI-ServiceConnection'
 
-stages:
-- stage: Build
-  displayName: 'Build Stage'
-  jobs:
-  - job: Build
-    displayName: 'Build Job'
-    steps:
-    - checkout: self
-      submodules: true
+jobs:
+- job: BuildAndDeploy
+  displayName: 'Build and Deploy to Azure Static Web Apps'
+  condition: or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  steps:
+  - checkout: self
+    submodules: true
 
-    - task: NodeTool@0
-      displayName: 'Setup Node.js'
-      inputs:
-        versionSpec: '18.x'
+  - task: NodeTool@0
+    displayName: 'Setup Node.js'
+    inputs:
+      versionSpec: '18.x'
 
-    - script: |
-        npm install -g @azure/static-web-apps-cli
-      displayName: 'Install Static Web Apps CLI'
+  - script: |
+      npm install -g @azure/static-web-apps-cli
+    displayName: 'Install Static Web Apps CLI'
 
-    - script: |
-        node build.js
-      displayName: 'Build Application'
+  - script: |
+      node build.js
+    displayName: 'Build Application'
 
-    - task: PublishBuildArtifacts@1
-      displayName: 'Publish Build Artifacts'
-      inputs:
-        pathToPublish: '$(Build.SourcesDirectory)/dist'
-        artifactName: 'static-web-app'
+  - script: |
+      echo "Built files in dist directory:"
+      ls -la dist/
+    displayName: 'List Built Files'
 
-- stage: Deploy
-  displayName: 'Deploy Stage'
-  dependsOn: Build
-  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
-  jobs:
-  - deployment: Deploy
+  - task: AzureStaticWebApp@0
     displayName: 'Deploy to Azure Static Web Apps'
-    environment: 'production'
-    strategy:
-      runOnce:
-        deploy:
-          steps:
-          - download: current
-            artifact: 'static-web-app'
-
-          - task: AzureStaticWebApp@0
-            displayName: 'Deploy to Azure Static Web Apps'
-            inputs:
-              app_location: '$(Pipeline.Workspace)/static-web-app'
-              azure_static_web_apps_api_token: '0444c9d136e2f3669a608b48a9e13e65e2e6107d84da71d471861cbc544cada603-9755d5a8-fce8-4d15-bcb6-35a4484c879301e242802359471e'
-              action: 'upload'
+    inputs:
+      app_location: 'dist'
+      api_location: ''
+      output_location: ''
+      azure_static_web_apps_api_token: '0444c9d136e2f3669a608b48a9e13e65e2e6107d84da71d471861cbc544cada603-9755d5a8-fce8-4d15-bcb6-35a4484c879301e242802359471e'
+      action: 'upload'
+      skip_app_build: true
+      skip_api_build: true
