@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251021.6</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251021.6</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251021.6_20251021_191320_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</a></li>
+    </ul></li>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251021.6_20251021_191320.json</code>
+<strong>Test Run:</strong>2025-10-21 19:13:20
+<strong>Report Created:</strong>2025-10-21 21:47:36</p>
+
+<p><strong>Bugs to File:</strong>24 cases
+<strong>Total Failures Analyzed:</strong>27</p>
+
+<h2 id="tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>No Tools Called:</strong>
+3 cases</p>
+
+<h3 id="detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</h3>
+
+<p><strong>1. SPL7-add<em>items</em>to<em>a</em>list</strong>- <strong>Category:</strong>
+**SPO_List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests a new item is added to the job openings list with a Title of sales intern and today's date as the opening date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>2. SPL10-delete<em>list</em>item</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User 1 can delete a list item column</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>3. SPL11-delete<em>SPO</em>list</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User 1 can delete a SharePoint list</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><em>Total 3 failures in this category</em></p>
+
+<hr />
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Tool Call Successful But Test Failed:</strong>
+24 cases</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. SPL1-get<em>lists</em>from_site</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User 1 who has access to all site contents requests to see all lists from a specified site</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ab6cea81-06ec-46ec-a849-d2479758eb61</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>2. SPL1.1-get<em>lists</em>from<em>site</em>synonym1</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to see all lists from a specified site using a synonym.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8a1146b1-d539-45ac-99ca-e7df31dd2304</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>3. SPL1.2-get<em>lists</em>from<em>site</em>synonym2</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to see all lists from a specified site using a synonym.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>eeec011e-42d4-487a-9068-6e831a8b5578</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>4. SPL1.3-get<em>lists</em>from<em>site</em>synonym2</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to see all lists from a specified site using a synonym.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5d32ef32-b88a-46e7-bde9-deeb91af3387</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>5. SPL1.4-get<em>lists</em>from<em>site</em>synonym2</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to see all lists from a specified site using a synonym.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8f6d82c2-314a-4137-a665-00bc5a24525e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>6. SPL1.5-get<em>lists</em>from<em>site</em>synonym2</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to see all lists from a specified site using a synonym.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0ede0def-5614-4a3f-8070-1f854e9076b6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>7. SPL3-create_splist</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User 1 creates a new sharepoint list with specified columns but doesn't define data types</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a3d72f88-2480-43ab-8b5d-12eb27e44506</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>8. SPL3.1-generate_splist</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to generate a new SharePoint list with a new name using a synonym for create.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅, sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2cafcbe6-9355-49fd-953d-7b1520c6cb60</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>9. SPL3.2-add_splist</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new SharePoint list with a new name using a synonym for create.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅, sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ae119bda-1103-4731-a98a-cf5cdd9ce210</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>10. SPL3.3-make_splist</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to make a new SharePoint list with a new name using a synonym for create.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅, sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2ecf31d4-721a-46bd-8b08-da225589c09b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>11. SPL3.4-set<em>up</em>splist</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to set up a new SharePoint list with a new name using a synonym for create.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅, sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>61c0c42f-413c-423c-8da7-b0b8495a977f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>12. SPL5-add<em>two</em>columns</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add two columns of different data types to the Candidate Feedback list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅, sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>74f4b1c6-6200-41c1-b342-8a032bd2caf2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>13. SPL5.1-add<em>three</em>columns</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add three columns of different data types to the Candidate Feedback list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint<em>search, sharepoint</em>searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint<em>searchSitesByName✅, findSite✅, sharepoint</em>search✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6c9155d5-5d6b-42a6-bfdf-0d6951d3a707</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>14. SPL5.2-add<em>four</em>columns</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add four columns of different data types to the Candidate Feedback list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2f73d6e5-de71-4727-b5fc-cd5428fc2cd0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>15. SPL4-add<em>text</em>column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new text column with a unique name to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cdc40712-5196-46aa-aa44-a09e6c2603cc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>16. SPL4.1-add<em>number</em>column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new number column with a unique name to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅, sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c993817b-1cea-4f33-b4c1-9418ea4a7d11</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>17. SPL4.2-add<em>date</em>column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new date column with a unique name to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>be00c37e-6542-4d24-a1a8-17c884b266af</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>18. SPL4.3-add<em>choice</em>column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new choice column with a unique name and options to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f2a04070-647b-42a5-94e9-851e2985ceec</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>19. SPL4.4-add<em>boolean</em>column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new yes/no (boolean) column with a unique name to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1e133e83-0040-469f-b2a4-ce7750688916</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>20. SPL4.5-add<em>person</em>column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new person column with a unique name to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅, findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ac783b98-7516-4965-aea3-bee99259e564</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>21. SPL4.6-add<em>hyperlink</em>column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new hyperlink column with a unique name to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅, findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ab8c29f5-bcef-4314-8ac6-564e10100c96</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>22. SPL4.7-add<em>multiline</em>text_column</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User requests to add a new multiline text column with a unique name to an existing SharePoint list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint_searchSitesByName✅, findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>54d1e172-4fda-4ef7-9ee8-5bd76d19bef6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>23. SPL8-Get<em>items</em>from<em>list</strong>- <strong>Category:</strong>
+**SPO</em>List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User 1 requests a list of job openings and the jobs are provided from the job opening list</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>62528ee0-8172-499c-85b0-7b1a75424630</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>24. SPL9-update-list-item</strong>- <strong>Category:</strong>
+**SPO-List</p>
+
+<ul>
+<li><strong>Description:</strong>
+**User 1 can make an update to a list item column</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate findSite, sharepoint_searchSitesByName reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+sharepoint<em>searchSitesByName✅, sharepoint</em>searchSitesByName✅, findSite✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>72379ca2-7278-4320-84ef-931594c54be9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><em>Total 24 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>24
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>SPL1-get_lists_from_site</code> - SPO-List
+   - <em>User 1 who has access to all site contents requests to see all lists from a spec...</em>
+   - Score: 2
+2. <code>SPL1.1-get_lists_from_site_synonym1</code> - SPO-List
+   - <em>User requests to see all lists from a specified site using a synonym.</em>
+   - Score: 2
+3. <code>SPL1.2-get_lists_from_site_synonym2</code> - SPO-List
+   - <em>User requests to see all lists from a specified site using a synonym.</em>
+   - Score: 2
+4. <code>SPL1.3-get_lists_from_site_synonym2</code> - SPO-List
+   - <em>User requests to see all lists from a specified site using a synonym.</em>
+   - Score: 2
+5. <code>SPL1.4-get_lists_from_site_synonym2</code> - SPO-List
+   - <em>User requests to see all lists from a specified site using a synonym.</em>
+   - Score: 2
+6. <code>SPL1.5-get_lists_from_site_synonym2</code> - SPO-List
+   - <em>User requests to see all lists from a specified site using a synonym.</em>
+   - Score: 2
+7. <code>SPL3-create_splist</code> - SPO-List
+   - <em>User 1 creates a new sharepoint list with specified columns but doesn't define d...</em>
+   - Score: 3.5
+8. <code>SPL3.1-generate_splist</code> - SPO-List
+   - <em>User requests to generate a new SharePoint list with a new name using a synonym ...</em>
+   - Score: 3.5
+9. <code>SPL3.2-add_splist</code> - SPO-List
+   - <em>User requests to add a new SharePoint list with a new name using a synonym for c...</em>
+   - Score: 3
+10. <code>SPL3.3-make_splist</code> - SPO-List
+   - <em>User requests to make a new SharePoint list with a new name using a synonym for ...</em>
+   - Score: 3
+11. <code>SPL3.4-set_up_splist</code> - SPO-List
+   - <em>User requests to set up a new SharePoint list with a new name using a synonym fo...</em>
+   - Score: 3
+12. <code>SPL5-add_two_columns</code> - SPO-List
+   - <em>User requests to add two columns of different data types to the Candidate Feedba...</em>
+   - Score: 1.5
+13. <code>SPL5.1-add_three_columns</code> - SPO-List
+   - <em>User requests to add three columns of different data types to the Candidate Feed...</em>
+   - Score: 1.5
+14. <code>SPL5.2-add_four_columns</code> - SPO-List
+   - <em>User requests to add four columns of different data types to the Candidate Feedb...</em>
+   - Score: 1.5
+15. <code>SPL4-add_text_column</code> - SPO-List
+   - <em>User requests to add a new text column with a unique name to an existing SharePo...</em>
+   - Score: 2
+16. <code>SPL4.1-add_number_column</code> - SPO-List
+   - <em>User requests to add a new number column with a unique name to an existing Share...</em>
+   - Score: 1.5
+17. <code>SPL4.2-add_date_column</code> - SPO-List
+   - <em>User requests to add a new date column with a unique name to an existing SharePo...</em>
+   - Score: 2
+18. <code>SPL4.3-add_choice_column</code> - SPO-List
+   - <em>User requests to add a new choice column with a unique name and options to an ex...</em>
+   - Score: 2.5
+19. <code>SPL4.4-add_boolean_column</code> - SPO-List
+   - <em>User requests to add a new yes/no (boolean) column with a unique name to an exis...</em>
+   - Score: 1.5
+20. <code>SPL4.5-add_person_column</code> - SPO-List
+   - <em>User requests to add a new person column with a unique name to an existing Share...</em>
+   - Score: 1.5
+21. <code>SPL4.6-add_hyperlink_column</code> - SPO-List
+   - <em>User requests to add a new hyperlink column with a unique name to an existing Sh...</em>
+   - Score: 2.5
+22. <code>SPL4.7-add_multiline_text_column</code> - SPO-List
+   - <em>User requests to add a new multiline text column with a unique name to an existi...</em>
+   - Score: 2.5
+23. <code>SPL8-Get_items_from_list</code> - SPO_List
+   - <em>User 1 requests a list of job openings and the jobs are provided from the job op...</em>
+   - Score: 1.5
+24. <code>SPL9-update-list-item</code> - SPO-List
+   - <em>User 1 can make an update to a list item column</em>
+   - Score: 1</p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-21 21:47:36</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-21 21:47:36</footer>
+</body>
+</html>

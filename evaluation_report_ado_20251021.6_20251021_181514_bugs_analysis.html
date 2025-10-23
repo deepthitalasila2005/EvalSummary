@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251021.6</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251021.6</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251021.6_20251021_181514_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</a></li>
+    </ul></li>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</a></li>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+    <li><a href="#context-token-limit-errors-context-token-limit-errors">🐛 Context Token Limit Errors {#context-token-limit-errors}</a>
+    <ul>
+      <li><a href="#detailed-analysis-context-token-limit-errors">🔍 Detailed Analysis: Context Token Limit Errors</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251021.6_20251021_181514.json</code>
+<strong>Test Run:</strong>2025-10-21 18:15:14
+<strong>Report Created:</strong>2025-10-21 21:47:35</p>
+
+<p><strong>Bugs to File:</strong>49 cases
+<strong>Total Failures Analyzed:</strong>61</p>
+
+<h2 id="tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>No Tools Called:</strong>
+10 cases</p>
+
+<h3 id="detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</h3>
+
+<p><strong>1. <code>test_case_048</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a person and their entire organization.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>2. <code>test_case_053</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a group of managers.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>3. <code>test_case_067</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting with an exception for holiday weeks.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>4. <code>test_case_068</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting with an adjustment rule for weekends.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>5. <code>test_case_069</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a recurring meeting with a pause period.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>6. <code>test_case_079</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a group of managers.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>7. <code>test_case_090</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting that pauses for a specific event.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used calendar tools but didn't - improve tool selection logic for calendar operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>8. <code>test_case_091</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a recurring meeting that automatically skips holidays.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>9. <code>test_case_102</code></strong>- <strong>Category:</strong>
+**update_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Update a recurring meeting's frequency based on a future event.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used calendar tools but didn't - improve tool selection logic for calendar operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>10. <code>test_case_106</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily meeting for the duration of a sprint.</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><em>Total 10 failures in this category</em></p>
+
+<hr />
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Right Tools Called But Failed:</strong>
+25 cases</p>
+
+<ul>
+<li><strong>Tool Call Successful But Test Failed:</strong>
+24 cases</li>
+</ul>
+
+<h3 id="bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>25
+<strong>Recommended Action:</strong>File infrastructure bug - tool implementation needs fixing. Check tool parameters, API endpoints, and error handling.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_003</code> - create<em>event
+   - *Create a daily recurring meeting for a specific event duration.*
+   - Score: 2.75
+2. <code>test_case_018</code> - create</em>event
+   - <em>Create a daily meeting with a list of specific attendees.</em>
+   - Score: 2.75
+3. <code>test_case_029</code> - create<em>event
+   - *Create a weekly meeting with multiple specific attendees.*
+   - Score: 2.5
+4. <code>test_case_040</code> - create</em>event
+   - <em>Create a monthly meeting with two specific attendees.</em>
+   - Score: 3
+5. <code>test_case_041</code> - create<em>event
+   - *Create a monthly meeting for a team on a relative day of the month.*
+   - Score: 2.5
+6. <code>test_case_045</code> - create</em>event
+   - <em>Create a monthly meeting with multiple attendees on a relative day.</em>
+   - Score: 2.5
+7. <code>test_case_046</code> - create<em>event
+   - *Create a monthly meeting for a person and a team.*
+   - Score: 2.75
+8. <code>test_case_049</code> - create</em>event
+   - <em>Create a monthly meeting for a leadership team.</em>
+   - Score: 3
+9. <code>test_case_051</code> - create<em>event
+   - *Create a monthly alignment meeting for two people.*
+   - Score: 2.75
+10. <code>test_case_052</code> - create</em>event
+   - <em>Create a monthly meeting for an engineering team.</em>
+   - Score: 3
+11. <code>test_case_062</code> - create<em>event
+   - *Create a meeting with a multi-week monthly recurrence.*
+   - Score: 2.5
+12. <code>test_case_065</code> - create</em>event
+   - <em>Create a monthly meeting on the first Monday.</em>
+   - Score: 3
+13. <code>test_case_066</code> - create<em>event
+   - *Create a daily meeting with an out-of-office exception.*
+   - Score: 3.25
+14. <code>test_case_080</code> - create</em>event
+   - <em>Create a bi-weekly meeting with multiple attendees.</em>
+   - Score: 2.75
+15. <code>test_case_093</code> - create<em>event
+   - *Create multiple staggered 1-on-1s for a manager and their team.*
+   - Score: 0
+16. <code>test_case_095</code> - create</em>event<em>template
+   - *Create a reusable meeting template.*
+   - Score: 2.5
+17. <code>test_case_100</code> - create</em>event
+   - <em>Create a monthly meeting for people and their shared reports.</em>
+   - Score: 2.75
+18. <code>test_case_120</code> - create<em>event
+   - *Create a weekly meeting for a person and their team.*
+   - Score: 2.5
+19. <code>test_case_122</code> - create</em>event
+   - <em>Create a weekly meeting for three people.</em>
+   - Score: 2.75
+20. <code>test_case_123</code> - create<em>event
+   - *Create a weekly meeting for an entire team.*
+   - Score: 2.75
+21. <code>test_case_129</code> - create</em>event
+   - <em>Create multiple monthly 1-on-1s on different weeks.</em>
+   - Score: 2.25
+22. <code>test_case_130</code> - create<em>event
+   - *Create a monthly meeting with multiple attendees.*
+   - Score: 2.25
+23. <code>test_case_131</code> - create</em>event
+   - <em>Create a monthly meeting for a group of executives.</em>
+   - Score: 2.75
+24. <code>test_case_132</code> - create<em>event
+   - *Create a monthly meeting with multiple attendees.*
+   - Score: 2.75
+25. <code>test_case_133</code> - create</em>event
+   - <em>Create a monthly meeting with multiple attendees.</em>
+   - Score: 2.75</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. <code>test_case_001</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily recurring meeting for a specific duration.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bc685ef2-bb55-419d-a1dd-a715b651ef0c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>2. <code>test_case_003</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily recurring meeting for a specific event duration.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>35a63c46-0919-4294-8e0f-382be56f5e6b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Tahir. Status=404 (Not Found). CorrelationId=35a63c46-0919-4294-8e0f-382be56f5e6b GraphRequestId=35a63c46-0919-4294-8e0f-382be56f5e6b | Tool Error: CorrelationId: 35a63c46-0919-4294-8e0f-382be56f5e6b, TimeStamp: 2025-10-21</em>18:15:53</li>
+</ul>
+
+<p><strong>3. <code>test_case_015</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily meeting for a team at a specific time.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>78ef801b-d967-4b8c-bb07-52025a0df0e7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>4. <code>test_case_016</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create daily meetings for a team for the current week.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>12e1c6d6-5b91-4009-88f3-f9ef79bd22aa</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>5. <code>test_case_018</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily meeting with a list of specific attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅, CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c1119e52-6887-4c31-a645-0ebf1cc74850</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Eduardo%20Piva?%24select=userPrincipalName%2CdisplayName. Status=404 (Not Found). CorrelationId=c1119e52-6887-4c31-a645-0ebf1cc74850 GraphRequestId=c1119e52-6887-4c31-a645-0ebf1cc74850 | Tool Error: CorrelationId: c1119e52-6887-4c31-a645-0ebf1cc74850, TimeStamp: 2025-10-21</em>18:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Valeria%20Melechko?%24select=userPrincipalName%2CdisplayName. Status=404 (Not Found). CorrelationId=96efee95-b9e6-489a-9a1c-ebb428234e16 GraphRequestId=96efee95-b9e6-489a-9a1c-ebb428234e16 | Tool Error: CorrelationId: 96efee95-b9e6-489a-9a1c-ebb428234e16, TimeStamp: 2025-10-21</em>18:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Jon%20Gilman?%24select=userPrincipalName%2CdisplayName. Status=404 (Not Found). CorrelationId=fc65633c-b071-4c91-80fb-bdc3571bb465 GraphRequestId=fc65633c-b071-4c91-80fb-bdc3571bb465 | Tool Error: CorrelationId: fc65633c-b071-4c91-80fb-bdc3571bb465, TimeStamp: 2025-10-21</em>18:16:12 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Miroslav?%24select=userPrincipalName%2CdisplayName. Status=404 (Not Found). CorrelationId=2a8d5f6c-17df-4053-a699-b71544c1b350 GraphRequestId=2a8d5f6c-17df-4053-a699-b71544c1b350 | Tool Error: CorrelationId: 2a8d5f6c-17df-4053-a699-b71544c1b350, TimeStamp: 2025-10-21</em>18:16:12</li>
+</ul>
+
+<p><strong>6. <code>test_case_029</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting with multiple specific attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>28645afc-7711-413b-b625-5a8c95473600</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Baisakhi%20Chaudhuri?%24select=id%2CuserPrincipalName%2Cmail. Status=404 (Not Found). CorrelationId=28645afc-7711-413b-b625-5a8c95473600 GraphRequestId=28645afc-7711-413b-b625-5a8c95473600 | Tool Error: CorrelationId: 28645afc-7711-413b-b625-5a8c95473600, TimeStamp: 2025-10-21</em>18:16:25 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Deepak%20Singhal?%24select=id%2CuserPrincipalName%2Cmail. Status=404 (Not Found). CorrelationId=a9406c8d-d3bd-457b-941d-fb58adb4fe9a GraphRequestId=a9406c8d-d3bd-457b-941d-fb58adb4fe9a | Tool Error: CorrelationId: a9406c8d-d3bd-457b-941d-fb58adb4fe9a, TimeStamp: 2025-10-21</em>18:16:26 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Hao%20Vemullapalli?%24select=id%2CuserPrincipalName%2Cmail. Status=404 (Not Found). CorrelationId=b07f5246-e040-49b8-90d8-cc5c5d6285f3 GraphRequestId=b07f5246-e040-49b8-90d8-cc5c5d6285f3 | Tool Error: CorrelationId: b07f5246-e040-49b8-90d8-cc5c5d6285f3, TimeStamp: 2025-10-21</em>18:16:26</li>
+</ul>
+
+<p><strong>7. <code>test_case_040</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting with two specific attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>dadf192d-ba88-49cb-91e5-32be8099a2f8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=dadf192d-ba88-49cb-91e5-32be8099a2f8 GraphRequestId=dadf192d-ba88-49cb-91e5-32be8099a2f8 | Tool Error: CorrelationId: dadf192d-ba88-49cb-91e5-32be8099a2f8, TimeStamp: 2025-10-21</em>18:16:41</li>
+</ul>
+
+<p><strong>8. <code>test_case_041</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a team on a relative day of the month.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e04eeff0-246a-42d7-a175-309e1995bccb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=6ed22443-7067-47ae-bcb7-6c98cf263c76 GraphRequestId=6ed22443-7067-47ae-bcb7-6c98cf263c76 | Tool Error: CorrelationId: 6ed22443-7067-47ae-bcb7-6c98cf263c76, TimeStamp: 2025-10-21</em>18:16:49</li>
+</ul>
+
+<p><strong>9. <code>test_case_043</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting on the last specific day of the month.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c736c834-f701-49e8-8d23-536ce765ca11</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>10. <code>test_case_044</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting with multiple attendees on a relative day.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, CalendarlistUsers✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2438a125-0dfc-4bdf-9e9c-43b42c17e1f7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>11. <code>test_case_045</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting with multiple attendees on a relative day.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3e7e1d15-e71f-410b-89b2-442644d08b32</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=3e7e1d15-e71f-410b-89b2-442644d08b32 GraphRequestId=3e7e1d15-e71f-410b-89b2-442644d08b32 | Tool Error: CorrelationId: 3e7e1d15-e71f-410b-89b2-442644d08b32, TimeStamp: 2025-10-21</em>18:16:49</li>
+</ul>
+
+<p><strong>12. <code>test_case_046</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a person and a team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>99c30ee7-88ad-48b5-a62f-48e75f5506cc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24top=20&amp;%24search=%22title%3Aarchitect%22. Status=400 (Bad Request). CorrelationId=c539a9c0-fb5a-4cdf-83d7-d6b248eb2ed5 GraphRequestId=c539a9c0-fb5a-4cdf-83d7-d6b248eb2ed5 | Tool Error: CorrelationId: c539a9c0-fb5a-4cdf-83d7-d6b248eb2ed5, TimeStamp: 2025-10-21</em>18:16:54</li>
+</ul>
+
+<p><strong>13. <code>test_case_049</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a leadership team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>22d71e11-b07f-4708-9eae-92463c57fa8d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=87d946da-b47b-49c0-bba3-16a31042ae3b GraphRequestId=87d946da-b47b-49c0-bba3-16a31042ae3b | Tool Error: CorrelationId: 87d946da-b47b-49c0-bba3-16a31042ae3b, TimeStamp: 2025-10-21</em>18:17:01</li>
+</ul>
+
+<p><strong>14. <code>test_case_050</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a PM team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5c9c5679-7268-412c-8c61-8ab42d13ab9b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>15. <code>test_case_051</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly alignment meeting for two people.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>createEvent, mcp<em>CalendarTools</em>graph_listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅, CalendarlistUsers✅, CalendarlistUsers✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8d6f395d-c47e-42b5-b9f2-f8c4dd06e773</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Nithin%20Guptha. Status=404 (Not Found). CorrelationId=8d6f395d-c47e-42b5-b9f2-f8c4dd06e773 GraphRequestId=8d6f395d-c47e-42b5-b9f2-f8c4dd06e773 | Tool Error: CorrelationId: 8d6f395d-c47e-42b5-b9f2-f8c4dd06e773, TimeStamp: 2025-10-21</em>18:16:56 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar. Status=404 (Not Found). CorrelationId=97cc2963-4fee-4cd9-8982-203a5e1fc07f GraphRequestId=97cc2963-4fee-4cd9-8982-203a5e1fc07f | Tool Error: CorrelationId: 97cc2963-4fee-4cd9-8982-203a5e1fc07f, TimeStamp: 2025-10-21</em>18:16:56 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=6f4be80c-905f-4433-bb31-e803783e8495 GraphRequestId=6f4be80c-905f-4433-bb31-e803783e8495 | Tool Error: CorrelationId: 6f4be80c-905f-4433-bb31-e803783e8495, TimeStamp: 2025-10-21</em>18:17:04</li>
+</ul>
+
+<p><strong>16. <code>test_case_052</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for an engineering team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a35a0a43-2d0b-46a7-a4a7-fbe2deb46e71</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24top=25&amp;%24search=%22department%3Aengineering%22%20%22mail%3A%22&amp;%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=400 (Bad Request). CorrelationId=61421cd7-c741-43bb-8a90-e8be2566686f GraphRequestId=61421cd7-c741-43bb-8a90-e8be2566686f | Tool Error: CorrelationId: 61421cd7-c741-43bb-8a90-e8be2566686f, TimeStamp: 2025-10-21</em>18:17:00</li>
+</ul>
+
+<p><strong>17. <code>test_case_056</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a bi-weekly meeting with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph_getMyProfile reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph_getMyProfile✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>21091f5b-9b90-4b51-9847-edb7815ac0b4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>18. <code>test_case_062</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a meeting with a multi-week monthly recurrence.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>getDirectReports, mcp</em>CalendarTools<em>graph</em>createEvent reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph_getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>34e09be3-6720-4c94-b66b-c101e9d81ac0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=0606ec21-9991-420c-9ea6-3db961ff3de3 GraphRequestId=0606ec21-9991-420c-9ea6-3db961ff3de3 | Tool Error: CorrelationId: 0606ec21-9991-420c-9ea6-3db961ff3de3, TimeStamp: 2025-10-21</em>18:17:15</li>
+</ul>
+
+<p><strong>19. <code>test_case_065</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting on the first Monday.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>getDirectReports, mcp</em>CalendarTools<em>graph</em>createEvent reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, CalendarlistUsers✅, graph_getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7bf289fd-50ee-4fed-a1b0-6d71d64beeb0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=f26347ad-5a58-4ba5-b889-cb2bd30863fd GraphRequestId=f26347ad-5a58-4ba5-b889-cb2bd30863fd | Tool Error: CorrelationId: f26347ad-5a58-4ba5-b889-cb2bd30863fd, TimeStamp: 2025-10-21</em>18:17:26</li>
+</ul>
+
+<p><strong>20. <code>test_case_066</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily meeting with an out-of-office exception.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>createEvent, mcp<em>CalendarTools</em>graph_listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendarlistUsers✅, CalendarlistUsers✅, CalendarlistUsers✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>dd72802f-1cc6-4e1e-985c-41eeece992cc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Nithin%20Ravindra?%24select=userPrincipalName. Status=404 (Not Found). CorrelationId=dd72802f-1cc6-4e1e-985c-41eeece992cc GraphRequestId=dd72802f-1cc6-4e1e-985c-41eeece992cc | Tool Error: CorrelationId: dd72802f-1cc6-4e1e-985c-41eeece992cc, TimeStamp: 2025-10-21</em>18:17:15</li>
+</ul>
+
+<p><strong>21. <code>test_case_074</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a person and their managers.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph_getDirectReports reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>da40ef73-68a2-4c7c-8bd2-f84d344ef266</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>22. <code>test_case_075</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a bi-weekly meeting for a person and their leads.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ffefef3d-8590-45fe-9163-df27f474a3ea</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>23. <code>test_case_078</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting with a long list of attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b3f2d495-a7e0-43a5-83a6-7e959786e34f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>24. <code>test_case_080</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a bi-weekly meeting with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅, CalendargetUser✅, CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cc1c2ec2-b3bd-448a-80e2-671914894dc7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Qionghui. Status=404 (Not Found). CorrelationId=cc1c2ec2-b3bd-448a-80e2-671914894dc7 GraphRequestId=cc1c2ec2-b3bd-448a-80e2-671914894dc7 | Tool Error: CorrelationId: cc1c2ec2-b3bd-448a-80e2-671914894dc7, TimeStamp: 2025-10-21</em>18:17:37 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Hejia. Status=404 (Not Found). CorrelationId=c5aaabc5-3185-408a-bb15-4db65799c2d3 GraphRequestId=c5aaabc5-3185-408a-bb15-4db65799c2d3 | Tool Error: CorrelationId: c5aaabc5-3185-408a-bb15-4db65799c2d3, TimeStamp: 2025-10-21</em>18:17:37 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Mengqi. Status=404 (Not Found). CorrelationId=d92b92ed-d422-4c44-ac5f-a1ca548b79f6 GraphRequestId=d92b92ed-d422-4c44-ac5f-a1ca548b79f6 | Tool Error: CorrelationId: d92b92ed-d422-4c44-ac5f-a1ca548b79f6, TimeStamp: 2025-10-21</em>18:17:37 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Hao%20Wu. Status=404 (Not Found). CorrelationId=5ebc442d-858f-4a34-babd-4c8a7fb6f1a1 GraphRequestId=5ebc442d-858f-4a34-babd-4c8a7fb6f1a1 | Tool Error: CorrelationId: 5ebc442d-858f-4a34-babd-4c8a7fb6f1a1, TimeStamp: 2025-10-21</em>18:17:38 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Rohith. Status=404 (Not Found). CorrelationId=1b3647c1-f3af-4852-8044-f4e84ffa4c17 GraphRequestId=1b3647c1-f3af-4852-8044-f4e84ffa4c17 | Tool Error: CorrelationId: 1b3647c1-f3af-4852-8044-f4e84ffa4c17, TimeStamp: 2025-10-21</em>18:17:38</li>
+</ul>
+
+<p><strong>25. <code>test_case_082</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph_getDirectReports reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b8cf78d0-b4f5-4d24-b454-ea44414ce2b4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>26. <code>test_case_084</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting with a dynamic attendee list.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>getDirectReports, mcp</em>graph_getMyProfile reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>getMyProfile✅, graph</em>getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8ec8aca2-4316-4218-a330-dcb5fe3df2b6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>27. <code>test_case_086</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a recurring meeting for a variable engagement period.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>85a8e397-19d8-417d-aac6-c431bd48a7df</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>28. <code>test_case_087</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily meeting with a specific date range exception.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>810a9b52-aa98-4c02-8bc9-3a6b2452685b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>29. <code>test_case_092</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting that triggers subsequent meetings.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1bee016b-6a4f-4689-a455-fa7216151a8d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>30. <code>test_case_093</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create multiple staggered 1-on-1s for a manager and their team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile, mcp<em>graph</em>getDirectReports, mcp<em>graph</em>listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getUserProfile✅, graph</em>listUsers✅, graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e1a70790-159c-4949-b534-4e10f652aece</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=e1a70790-159c-4949-b534-4e10f652aece GraphRequestId=e1a70790-159c-4949-b534-4e10f652aece | Tool Error: CorrelationId: e1a70790-159c-4949-b534-4e10f652aece, TimeStamp: 2025-10-21_18:17:49</li>
+</ul>
+
+<p><strong>31. <code>test_case_095</code></strong>- <strong>Category:</strong>
+**create<em>event</em>template</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a reusable meeting template.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>teams<em>listTeams, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>teams_listTeams✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0864df08-136d-4b91-ae51-8063f9f435ed</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/cae39f4c-30a7-47ee-ac1e-3e72fba5ff4a/joinedTeams. Status=403 (Forbidden). CorrelationId=e0835741-2819-4883-ad4b-2d40a2676c30 GraphRequestId=e0835741-2819-4883-ad4b-2d40a2676c30 | Tool Error: CorrelationId: e0835741-2819-4883-ad4b-2d40a2676c30, TimeStamp: 2025-10-21</em>18:17:53</li>
+</ul>
+
+<p><strong>32. <code>test_case_097</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a person and their team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>015fed7b-2aaa-450f-9da1-4e4c30b92017</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>33. <code>test_case_100</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for people and their shared reports.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>getDirectReports✅, graph</em>getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>68cf8dbf-3138-4a45-863e-0c90ed36a6fe</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=415190fc-402b-44b9-806a-100cae768886 GraphRequestId=415190fc-402b-44b9-806a-100cae768886 | Tool Error: CorrelationId: 415190fc-402b-44b9-806a-100cae768886, TimeStamp: 2025-10-21</em>18:18:05</li>
+</ul>
+
+<p><strong>34. <code>test_case_112</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily meeting with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅, CalendarcreateEvent✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8a4018ab-a7ee-40d5-8c52-99685333b812</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>35. <code>test_case_113</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a daily meeting for a person and their engineers.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f78c3e8f-3b4e-4669-b336-db19d398f4bf</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>36. <code>test_case_120</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting for a person and their team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile, mcp<em>graph</em>getDirectReports, mcp<em>graph</em>listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getUserProfile✅, graph</em>listUsers✅, graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>249e95fe-253d-4ece-b6b1-e51ab97b242a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Deepak%20Singhal?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=249e95fe-253d-4ece-b6b1-e51ab97b242a GraphRequestId=249e95fe-253d-4ece-b6b1-e51ab97b242a | Tool Error: CorrelationId: 249e95fe-253d-4ece-b6b1-e51ab97b242a, TimeStamp: 2025-10-21_18:18:27</li>
+</ul>
+
+<p><strong>37. <code>test_case_121</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting for a person and a group of directors.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d507751a-06ac-49ee-901d-b46a73cee1fc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>38. <code>test_case_122</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting for three people.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a84c89a5-e321-40e8-9c04-0b33b5740368</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Monica. Status=404 (Not Found). CorrelationId=a84c89a5-e321-40e8-9c04-0b33b5740368 GraphRequestId=a84c89a5-e321-40e8-9c04-0b33b5740368 | Tool Error: CorrelationId: a84c89a5-e321-40e8-9c04-0b33b5740368, TimeStamp: 2025-10-21</em>18:18:28 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/James. Status=404 (Not Found). CorrelationId=83949225-c847-40d9-b810-dabcd579a772 GraphRequestId=83949225-c847-40d9-b810-dabcd579a772 | Tool Error: CorrelationId: 83949225-c847-40d9-b810-dabcd579a772, TimeStamp: 2025-10-21</em>18:18:28 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar. Status=404 (Not Found). CorrelationId=bb7aebd4-e5bb-4986-9bd8-b0b76399931d GraphRequestId=bb7aebd4-e5bb-4986-9bd8-b0b76399931d | Tool Error: CorrelationId: bb7aebd4-e5bb-4986-9bd8-b0b76399931d, TimeStamp: 2025-10-21</em>18:18:29</li>
+</ul>
+
+<p><strong>39. <code>test_case_123</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting for an entire team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a88fd9c0-1ebd-44fa-8db1-18176fcafb32</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getDirectReports': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Ashish%20Jhunjhunwala/directReports?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=a88fd9c0-1ebd-44fa-8db1-18176fcafb32 GraphRequestId=a88fd9c0-1ebd-44fa-8db1-18176fcafb32 | Tool Error: CorrelationId: a88fd9c0-1ebd-44fa-8db1-18176fcafb32, TimeStamp: 2025-10-21_18:18:28</li>
+</ul>
+
+<p><strong>40. <code>test_case_124</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly sync with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>39d00766-9262-4c59-af7c-9128eaadabea</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>41. <code>test_case_126</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting with multiple attendees and a start date.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1014e90a-aabd-4bec-a839-7b86e7e6f106</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>42. <code>test_case_127</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5dd1e6e3-476f-4586-9219-21c832c54c64</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>43. <code>test_case_128</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create monthly meetings on specific dates.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarcreateEvent✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c8481ce6-cfa5-426a-b675-88e095e5c079</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>44. <code>test_case_129</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create multiple monthly 1-on-1s on different weeks.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅, CalendarcreateEvent✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8f4036a6-1bb7-4559-ad64-d2964a16ac5c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=8f4036a6-1bb7-4559-ad64-d2964a16ac5c GraphRequestId=8f4036a6-1bb7-4559-ad64-d2964a16ac5c | Tool Error: CorrelationId: 8f4036a6-1bb7-4559-ad64-d2964a16ac5c, TimeStamp: 2025-10-21</em>18:18:38 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=97042df1-a286-4824-b1ad-72290000c14b GraphRequestId=97042df1-a286-4824-b1ad-72290000c14b | Tool Error: CorrelationId: 97042df1-a286-4824-b1ad-72290000c14b, TimeStamp: 2025-10-21</em>18:18:38 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=87e24d15-a5f8-44c1-8045-945548c2d674 GraphRequestId=87e24d15-a5f8-44c1-8045-945548c2d674 | Tool Error: CorrelationId: 87e24d15-a5f8-44c1-8045-945548c2d674, TimeStamp: 2025-10-21</em>18:18:38</li>
+</ul>
+
+<p><strong>45. <code>test_case_130</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>fdc3a316-cabb-4132-8b42-10cbe90d49c8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=fdc3a316-cabb-4132-8b42-10cbe90d49c8 GraphRequestId=fdc3a316-cabb-4132-8b42-10cbe90d49c8 | Tool Error: CorrelationId: fdc3a316-cabb-4132-8b42-10cbe90d49c8, TimeStamp: 2025-10-21</em>18:18:37</li>
+</ul>
+
+<p><strong>46. <code>test_case_131</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a group of executives.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d75c34b3-ce09-4615-889b-1a90ddf44ec6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24filter=startswith%28jobTitle%2C%27VP%27%29%20or%20contains%28jobTitle%2C%27Vice%20President%27%29&amp;%24top=20&amp;%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName%2CjobTitle. Status=400 (Bad Request). CorrelationId=596a024d-f6ae-4af6-9395-67363ca1bc53 GraphRequestId=596a024d-f6ae-4af6-9395-67363ca1bc53 | Tool Error: CorrelationId: 596a024d-f6ae-4af6-9395-67363ca1bc53, TimeStamp: 2025-10-21_18:18:41</li>
+</ul>
+
+<p><strong>47. <code>test_case_132</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6fafd08b-8e88-4a73-9c4a-b29c1baede55</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=6fafd08b-8e88-4a73-9c4a-b29c1baede55 GraphRequestId=6fafd08b-8e88-4a73-9c4a-b29c1baede55 | Tool Error: CorrelationId: 6fafd08b-8e88-4a73-9c4a-b29c1baede55, TimeStamp: 2025-10-21</em>18:18:39</li>
+</ul>
+
+<p><strong>48. <code>test_case_133</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting with multiple attendees.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1e003dc3-99fb-4617-b34c-90c436b0a568</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/James?%24select=userPrincipalName. Status=404 (Not Found). CorrelationId=1e003dc3-99fb-4617-b34c-90c436b0a568 GraphRequestId=1e003dc3-99fb-4617-b34c-90c436b0a568 | Tool Error: CorrelationId: 1e003dc3-99fb-4617-b34c-90c436b0a568, TimeStamp: 2025-10-21</em>18:18:39 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar?%24select=userPrincipalName. Status=404 (Not Found). CorrelationId=9ceaf7e1-11d8-45d1-a48e-a5446936c62e GraphRequestId=9ceaf7e1-11d8-45d1-a48e-a5446936c62e | Tool Error: CorrelationId: 9ceaf7e1-11d8-45d1-a48e-a5446936c62e, TimeStamp: 2025-10-21</em>18:18:39 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Nithin%20Guptha?%24select=userPrincipalName. Status=404 (Not Found). CorrelationId=16800ea7-ae35-42e9-97dd-28e8924785c0 GraphRequestId=16800ea7-ae35-42e9-97dd-28e8924785c0 | Tool Error: CorrelationId: 16800ea7-ae35-42e9-97dd-28e8924785c0, TimeStamp: 2025-10-21</em>18:18:40</li>
+</ul>
+
+<p><strong>49. <code>test_case_134</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a monthly meeting for a person and their team.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>86e78cfd-861b-439b-879d-bd4af15d90c3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><em>Total 49 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>24
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_001</code> - create<em>event
+   - *Create a daily recurring meeting for a specific duration.*
+   - Score: 3
+2. <code>test_case_015</code> - create</em>event
+   - <em>Create a daily meeting for a team at a specific time.</em>
+   - Score: 0
+3. <code>test_case_016</code> - create<em>event
+   - *Create daily meetings for a team for the current week.*
+   - Score: 0
+4. <code>test_case_043</code> - create</em>event
+   - <em>Create a monthly meeting on the last specific day of the month.</em>
+   - Score: 0
+5. <code>test_case_044</code> - create<em>event
+   - *Create a monthly meeting with multiple attendees on a relative day.*
+   - Score: 3.25
+6. <code>test_case_050</code> - create</em>event
+   - <em>Create a monthly meeting for a PM team.</em>
+   - Score: 2.5
+7. <code>test_case_056</code> - create<em>event
+   - *Create a bi-weekly meeting with multiple attendees.*
+   - Score: 2.75
+8. <code>test_case_074</code> - create</em>event
+   - <em>Create a monthly meeting for a person and their managers.</em>
+   - Score: 0
+9. <code>test_case_075</code> - create<em>event
+   - *Create a bi-weekly meeting for a person and their leads.*
+   - Score: 2.75
+10. <code>test_case_078</code> - create</em>event
+   - <em>Create a weekly meeting with a long list of attendees.</em>
+   - Score: 2.75
+11. <code>test_case_082</code> - create<em>event
+   - *Create a monthly meeting for a team.*
+   - Score: 2.75
+12. <code>test_case_084</code> - create</em>event
+   - <em>Create a weekly meeting with a dynamic attendee list.</em>
+   - Score: 2.75
+13. <code>test_case_086</code> - create<em>event
+   - *Create a recurring meeting for a variable engagement period.*
+   - Score: 2.75
+14. <code>test_case_087</code> - create</em>event
+   - <em>Create a daily meeting with a specific date range exception.</em>
+   - Score: 3.25
+15. <code>test_case_092</code> - create<em>event
+   - *Create a weekly meeting that triggers subsequent meetings.*
+   - Score: 0
+16. <code>test_case_097</code> - create</em>event
+   - <em>Create a monthly meeting for a person and their team.</em>
+   - Score: 3.5
+17. <code>test_case_112</code> - create<em>event
+   - *Create a daily meeting with multiple attendees.*
+   - Score: 3.5
+18. <code>test_case_113</code> - create</em>event
+   - <em>Create a daily meeting for a person and their engineers.</em>
+   - Score: 3.75
+19. <code>test_case_121</code> - create<em>event
+   - *Create a weekly meeting for a person and a group of directors.*
+   - Score: 2.75
+20. <code>test_case_124</code> - create</em>event
+   - <em>Create a weekly sync with multiple attendees.</em>
+   - Score: 3.75
+21. <code>test_case_126</code> - create<em>event
+   - *Create a weekly meeting with multiple attendees and a start date.*
+   - Score: 3.5
+22. <code>test_case_127</code> - create</em>event
+   - <em>Create a weekly meeting with multiple attendees.</em>
+   - Score: 4.25
+23. <code>test_case_128</code> - create<em>event
+   - *Create monthly meetings on specific dates.*
+   - Score: 3
+24. <code>test_case_134</code> - create</em>event
+   - <em>Create a monthly meeting for a person and their team.</em>
+   - Score: 2.75</p>
+
+<hr />
+
+<h2 id="context-token-limit-errors-context-token-limit-errors">🐛 Context Token Limit Errors {#context-token-limit-errors}</h2>
+
+<p><strong>Failure Reason:</strong>Invalid prompt input. This model's maximum context length is 128000 tokens. However, your messages resulted in 273957 tokens (259013 in the messages, 14944 in the ...</p>
+
+<h3 id="detailed-analysis-context-token-limit-errors">🔍 Detailed Analysis: Context Token Limit Errors</h3>
+
+<p><strong>1. <code>test_case_088</code></strong>- <strong>Category:</strong>
+**create_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a weekly meeting with an exception for vacation.</li>
+<li><strong>💡 Analysis:</strong>
+AI context exceeded token limit - prompt optimization needed</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+<li><strong>🔍 Failure Reason:</strong>
+Error during call to the dependency. Invalid prompt input. This model's maximum context length is 128000 tokens. However, your messages resulted in 273957 tokens (259013 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..</li>
+</ul>
+
+<p>Status: 400 (Bad Request)</p>
+
+<p>ErrorCode: InvalidInferenceInput</p>
+
+<p>Additional Information:</p>
+
+<p>Code: InvalidInferenceInput</p>
+
+<p>Message: Error during call to the dependency. Invalid prompt input. This model's maximum context length is 128000 tokens. However, your messages resulted in 273957 tokens (259013 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..</p>
+
+<p>ApiError: {"code":"InvalidInferenceInput","message":"Error during call to the dependency. Invalid prompt input. This model\u0027s maximum context length is 128000 tokens. However, your messages resulted in 273957 tokens (259013 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..","retryIn":null,"innerErrors":[{"scope":"Generic","code":"TooManyInputTokens","properties":{}}],"properties":null,"diagnostics":"Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException: Exception of type \u0027Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException\u0027 was thrown."}</p>
+
+<p>Content:</p>
+
+<p>{"error":{"code":"InvalidInferenceInput","message":"Error during call to the dependency. Invalid prompt input. This model's maximum context length is 128000 tokens. However, your messages resulted in 273957 tokens (259013 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..","retryIn":null,"innerErrors":[{"scope":"Generic","code":"TooManyInputTokens","properties":{}}],"properties":null,"diagnostics":"Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException: Exception of type 'Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException' was thrown."}}</p>
+
+<p>Headers:</p>
+
+<p>Date: Tue, 21 Oct 2025 18:17:52 GMT</p>
+
+<p>Cache-Control: no-cache, no-store</p>
+
+<p>Transfer-Encoding: chunked</p>
+
+<p>Strict-Transport-Security: REDACTED</p>
+
+<p>x-ms-islandgateway: REDACTED</p>
+
+<p>x-ms-igw-tracking-id: REDACTED</p>
+
+<p>mise-correlation-id: REDACTED</p>
+
+<p>x-servicefabric: REDACTED</p>
+
+<p>x-ms-service-request-id: REDACTED</p>
+
+<p>x-ms-correlation-id: REDACTED</p>
+
+<p>x-ms-activity-vector: REDACTED</p>
+
+<p>Server-Timing: REDACTED</p>
+
+<p>X-Content-Type-Options: REDACTED</p>
+
+<p>Content-Type: application/json; charset=utf-8</p>
+
+<p><strong>2. <code>test_case_101</code></strong>- <strong>Category:</strong>
+**update_event</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Update existing recurring meetings to add an attendee.</li>
+<li><strong>💡 Analysis:</strong>
+AI context exceeded token limit - prompt optimization needed</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+<li><strong>🔍 Failure Reason:</strong>
+Error during call to the dependency. Invalid prompt input. This model's maximum context length is 128000 tokens. However, your messages resulted in 153338 tokens (138394 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..</li>
+</ul>
+
+<p>Status: 400 (Bad Request)</p>
+
+<p>ErrorCode: InvalidInferenceInput</p>
+
+<p>Additional Information:</p>
+
+<p>Code: InvalidInferenceInput</p>
+
+<p>Message: Error during call to the dependency. Invalid prompt input. This model's maximum context length is 128000 tokens. However, your messages resulted in 153338 tokens (138394 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..</p>
+
+<p>ApiError: {"code":"InvalidInferenceInput","message":"Error during call to the dependency. Invalid prompt input. This model\u0027s maximum context length is 128000 tokens. However, your messages resulted in 153338 tokens (138394 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..","retryIn":null,"innerErrors":[{"scope":"Generic","code":"TooManyInputTokens","properties":{}}],"properties":null,"diagnostics":"Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException: Exception of type \u0027Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException\u0027 was thrown."}</p>
+
+<p>Content:</p>
+
+<p>{"error":{"code":"InvalidInferenceInput","message":"Error during call to the dependency. Invalid prompt input. This model's maximum context length is 128000 tokens. However, your messages resulted in 153338 tokens (138394 in the messages, 14944 in the functions). Please reduce the length of the messages or functions..","retryIn":null,"innerErrors":[{"scope":"Generic","code":"TooManyInputTokens","properties":{}}],"properties":null,"diagnostics":"Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException: Exception of type 'Microsoft.PowerAiMl.AzureOpenAiClient.OpenAiInferenceException' was thrown."}}</p>
+
+<p>Headers:</p>
+
+<p>Date: Tue, 21 Oct 2025 18:18:09 GMT</p>
+
+<p>Cache-Control: no-cache, no-store</p>
+
+<p>Transfer-Encoding: chunked</p>
+
+<p>Strict-Transport-Security: REDACTED</p>
+
+<p>x-ms-islandgateway: REDACTED</p>
+
+<p>x-ms-igw-tracking-id: REDACTED</p>
+
+<p>mise-correlation-id: REDACTED</p>
+
+<p>x-servicefabric: REDACTED</p>
+
+<p>x-ms-service-request-id: REDACTED</p>
+
+<p>x-ms-correlation-id: REDACTED</p>
+
+<p>x-ms-activity-vector: REDACTED</p>
+
+<p>Server-Timing: REDACTED</p>
+
+<p>X-Content-Type-Options: REDACTED</p>
+
+<p>Content-Type: application/json; charset=utf-8</p>
+
+<p><em>Total 2 failures in this category</em></p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-21 21:47:35</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-21 21:47:35</footer>
+</body>
+</html>

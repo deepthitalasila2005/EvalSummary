@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251021.6</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251021.6</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251021.6_20251021_185420_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</a></li>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251021.6_20251021_185420.json</code>
+<strong>Test Run:</strong>2025-10-21 18:54:20
+<strong>Report Created:</strong>2025-10-21 21:47:35</p>
+
+<p><strong>Bugs to File:</strong>2 cases
+<strong>Total Failures Analyzed:</strong>2</p>
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Right Tools Called But Failed:</strong>
+1 cases</p>
+
+<ul>
+<li><strong>Tool Call Successful But Test Failed:</strong>
+1 cases</li>
+</ul>
+
+<h3 id="bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>1
+<strong>Recommended Action:</strong>File infrastructure bug - tool implementation needs fixing. Check tool parameters, API endpoints, and error handling.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>multiserver_test_001</code> - multi<em>server</em>word_mail
+   - <em>Create a Word document with content and email it to multiple recipients includin...</em>
+   - Score: 2</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. multiserver<em>test</em>001</strong>- <strong>Category:</strong>
+**multi<em>server</em>word_mail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a Word document with content and email it to multiple recipients including a team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>teams<em>listTeams, mcp</em>graph<em>getDirectReports, WordCreateNewDocument, mcp</em>graph<em>listUsers, mcp</em>MailTools<em>graph</em>mail_sendMail reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+WordCreateNewDocument✅, graph<em>listUsers✅, graph</em>teams<em>listTeams✅, graph</em>getDirectReports✅, Mailmail_sendMail✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>af6eefec-83cd-4cf6-88b2-af812210e11c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/cae39f4c-30a7-47ee-ac1e-3e72fba5ff4a/joinedTeams. Status=403 (Forbidden). CorrelationId=034a3726-b480-4e9e-97de-6c676c4d8c0f GraphRequestId=034a3726-b480-4e9e-97de-6c676c4d8c0f | Tool Error: CorrelationId: 034a3726-b480-4e9e-97de-6c676c4d8c0f, TimeStamp: 2025-10-21</em>18:55:05</li>
+</ul>
+
+<p><strong>2. multiserver<em>test</em>002</strong>- <strong>Category:</strong>
+**multi<em>server</em>word<em>mail</em>org</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create Word document with poem and send to person and their direct reports</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>MailTools</em>graph<em>mail</em>sendMail, WordCreateNewDocument, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+WordCreateNewDocument✅, graph<em>listUsers✅, graph</em>getDirectReports✅, Mailmail_sendMail✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>49834b0c-64af-4db4-a361-ce532d9d4e8e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><em>Total 2 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>1
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>multiserver_test_002</code> - multi<em>server</em>word<em>mail</em>org
+   - <em>Create Word document with poem and send to person and their direct reports</em>
+   - Score: 2.5</p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-21 21:47:35</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-21 21:47:35</footer>
+</body>
+</html>

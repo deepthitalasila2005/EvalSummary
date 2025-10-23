@@ -1,0 +1,2725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251021.6</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251021.6</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251021.6_20251021_191504_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</a></li>
+    </ul></li>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</a></li>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251021.6_20251021_191504.json</code>
+<strong>Test Run:</strong>2025-10-21 19:15:04
+<strong>Report Created:</strong>2025-10-21 21:47:36</p>
+
+<p><strong>Bugs to File:</strong>128 cases
+<strong>Total Failures Analyzed:</strong>144</p>
+
+<h2 id="tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>No Tools Called:</strong>
+16 cases</p>
+
+<h3 id="detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</h3>
+
+<p><strong>1. <code>test_case_040</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all peers in a specific organization</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>2. <code>test_case_044</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>title</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a person by their executive title</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>3. <code>test_case_057</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>organization</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all members of a specific organization</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>4. <code>test_case_064</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone from a specific team based on their expertise</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>5. <code>test_case_071</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>scheduled</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat scheduled for a specific person's next available time</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>6. <code>test_case_075</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>scheduled</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat scheduled after a specific meeting ends</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>7. <code>test_case_076</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>scheduled</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation scheduled for when a sprint closes</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>8. <code>test_case_084</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_parallel</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create multiple simultaneous 1-on-1 chats with leads from a specific discipline</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>9. <code>test_case_107</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>project</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all key stakeholders of a specific project</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>10. <code>test_case_108</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>project</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with all sponsors of a cross-organizational effort</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>11. <code>test_case_109</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>project</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all stakeholders involved in a specific initiative</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>12. <code>test_case_115</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a career coach assigned to a specific role</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>13. <code>test_case_121</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the decision owner for a specific area</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>14. <code>test_case_129</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with today's holder of a rotating role</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>15. <code>test_case_135</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone matching seniority, org, and training criteria</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>16. <code>test_case_147</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the designated point person for a specific domain</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><em>Total 16 failures in this category</em></p>
+
+<hr />
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Right Tools Called But Failed:</strong>
+110 cases</p>
+
+<ul>
+<li><strong>Tool Call Successful But Test Failed:</strong>
+18 cases</li>
+</ul>
+
+<h3 id="bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>110
+<strong>Recommended Action:</strong>File infrastructure bug - tool implementation needs fixing. Check tool parameters, API endpoints, and error handling.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_001</code> - create<em>chat
+   - *Create a 1-1 chat with a specific person about a specific topic*
+   - Score: 3
+2. <code>test_case_002</code> - create</em>chat
+   - <em>Create a 1-1 conversation with a specific person about copilot architecture</em>
+   - Score: 2.5
+3. <code>test_case_003</code> - create<em>chat
+   - *Open a 1-1 chat with a specific person to discuss a bug fix*
+   - Score: 2.75
+4. <code>test_case_004</code> - create</em>chat
+   - <em>Start messaging with a specific person about API deployment</em>
+   - Score: 3.5
+5. <code>test_case_005</code> - create<em>chat
+   - *Begin a 1-1 chat with a specific person about data pipeline*
+   - Score: 2.5
+6. <code>test_case_006</code> - create</em>chat
+   - <em>Create a direct message with a specific person about sprint planning</em>
+   - Score: 2.75
+7. <code>test_case_007</code> - create<em>chat
+   - *Start a chat with a specific person with a specific question about availability*
+   - Score: 2.75
+8. <code>test_case_008</code> - create</em>multiple<em>chats
+   - *Create separate 1-1 conversations with multiple people sharing the same name*
+   - Score: 2.5
+9. <code>test_case_009</code> - create</em>multiple<em>chats
+   - *Create separate chats with multiple people sharing the same name with disambigua...*
+   - Score: 3
+10. <code>test_case_010</code> - create</em>multiple<em>chats
+   - *Create separate 1-1 chats with multiple distinct people*
+   - Score: 3
+11. <code>test_case_011</code> - create</em>multiple<em>chats
+   - *Create individual conversations with multiple people sharing the same name*
+   - Score: 2.75
+12. <code>test_case_012</code> - create</em>chat
+   - <em>Create a chat with a specific person using full name for disambiguation</em>
+   - Score: 3.25
+13. <code>test_case_014</code> - create<em>chat
+   - *Open a chat with a specific person using full name*
+   - Score: 3.25
+14. <code>test_case_016</code> - create</em>chat
+   - <em>Start a chat with a specific person using full name about OKRs</em>
+   - Score: 2.5
+15. <code>test_case_018</code> - create<em>chat
+   - *Start a chat with a specific person about organizational strategy*
+   - Score: 2.5
+16. <code>test_case_020</code> - create</em>chat
+   - <em>Create a conversation with a specific person with hyphenated name</em>
+   - Score: 3
+17. <code>test_case_021</code> - create<em>chat
+   - *Open a chat with a specific person about team structure*
+   - Score: 2.5
+18. <code>test_case_022</code> - create</em>chat
+   - <em>Start messaging with a specific person about technical debt</em>
+   - Score: 3
+19. <code>test_case_023</code> - create<em>chat
+   - *Create a chat with a specific person about mergers and acquisitions*
+   - Score: 2.75
+20. <code>test_case_024</code> - create</em>chat<em>relationship
+   - *Create a chat with the user's manager based on organizational relationship*
+   - Score: 2.75
+21. <code>test_case_025</code> - create</em>chat<em>relationship
+   - *Create a chat with another person's manager based on organizational relationship*
+   - Score: 2.75
+22. <code>test_case_026</code> - create</em>chat<em>relationship
+   - *Create a chat with another person's manager to discuss their promotion*
+   - Score: 3.25
+23. <code>test_case_027</code> - create</em>chat<em>relationship
+   - *Create a chat with another person's manager about team capacity*
+   - Score: 2.75
+24. <code>test_case_028</code> - create</em>chat<em>relationship
+   - *Create a chat with another person's manager about deployment schedule*
+   - Score: 2.25
+25. <code>test_case_029</code> - create</em>chat<em>relationship
+   - *Create a chat with another person's manager about code quality*
+   - Score: 3
+26. <code>test_case_030</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create separate chats with all direct reports of a specific person</em>
+   - Score: 2.75
+27. <code>test_case_031</code> - create<em>multiple</em>chats<em>relationship
+   - *Create individual chats with all direct reports of a specific person*
+   - Score: 2.75
+28. <code>test_case_032</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create separate chats with all team members of a specific person</em>
+   - Score: 2.75
+29. <code>test_case_033</code> - create<em>multiple</em>chats<em>relationship
+   - *Create individual chats with each team member of a specific person*
+   - Score: 2.5
+30. <code>test_case_034</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create individual chats with all direct reports of a specific person</em>
+   - Score: 2.75
+31. <code>test_case_035</code> - create<em>multiple</em>chats<em>relationship
+   - *Create separate conversations with all direct reports of a specific person*
+   - Score: 3
+32. <code>test_case_036</code> - create</em>chat<em>relationship
+   - *Create a chat with the user's entire team*
+   - Score: 2.75
+33. <code>test_case_037</code> - create</em>chat<em>relationship
+   - *Create a conversation with another person's manager without specific topic*
+   - Score: 2.75
+34. <code>test_case_039</code> - create</em>chat<em>relationship
+   - *Create a chat with peers who share the same manager*
+   - Score: 1.75
+35. <code>test_case_041</code> - create</em>chat<em>title
+   - *Create a chat with a person by their corporate title*
+   - Score: 3
+36. <code>test_case_043</code> - create</em>chat<em>title
+   - *Create a chat with all people at a specific level in a department*
+   - Score: 2.75
+37. <code>test_case_046</code> - create</em>chat<em>title
+   - *Create a chat with a person by their security title*
+   - Score: 2.75
+38. <code>test_case_047</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create individual chats with all team members of a specific person</em>
+   - Score: 2.5
+39. <code>test_case_048</code> - create<em>multiple</em>chats<em>relationship
+   - *Create separate conversations with all members of a specific person's team*
+   - Score: 2.75
+40. <code>test_case_050</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create individual chats with all team members of a specific person</em>
+   - Score: 3
+41. <code>test_case_050</code> - create<em>multiple</em>chats<em>relationship
+   - *Create individual chats with all team members of a specific person*
+   - Score: 2.75
+42. <code>test_case_051</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create separate 1-on-1 conversations with all team members of a specific person</em>
+   - Score: 2.5
+43. <code>test_case_052</code> - create<em>multiple</em>chats<em>relationship
+   - *Create individual chats with all team members of a specific person about a topic*
+   - Score: 2.75
+44. <code>test_case_053</code> - create</em>chat<em>relationship
+   - *Create a chat with all members of a specific person's team*
+   - Score: 2.75
+45. <code>test_case_054</code> - create</em>chat<em>relationship
+   - *Create a conversation with all members of a specific person's team*
+   - Score: 2.75
+46. <code>test_case_055</code> - create</em>chat<em>relationship
+   - *Create a message/chat with all members of a specific person's team*
+   - Score: 2.5
+47. <code>test_case_056</code> - create</em>chat<em>relationship
+   - *Create a chat with all team members of multiple people sharing the same name*
+   - Score: 2.75
+48. <code>test_case_058</code> - create</em>chat<em>relationship
+   - *Create a conversation with a specific person's leadership team*
+   - Score: 3
+49. <code>test_case_059</code> - create</em>chat<em>skill
+   - *Create a chat with someone from a specific team based on their expertise*
+   - Score: 3.25
+50. <code>test_case_062</code> - create</em>chat<em>role
+   - *Create a chat with whoever has a specific role or duty today*
+   - Score: 2.75
+51. <code>test_case_063</code> - create</em>chat<em>skill
+   - *Create a chat with a specific person based on their expertise*
+   - Score: 2.75
+52. <code>test_case_066</code> - create</em>multiple<em>chats</em>role
+   - <em>Create separate conversations with representatives from multiple disciplines</em>
+   - Score: 3
+53. <code>test_case_067</code> - create<em>multiple</em>chats
+   - <em>Create separate chats with multiple specific people</em>
+   - Score: 2.75
+54. <code>test_case_069</code> - create<em>multiple</em>chats
+   - <em>Create separate individual conversations with specific people about a topic</em>
+   - Score: 2.75
+55. <code>test_case_070</code> - create<em>multiple</em>chats
+   - <em>Create separate sequential chats with specific people</em>
+   - Score: 2.75
+56. <code>test_case_072</code> - create<em>chat</em>scheduled
+   - <em>Create a chat scheduled for a specific time with a specific person</em>
+   - Score: 2.5
+57. <code>test_case_073</code> - create<em>chat</em>scheduled
+   - <em>Create a conversation scheduled after a specific event completes</em>
+   - Score: 2.75
+58. <code>test_case_077</code> - create<em>chat</em>scheduled
+   - <em>Create a chat scheduled for a specific day with a specific purpose</em>
+   - Score: 2.75
+59. <code>test_case_078</code> - create<em>chat</em>conditional
+   - <em>Create a chat with conditional follow-up chat based on response</em>
+   - Score: 2.5
+60. <code>test_case_079</code> - create<em>chat</em>conditional
+   - <em>Create a chat with conditional escalation to another person</em>
+   - Score: 3.5
+61. <code>test_case_080</code> - create<em>chat</em>conditional
+   - <em>Create a chat with conditional escalation to manager</em>
+   - Score: 3
+62. <code>test_case_081</code> - create<em>chat</em>conditional
+   - <em>Create a chat with conditional fallback to another person</em>
+   - Score: 3
+63. <code>test_case_083</code> - create<em>multiple</em>chats<em>parallel
+   - *Create concurrent chats with specific people*
+   - Score: 2.75
+64. <code>test_case_086</code> - create</em>chat<em>conditional
+   - *Create a chat with planned follow-up chats based on suggestions*
+   - Score: 2.75
+65. <code>test_case_088</code> - create</em>chat<em>conditional
+   - *Create a chat with planned follow-up chats with VPs based on guidance*
+   - Score: 2.75
+66. <code>test_case_090</code> - create</em>chat<em>conditional
+   - *Create a chat with planned engagement with stakeholders based on identification*
+   - Score: 2.75
+67. <code>test_case_092</code> - create</em>chat<em>fallback
+   - *Create a chat with primary contact or designated backup*
+   - Score: 2.75
+68. <code>test_case_093</code> - create</em>chat<em>fallback
+   - *Create a chat with preferred person or alternative*
+   - Score: 3.5
+69. <code>test_case_095</code> - create</em>chat<em>fallback
+   - *Create a chat with person or specified substitute*
+   - Score: 2.75
+70. <code>test_case_096</code> - create</em>chat<em>fallback
+   - *Create a chat with person or their coverage while out*
+   - Score: 3.25
+71. <code>test_case_097</code> - create</em>chat<em>counterpart
+   - *Create a chat with a person's cross-functional counterpart*
+   - Score: 3
+72. <code>test_case_098</code> - create</em>chat<em>counterpart
+   - *Create a conversation with the PM partner of an engineering team*
+   - Score: 3.25
+73. <code>test_case_099</code> - create</em>chat<em>counterpart
+   - *Create a chat with a cross-functional partner for specific initiatives*
+   - Score: 3.25
+74. <code>test_case_100</code> - create</em>chat<em>counterpart
+   - *Create a conversation with sales counterpart for a product area*
+   - Score: 3
+75. <code>test_case_102</code> - create</em>chat<em>relationship
+   - *Create a chat with all people in a direct reporting line*
+   - Score: 2.75
+76. <code>test_case_103</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create conversations with all skip-level reports of a specific person</em>
+   - Score: 3.25
+77. <code>test_case_105</code> - create<em>multiple</em>chats<em>relationship
+   - *Create chats with all people in the user's management chain up to a specific lev...*
+   - Score: 2.5
+78. <code>test_case_106</code> - create</em>multiple<em>chats</em>relationship
+   - <em>Create conversations with all reports of a team</em>
+   - Score: 3
+79. <code>test_case_111</code> - create<em>chat</em>relationship
+   - <em>Create a chat with an assigned mentor</em>
+   - Score: 2.75
+80. <code>test_case_112</code> - create<em>chat</em>relationship
+   - <em>Create a chat with mentees the user is supporting</em>
+   - Score: 3.25
+81. <code>test_case_114</code> - create<em>chat</em>skill
+   - <em>Create a conversation with an experienced person who can guide a new hire</em>
+   - Score: 3.25
+82. <code>test_case_116</code> - create<em>chat</em>expertise
+   - <em>Create a chat with someone who handles a specific type of issue</em>
+   - Score: 3
+83. <code>test_case_118</code> - create<em>chat</em>expertise
+   - <em>Create a chat with someone who has specific approval authority</em>
+   - Score: 2.75
+84. <code>test_case_119</code> - create<em>chat</em>expertise
+   - <em>Create a chat with an expert on a specific system</em>
+   - Score: 2.75
+85. <code>test_case_120</code> - create<em>chat</em>expertise
+   - <em>Create a conversation with the person responsible for a specific function</em>
+   - Score: 2.75
+86. <code>test_case_123</code> - create<em>chat</em>relationship
+   - <em>Create a conversation with someone at a specific hierarchical level above anothe...</em>
+   - Score: 2.75
+87. <code>test_case_125</code> - create<em>chat</em>relationship
+   - <em>Create a chat with someone in a parallel organization at the same level</em>
+   - Score: 3.5
+88. <code>test_case_126</code> - create<em>chat</em>relationship
+   - <em>Create a chat with someone with a specific reporting structure including dotted ...</em>
+   - Score: 3
+89. <code>test_case_127</code> - create<em>chat</em>role
+   - <em>Create a chat with the current holder of a rotating role</em>
+   - Score: 3.25
+90. <code>test_case_128</code> - create<em>chat</em>role
+   - <em>Create a conversation with the current on-call person for a time period</em>
+   - Score: 3
+91. <code>test_case_130</code> - create<em>chat</em>role
+   - <em>Create a chat with the current rotating facilitator</em>
+   - Score: 2.75
+92. <code>test_case_131</code> - create<em>chat</em>role
+   - <em>Create a conversation with the current Directly Responsible Individual</em>
+   - Score: 2.75
+93. <code>test_case_132</code> - create<em>chat</em>role
+   - <em>Create a chat with the current month's primary contact for a function</em>
+   - Score: 3
+94. <code>test_case_133</code> - create<em>chat</em>skill
+   - <em>Create a chat with someone matching multiple criteria including level, org, and ...</em>
+   - Score: 2.75
+95. <code>test_case_136</code> - create<em>chat</em>skill
+   - <em>Create a chat with any person matching role and expertise criteria</em>
+   - Score: 2.75
+96. <code>test_case_138</code> - create<em>chat</em>delegation
+   - <em>Create a chat with someone or their specified delegate if unavailable</em>
+   - Score: 2.75
+97. <code>test_case_139</code> - create<em>chat</em>delegation
+   - <em>Create a conversation with someone who is covering for another person</em>
+   - Score: 3
+98. <code>test_case_141</code> - create<em>chat</em>delegation
+   - <em>Create a chat with an acting manager during permanent manager's leave</em>
+   - Score: 3
+99. <code>test_case_142</code> - create<em>chat</em>delegation
+   - <em>Create a conversation with an interim role holder after a role change</em>
+   - Score: 3
+100. <code>test_case_143</code> - create<em>chat</em>delegation
+   - <em>Create a chat with the current holder of a previously held role</em>
+   - Score: 2.75
+101. <code>test_case_144</code> - create<em>chat</em>expertise
+   - <em>Create a chat with the appropriate person for a specific type of issue</em>
+   - Score: 3.25
+102. <code>test_case_145</code> - create<em>chat</em>expertise
+   - <em>Create a chat with the right contact for a specific domain of questions</em>
+   - Score: 2.75
+103. <code>test_case_148</code> - create<em>chat</em>history
+   - <em>Create a chat with someone based on previous conversation history</em>
+   - Score: 2.5
+104. <code>test_case_149</code> - create<em>chat</em>history
+   - <em>Create a conversation with someone based on recent discussion</em>
+   - Score: 2.75
+105. <code>test_case_150</code> - create<em>chat</em>history
+   - <em>Create a chat with the same participants from a previous conversation</em>
+   - Score: 2.75
+106. <code>test_case_151</code> - create<em>chat</em>history
+   - <em>Create a chat with frequent collaborators on a specific topic</em>
+   - Score: 2.75
+107. <code>test_case_152</code> - create<em>chat</em>history
+   - <em>Create a conversation with the most frequent chat partner for a topic</em>
+   - Score: 2.75
+108. <code>test_case_153</code> - create<em>chat</em>history
+   - <em>Create a chat with someone the user hasn't talked to recently</em>
+   - Score: 3
+109. <code>test_case_154</code> - create<em>chat</em>priority
+   - <em>Create an urgent priority chat about a critical issue</em>
+   - Score: 3
+110. <code>test_case_155</code> - create<em>chat</em>priority
+   - <em>Create a high-priority conversation about an escalation</em>
+   - Score: 3</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. <code>test_case_001</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a 1-1 chat with a specific person about a specific topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>05903063-5123-482f-becb-0aefdca8afd3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=712978bb-60ce-4bb4-a660-885256eb92d7 GraphRequestId=712978bb-60ce-4bb4-a660-885256eb92d7 | Tool Error: CorrelationId: 712978bb-60ce-4bb4-a660-885256eb92d7, TimeStamp: 2025-10-21</em>19:15:42</li>
+</ul>
+
+<p><strong>2. <code>test_case_002</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a 1-1 conversation with a specific person about copilot architecture</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>186f45fc-5514-44f9-a8c4-624ccfa034b8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=8a2fda00-24c7-4b11-9fd5-248e6f41f110 GraphRequestId=8a2fda00-24c7-4b11-9fd5-248e6f41f110 | Tool Error: CorrelationId: 8a2fda00-24c7-4b11-9fd5-248e6f41f110, TimeStamp: 2025-10-21</em>19:15:42</li>
+</ul>
+
+<p><strong>3. <code>test_case_003</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Open a 1-1 chat with a specific person to discuss a bug fix</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>69c4339a-76fc-47c1-8456-712a9b39bdfd</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=94bffc4e-f312-43f2-aa93-d4b77dac8d20 GraphRequestId=94bffc4e-f312-43f2-aa93-d4b77dac8d20 | Tool Error: CorrelationId: 94bffc4e-f312-43f2-aa93-d4b77dac8d20, TimeStamp: 2025-10-21</em>19:15:44</li>
+</ul>
+
+<p><strong>4. <code>test_case_004</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Start messaging with a specific person about API deployment</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8631a5c4-6655-48e3-bc34-75f2607b6b37</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=cb1fcc63-8b4c-469c-a13a-3fbf3c906305 GraphRequestId=cb1fcc63-8b4c-469c-a13a-3fbf3c906305 | Tool Error: CorrelationId: cb1fcc63-8b4c-469c-a13a-3fbf3c906305, TimeStamp: 2025-10-21</em>19:15:42</li>
+</ul>
+
+<p><strong>5. <code>test_case_005</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Begin a 1-1 chat with a specific person about data pipeline</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9742bbda-c16f-42b1-ad4c-b2724fe25a96</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d0be5080-6460-4f5d-b5a5-d34fe084ef4b GraphRequestId=d0be5080-6460-4f5d-b5a5-d34fe084ef4b | Tool Error: CorrelationId: d0be5080-6460-4f5d-b5a5-d34fe084ef4b, TimeStamp: 2025-10-21</em>19:15:42</li>
+</ul>
+
+<p><strong>6. <code>test_case_006</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a direct message with a specific person about sprint planning</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>436d9226-549d-4329-9c5d-d24f5ff58345</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7f903ad9-0e02-4551-b0b7-bc7d184a7b87 GraphRequestId=7f903ad9-0e02-4551-b0b7-bc7d184a7b87 | Tool Error: CorrelationId: 7f903ad9-0e02-4551-b0b7-bc7d184a7b87, TimeStamp: 2025-10-21</em>19:15:43</li>
+</ul>
+
+<p><strong>7. <code>test_case_007</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Start a chat with a specific person with a specific question about availability</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6baff004-fe78-44d2-9c86-13d158fef85e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=0a606107-07b5-4a42-88fa-484e88eb5542 GraphRequestId=0a606107-07b5-4a42-88fa-484e88eb5542 | Tool Error: CorrelationId: 0a606107-07b5-4a42-88fa-484e88eb5542, TimeStamp: 2025-10-21</em>19:15:43</li>
+</ul>
+
+<p><strong>8. <code>test_case_008</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate 1-1 conversations with multiple people sharing the same name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4f22e472-8f75-45da-a616-f95d4dce1373</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=2756e5e0-9a9f-4e8c-a764-81fd648a44fa GraphRequestId=2756e5e0-9a9f-4e8c-a764-81fd648a44fa | Tool Error: CorrelationId: 2756e5e0-9a9f-4e8c-a764-81fd648a44fa, TimeStamp: 2025-10-21</em>19:15:44 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d7ab047d-8e20-4f38-b670-13b850b7aa5c GraphRequestId=d7ab047d-8e20-4f38-b670-13b850b7aa5c | Tool Error: CorrelationId: d7ab047d-8e20-4f38-b670-13b850b7aa5c, TimeStamp: 2025-10-21</em>19:15:45 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=ab135b42-4e02-4406-8c33-67ea15ba299d GraphRequestId=ab135b42-4e02-4406-8c33-67ea15ba299d | Tool Error: CorrelationId: ab135b42-4e02-4406-8c33-67ea15ba299d, TimeStamp: 2025-10-21</em>19:15:45</li>
+</ul>
+
+<p><strong>9. <code>test_case_009</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate chats with multiple people sharing the same name with disambiguation</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>postMessage, mcp</em>graph<em>chat</em>createChat, mcp<em>graph</em>listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅, graph<em>chat</em>postMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cf5e84c1-7d8e-4348-b9af-4bea2e8477ea</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=bb75f77d-0bb1-4554-9264-d6cbd448e8f5 GraphRequestId=bb75f77d-0bb1-4554-9264-d6cbd448e8f5 | Tool Error: CorrelationId: bb75f77d-0bb1-4554-9264-d6cbd448e8f5, TimeStamp: 2025-10-21</em>19:15:44 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/TO</em>BE<em>FILLED/messages. Status=403 (Forbidden). CorrelationId=e6bcab32-0d67-40bc-a97f-772b459110b6 GraphRequestId=e6bcab32-0d67-40bc-a97f-772b459110b6 | Tool Error: CorrelationId: e6bcab32-0d67-40bc-a97f-772b459110b6, TimeStamp: 2025-10-21</em>19:15:45</li>
+</ul>
+
+<p><strong>10. <code>test_case_010</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate 1-1 chats with multiple distinct people</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>290b604a-e33a-4d53-965c-4ce484417268</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=8ec8062b-eaca-401c-80b7-2b14b272b40d GraphRequestId=8ec8062b-eaca-401c-80b7-2b14b272b40d | Tool Error: CorrelationId: 8ec8062b-eaca-401c-80b7-2b14b272b40d, TimeStamp: 2025-10-21</em>19:15:44 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=cd6328a4-be76-4970-bd57-0cba897edf5b GraphRequestId=cd6328a4-be76-4970-bd57-0cba897edf5b | Tool Error: CorrelationId: cd6328a4-be76-4970-bd57-0cba897edf5b, TimeStamp: 2025-10-21</em>19:15:45</li>
+</ul>
+
+<p><strong>11. <code>test_case_011</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual conversations with multiple people sharing the same name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>02741628-eba2-4119-b6e8-64e16e63b48a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=294dc406-8f98-42d4-870b-d6d38ce582d4 GraphRequestId=294dc406-8f98-42d4-870b-d6d38ce582d4 | Tool Error: CorrelationId: 294dc406-8f98-42d4-870b-d6d38ce582d4, TimeStamp: 2025-10-21</em>19:15:52 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=1bf883a9-5285-417f-9f67-c8d2b6ca7988 GraphRequestId=1bf883a9-5285-417f-9f67-c8d2b6ca7988 | Tool Error: CorrelationId: 1bf883a9-5285-417f-9f67-c8d2b6ca7988, TimeStamp: 2025-10-21</em>19:15:52 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=cf1d0c82-5125-4dd5-8779-6bebb6792edd GraphRequestId=cf1d0c82-5125-4dd5-8779-6bebb6792edd | Tool Error: CorrelationId: cf1d0c82-5125-4dd5-8779-6bebb6792edd, TimeStamp: 2025-10-21</em>19:15:52</li>
+</ul>
+
+<p><strong>12. <code>test_case_012</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a specific person using full name for disambiguation</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b53beefe-e0a2-441b-837c-2a2c6e260ffb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=eddeb516-defd-4de6-9442-664f1063c1b8 GraphRequestId=eddeb516-defd-4de6-9442-664f1063c1b8 | Tool Error: CorrelationId: eddeb516-defd-4de6-9442-664f1063c1b8, TimeStamp: 2025-10-21</em>19:15:51</li>
+</ul>
+
+<p><strong>13. <code>test_case_013</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with a specific person using full name with detailed topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>22b99c5f-c32d-4806-8c4a-0d5dac504906</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>14. <code>test_case_014</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Open a chat with a specific person using full name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ed44375e-f187-4b8c-90c4-220449b6f3ca</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=740c99a6-44f8-4d13-93ca-f9574a0eec2e GraphRequestId=740c99a6-44f8-4d13-93ca-f9574a0eec2e | Tool Error: CorrelationId: 740c99a6-44f8-4d13-93ca-f9574a0eec2e, TimeStamp: 2025-10-21</em>19:15:51</li>
+</ul>
+
+<p><strong>15. <code>test_case_016</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Start a chat with a specific person using full name about OKRs</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ce4c0a19-393a-4a92-9d36-69535c9cb255</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=c82e7f44-87e1-4cd7-a40e-cbe7342ee565 GraphRequestId=c82e7f44-87e1-4cd7-a40e-cbe7342ee565 | Tool Error: CorrelationId: c82e7f44-87e1-4cd7-a40e-cbe7342ee565, TimeStamp: 2025-10-21</em>19:15:51</li>
+</ul>
+
+<p><strong>16. <code>test_case_017</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a DM with a specific person using team/department disambiguation</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8b097eed-7fd2-4c1c-ab09-3d75441c108f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>17. <code>test_case_018</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Start a chat with a specific person about organizational strategy</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2333db49-2b26-4aa3-8c1b-3b4cb882ab81</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b5107bd0-3de9-41d4-9c8e-52bae113916a GraphRequestId=b5107bd0-3de9-41d4-9c8e-52bae113916a | Tool Error: CorrelationId: b5107bd0-3de9-41d4-9c8e-52bae113916a, TimeStamp: 2025-10-21</em>19:15:55</li>
+</ul>
+
+<p><strong>18. <code>test_case_020</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with a specific person with hyphenated name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a728b16a-ec19-4500-977c-717186003e03</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=225bc565-6f78-48d0-ad62-ab7174356238 GraphRequestId=225bc565-6f78-48d0-ad62-ab7174356238 | Tool Error: CorrelationId: 225bc565-6f78-48d0-ad62-ab7174356238, TimeStamp: 2025-10-21</em>19:15:56</li>
+</ul>
+
+<p><strong>19. <code>test_case_021</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Open a chat with a specific person about team structure</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ee33d82f-c217-4dd2-a04b-21f0cff448fe</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4188ca34-96aa-49e3-be28-024a9066b36e GraphRequestId=4188ca34-96aa-49e3-be28-024a9066b36e | Tool Error: CorrelationId: 4188ca34-96aa-49e3-be28-024a9066b36e, TimeStamp: 2025-10-21</em>19:15:57</li>
+</ul>
+
+<p><strong>20. <code>test_case_022</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Start messaging with a specific person about technical debt</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cd005a1f-16e8-4e91-8a0f-02305216908d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=310d1a8c-52a1-4a38-99ef-0f2b1f5d0214 GraphRequestId=310d1a8c-52a1-4a38-99ef-0f2b1f5d0214 | Tool Error: CorrelationId: 310d1a8c-52a1-4a38-99ef-0f2b1f5d0214, TimeStamp: 2025-10-21</em>19:16:00</li>
+</ul>
+
+<p><strong>21. <code>test_case_023</code></strong>- <strong>Category:</strong>
+**create_chat</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a specific person about mergers and acquisitions</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>fcc3e3c5-886d-4995-aff9-fcbcdcacfccb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b24b19da-c5a3-4d9d-9821-8678364ab64e GraphRequestId=b24b19da-c5a3-4d9d-9821-8678364ab64e | Tool Error: CorrelationId: b24b19da-c5a3-4d9d-9821-8678364ab64e, TimeStamp: 2025-10-21</em>19:15:59</li>
+</ul>
+
+<p><strong>22. <code>test_case_024</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the user's manager based on organizational relationship</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getMyManager reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getMyManager✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a41eead7-66a7-4c46-b90b-4a4cb2eea4c5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getMyManager': Failed to call graph API at https://graph.microsoft.com/v1.0/me/manager?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=a41eead7-66a7-4c46-b90b-4a4cb2eea4c5 GraphRequestId=a41eead7-66a7-4c46-b90b-4a4cb2eea4c5 | Tool Error: CorrelationId: a41eead7-66a7-4c46-b90b-4a4cb2eea4c5, TimeStamp: 2025-10-21_19:15:58</li>
+</ul>
+
+<p><strong>23. <code>test_case_025</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with another person's manager based on organizational relationship</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>195a5d81-9bda-474b-b50d-8b6f1ac18199</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=1f01b755-d8a9-4ec4-b736-2585b8e886d2 GraphRequestId=1f01b755-d8a9-4ec4-b736-2585b8e886d2 | Tool Error: CorrelationId: 1f01b755-d8a9-4ec4-b736-2585b8e886d2, TimeStamp: 2025-10-21</em>19:16:02</li>
+</ul>
+
+<p><strong>24. <code>test_case_026</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with another person's manager to discuss their promotion</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f4c6ab3c-2f0e-412c-9a47-076619aa73a1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=45cc0937-02fe-4f78-8a69-cdc2ed98fda8 GraphRequestId=45cc0937-02fe-4f78-8a69-cdc2ed98fda8 | Tool Error: CorrelationId: 45cc0937-02fe-4f78-8a69-cdc2ed98fda8, TimeStamp: 2025-10-21</em>19:16:02</li>
+</ul>
+
+<p><strong>25. <code>test_case_027</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with another person's manager about team capacity</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>978113b8-ef19-4381-ab0b-e001629f671f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=75820b24-f0c6-4548-be75-e99685a79996 GraphRequestId=75820b24-f0c6-4548-be75-e99685a79996 | Tool Error: CorrelationId: 75820b24-f0c6-4548-be75-e99685a79996, TimeStamp: 2025-10-21</em>19:16:03</li>
+</ul>
+
+<p><strong>26. <code>test_case_028</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with another person's manager about deployment schedule</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getUsersManager✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4c8f9295-d261-4a8d-8234-ec1586bee49a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUsersManager': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Ramya/manager?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=4c8f9295-d261-4a8d-8234-ec1586bee49a GraphRequestId=4c8f9295-d261-4a8d-8234-ec1586bee49a | Tool Error: CorrelationId: 4c8f9295-d261-4a8d-8234-ec1586bee49a, TimeStamp: 2025-10-21_19:16:00</li>
+</ul>
+
+<p><strong>27. <code>test_case_029</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with another person's manager about code quality</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e6ba6862-445f-468e-8d8e-42668769693e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=8c1321b9-b6a3-4c5d-aea0-5e099ad4fcfb GraphRequestId=8c1321b9-b6a3-4c5d-aea0-5e099ad4fcfb | Tool Error: CorrelationId: 8c1321b9-b6a3-4c5d-aea0-5e099ad4fcfb, TimeStamp: 2025-10-21</em>19:16:05</li>
+</ul>
+
+<p><strong>28. <code>test_case_030</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate chats with all direct reports of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b4e2b23a-9237-4af9-95bc-fa2f2ddb2773</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f8838963-2181-4956-a21b-24ce22b0aece GraphRequestId=f8838963-2181-4956-a21b-24ce22b0aece | Tool Error: CorrelationId: f8838963-2181-4956-a21b-24ce22b0aece, TimeStamp: 2025-10-21</em>19:16:10 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4efbd9f1-49fb-4102-91da-1519796c81af GraphRequestId=4efbd9f1-49fb-4102-91da-1519796c81af | Tool Error: CorrelationId: 4efbd9f1-49fb-4102-91da-1519796c81af, TimeStamp: 2025-10-21</em>19:16:10 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=86ed727a-06b7-43c2-b598-f47ba581a345 GraphRequestId=86ed727a-06b7-43c2-b598-f47ba581a345 | Tool Error: CorrelationId: 86ed727a-06b7-43c2-b598-f47ba581a345, TimeStamp: 2025-10-21</em>19:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=a4b2cae8-918b-42c8-98e4-88e5335e9826 GraphRequestId=a4b2cae8-918b-42c8-98e4-88e5335e9826 | Tool Error: CorrelationId: a4b2cae8-918b-42c8-98e4-88e5335e9826, TimeStamp: 2025-10-21</em>19:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=92971f3a-345a-418c-9061-65415a0b1512 GraphRequestId=92971f3a-345a-418c-9061-65415a0b1512 | Tool Error: CorrelationId: 92971f3a-345a-418c-9061-65415a0b1512, TimeStamp: 2025-10-21</em>19:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b05f1c58-8ea3-4479-b808-edf62d688a31 GraphRequestId=b05f1c58-8ea3-4479-b808-edf62d688a31 | Tool Error: CorrelationId: b05f1c58-8ea3-4479-b808-edf62d688a31, TimeStamp: 2025-10-21</em>19:16:12 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=bacd64cc-4c1b-4a2f-974a-d52dc69a67bb GraphRequestId=bacd64cc-4c1b-4a2f-974a-d52dc69a67bb | Tool Error: CorrelationId: bacd64cc-4c1b-4a2f-974a-d52dc69a67bb, TimeStamp: 2025-10-21</em>19:16:12 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=868993cc-12b3-401b-b25b-86ce80d11a73 GraphRequestId=868993cc-12b3-401b-b25b-86ce80d11a73 | Tool Error: CorrelationId: 868993cc-12b3-401b-b25b-86ce80d11a73, TimeStamp: 2025-10-21</em>19:16:12</li>
+</ul>
+
+<p><strong>29. <code>test_case_031</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with all direct reports of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>MailTools</em>graph<em>mail</em>sendMail, mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, Mailmail<em>sendMail✅, Mailmail</em>sendMail✅, Mailmail<em>sendMail✅, Mailmail</em>sendMail✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>224276c6-8bf3-41ae-a463-f45411b0ad1b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>MailTools</em>graph<em>mail</em>sendMail': Failed to call graph API at https://graph.microsoft.com/v1.0/me/sendMail. Status=400 (Bad Request). CorrelationId=fed6218d-4eab-4e4f-8a5a-e8d124261fb6 GraphRequestId=fed6218d-4eab-4e4f-8a5a-e8d124261fb6 | Tool Error: CorrelationId: fed6218d-4eab-4e4f-8a5a-e8d124261fb6, TimeStamp: 2025-10-21<em>19:16:09 | Tool Error: Graph API call failed for tool 'mcp</em>MailTools<em>graph</em>mail<em>sendMail': Failed to call graph API at https://graph.microsoft.com/v1.0/me/sendMail. Status=400 (Bad Request). CorrelationId=704152cd-0754-4b63-87ce-b0593f5cdbcc GraphRequestId=704152cd-0754-4b63-87ce-b0593f5cdbcc | Tool Error: CorrelationId: 704152cd-0754-4b63-87ce-b0593f5cdbcc, TimeStamp: 2025-10-21</em>19:16:09 | Tool Error: Graph API call failed for tool 'mcp<em>MailTools</em>graph<em>mail</em>sendMail': Failed to call graph API at https://graph.microsoft.com/v1.0/me/sendMail. Status=400 (Bad Request). CorrelationId=80538237-6fec-4776-a4cc-9cacc3eb6b47 GraphRequestId=80538237-6fec-4776-a4cc-9cacc3eb6b47 | Tool Error: CorrelationId: 80538237-6fec-4776-a4cc-9cacc3eb6b47, TimeStamp: 2025-10-21<em>19:16:10 | Tool Error: Graph API call failed for tool 'mcp</em>MailTools<em>graph</em>mail<em>sendMail': Failed to call graph API at https://graph.microsoft.com/v1.0/me/sendMail. Status=400 (Bad Request). CorrelationId=fb863867-7322-407a-ad9b-04ae08a7aa40 GraphRequestId=fb863867-7322-407a-ad9b-04ae08a7aa40 | Tool Error: CorrelationId: fb863867-7322-407a-ad9b-04ae08a7aa40, TimeStamp: 2025-10-21</em>19:16:10</li>
+</ul>
+
+<p><strong>30. <code>test_case_032</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate chats with all team members of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bcf6cf09-8c2c-4bae-8c72-5a4c0d4fc1a1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7550d8ce-b0c7-46eb-85b2-5a464a17c432 GraphRequestId=7550d8ce-b0c7-46eb-85b2-5a464a17c432 | Tool Error: CorrelationId: 7550d8ce-b0c7-46eb-85b2-5a464a17c432, TimeStamp: 2025-10-21</em>19:16:10 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=90ac72ae-a82b-4b8b-83da-fb2f133d6211 GraphRequestId=90ac72ae-a82b-4b8b-83da-fb2f133d6211 | Tool Error: CorrelationId: 90ac72ae-a82b-4b8b-83da-fb2f133d6211, TimeStamp: 2025-10-21</em>19:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=41aa057a-6279-456f-859e-d4966497987c GraphRequestId=41aa057a-6279-456f-859e-d4966497987c | Tool Error: CorrelationId: 41aa057a-6279-456f-859e-d4966497987c, TimeStamp: 2025-10-21</em>19:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=77a18e42-1994-43f9-9a6e-485f7dce9f76 GraphRequestId=77a18e42-1994-43f9-9a6e-485f7dce9f76 | Tool Error: CorrelationId: 77a18e42-1994-43f9-9a6e-485f7dce9f76, TimeStamp: 2025-10-21</em>19:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7efe6949-5374-4697-af86-78fc1d81e315 GraphRequestId=7efe6949-5374-4697-af86-78fc1d81e315 | Tool Error: CorrelationId: 7efe6949-5374-4697-af86-78fc1d81e315, TimeStamp: 2025-10-21</em>19:16:12 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=dce06c26-30e0-4ff3-9966-fb5bab901112 GraphRequestId=dce06c26-30e0-4ff3-9966-fb5bab901112 | Tool Error: CorrelationId: dce06c26-30e0-4ff3-9966-fb5bab901112, TimeStamp: 2025-10-21</em>19:16:12 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b4aaad4a-a0a1-4698-af50-4da975ba0df9 GraphRequestId=b4aaad4a-a0a1-4698-af50-4da975ba0df9 | Tool Error: CorrelationId: b4aaad4a-a0a1-4698-af50-4da975ba0df9, TimeStamp: 2025-10-21</em>19:16:13 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=89603161-abe9-4e83-9b0c-14530528ce7f GraphRequestId=89603161-abe9-4e83-9b0c-14530528ce7f | Tool Error: CorrelationId: 89603161-abe9-4e83-9b0c-14530528ce7f, TimeStamp: 2025-10-21</em>19:16:13</li>
+</ul>
+
+<p><strong>31. <code>test_case_033</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with each team member of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getUserProfile✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9ef93acc-3b4f-4602-9578-a2fcdfe73cad</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/gio?%24select=id%2CuserPrincipalName%2CdisplayName&amp;%24expand=directReports. Status=404 (Not Found). CorrelationId=9ef93acc-3b4f-4602-9578-a2fcdfe73cad GraphRequestId=9ef93acc-3b4f-4602-9578-a2fcdfe73cad | Tool Error: CorrelationId: 9ef93acc-3b4f-4602-9578-a2fcdfe73cad, TimeStamp: 2025-10-21_19:16:05</li>
+</ul>
+
+<p><strong>32. <code>test_case_034</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with all direct reports of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>04cc3ddf-da20-4a00-8486-a2fa166830de</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=ad2a8b54-4202-4488-8c2f-ffdaffdac4e8 GraphRequestId=ad2a8b54-4202-4488-8c2f-ffdaffdac4e8 | Tool Error: CorrelationId: ad2a8b54-4202-4488-8c2f-ffdaffdac4e8, TimeStamp: 2025-10-21</em>19:16:11 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=455472be-5367-46a3-b84f-135fc263afec GraphRequestId=455472be-5367-46a3-b84f-135fc263afec | Tool Error: CorrelationId: 455472be-5367-46a3-b84f-135fc263afec, TimeStamp: 2025-10-21</em>19:16:12</li>
+</ul>
+
+<p><strong>33. <code>test_case_035</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate conversations with all direct reports of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>590c1c53-966c-4f17-bc10-24174b7fb877</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=438b973f-0f65-44b3-ad72-173cabd9ec18 GraphRequestId=438b973f-0f65-44b3-ad72-173cabd9ec18 | Tool Error: CorrelationId: 438b973f-0f65-44b3-ad72-173cabd9ec18, TimeStamp: 2025-10-21</em>19:16:13 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=1511de2f-885f-4cb8-a196-94346e18ccf1 GraphRequestId=1511de2f-885f-4cb8-a196-94346e18ccf1 | Tool Error: CorrelationId: 1511de2f-885f-4cb8-a196-94346e18ccf1, TimeStamp: 2025-10-21</em>19:16:14 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=a9893f9f-9ee6-4e5b-b5fa-04e8fd7713fc GraphRequestId=a9893f9f-9ee6-4e5b-b5fa-04e8fd7713fc | Tool Error: CorrelationId: a9893f9f-9ee6-4e5b-b5fa-04e8fd7713fc, TimeStamp: 2025-10-21</em>19:16:14 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7dfde3b5-6f00-421f-8f29-f36a9d4d2f17 GraphRequestId=7dfde3b5-6f00-421f-8f29-f36a9d4d2f17 | Tool Error: CorrelationId: 7dfde3b5-6f00-421f-8f29-f36a9d4d2f17, TimeStamp: 2025-10-21</em>19:16:14 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=249e7236-d59f-458d-a830-e136bff1d4f6 GraphRequestId=249e7236-d59f-458d-a830-e136bff1d4f6 | Tool Error: CorrelationId: 249e7236-d59f-458d-a830-e136bff1d4f6, TimeStamp: 2025-10-21</em>19:16:15</li>
+</ul>
+
+<p><strong>34. <code>test_case_036</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the user's entire team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getMyProfile, mcp<em>graph</em>teams_listTeams reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getMyProfile✅, graph</em>teams_listTeams✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>59ae9b7d-789f-4773-a7d2-f74f2c2a647a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/joinedTeams. Status=403 (Forbidden). CorrelationId=2d46908e-5439-4cf9-a3d9-4046af11a084 GraphRequestId=2d46908e-5439-4cf9-a3d9-4046af11a084 | Tool Error: CorrelationId: 2d46908e-5439-4cf9-a3d9-4046af11a084, TimeStamp: 2025-10-21</em>19:16:11</li>
+</ul>
+
+<p><strong>35. <code>test_case_037</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with another person's manager without specific topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b39cf5cd-7c83-4d68-867c-5716403e0146</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=29f707c9-532f-46d9-b444-b92c91178fd0 GraphRequestId=29f707c9-532f-46d9-b444-b92c91178fd0 | Tool Error: CorrelationId: 29f707c9-532f-46d9-b444-b92c91178fd0, TimeStamp: 2025-10-21</em>19:16:13</li>
+</ul>
+
+<p><strong>36. <code>test_case_039</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with peers who share the same manager</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e4f30668-2b73-4937-99de-6955adce87f0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22manager%3ANair%22&amp;%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName&amp;%24top=15. Status=400 (Bad Request). CorrelationId=e4f30668-2b73-4937-99de-6955adce87f0 GraphRequestId=e4f30668-2b73-4937-99de-6955adce87f0 | Tool Error: CorrelationId: e4f30668-2b73-4937-99de-6955adce87f0, TimeStamp: 2025-10-21_19:16:11</li>
+</ul>
+
+<p><strong>37. <code>test_case_041</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>title</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a person by their corporate title</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bf6638de-bbd1-4bdb-b9de-de74fa3349c9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=be9bbd4b-e3d6-416c-ae4e-ad1f020a7bbc GraphRequestId=be9bbd4b-e3d6-416c-ae4e-ad1f020a7bbc | Tool Error: CorrelationId: be9bbd4b-e3d6-416c-ae4e-ad1f020a7bbc, TimeStamp: 2025-10-21</em>19:16:19</li>
+</ul>
+
+<p><strong>38. <code>test_case_042</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>title</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with multiple people by title and department</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f0f38032-a868-4fa2-a0c1-28f524ffb9da</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>39. <code>test_case_043</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>title</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all people at a specific level in a department</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat<em>createChat✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ff8de412-fc7d-4237-b104-e046716408be</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=e44b412a-3ed4-4d50-a989-04b32399db34 GraphRequestId=e44b412a-3ed4-4d50-a989-04b32399db34 | Tool Error: CorrelationId: e44b412a-3ed4-4d50-a989-04b32399db34, TimeStamp: 2025-10-21</em>19:16:21 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=8e98e336-47ec-48b5-b5d8-8d5f0f442da7 GraphRequestId=8e98e336-47ec-48b5-b5d8-8d5f0f442da7 | Tool Error: CorrelationId: 8e98e336-47ec-48b5-b5d8-8d5f0f442da7, TimeStamp: 2025-10-21</em>19:16:22</li>
+</ul>
+
+<p><strong>40. <code>test_case_045</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>title</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with a person by their executive title</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>993ee72f-b6e8-4121-9327-0fee919f9ee3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>41. <code>test_case_046</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>title</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a person by their security title</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>97703033-a969-4e31-be25-9a6af3804b27</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24top=10&amp;%24select=id%2CdisplayName%2Cmail%2CjobTitle%2CuserPrincipalName&amp;%24filter=contains%28jobTitle%2C%27Deputy%20CISO%27%29. Status=400 (Bad Request). CorrelationId=97703033-a969-4e31-be25-9a6af3804b27 GraphRequestId=97703033-a969-4e31-be25-9a6af3804b27 | Tool Error: CorrelationId: 97703033-a969-4e31-be25-9a6af3804b27, TimeStamp: 2025-10-21_19:16:20</li>
+</ul>
+
+<p><strong>42. <code>test_case_047</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with all team members of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>49d483ea-58e0-46f9-aae0-1b69c74ea080</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getDirectReports': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar/directReports?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=49d483ea-58e0-46f9-aae0-1b69c74ea080 GraphRequestId=49d483ea-58e0-46f9-aae0-1b69c74ea080 | Tool Error: CorrelationId: 49d483ea-58e0-46f9-aae0-1b69c74ea080, TimeStamp: 2025-10-21_19:16:20</li>
+</ul>
+
+<p><strong>43. <code>test_case_048</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate conversations with all members of a specific person's team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d5a141cd-73fc-4279-afb9-f9d1662c3c36</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=5bea4f7b-e82b-4704-abf2-1f736be63816 GraphRequestId=5bea4f7b-e82b-4704-abf2-1f736be63816 | Tool Error: CorrelationId: 5bea4f7b-e82b-4704-abf2-1f736be63816, TimeStamp: 2025-10-21</em>19:16:27 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=83c90e40-3c63-4197-893a-75c21a42fa52 GraphRequestId=83c90e40-3c63-4197-893a-75c21a42fa52 | Tool Error: CorrelationId: 83c90e40-3c63-4197-893a-75c21a42fa52, TimeStamp: 2025-10-21</em>19:16:27 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f634340b-cebe-457c-8718-63618568d783 GraphRequestId=f634340b-cebe-457c-8718-63618568d783 | Tool Error: CorrelationId: f634340b-cebe-457c-8718-63618568d783, TimeStamp: 2025-10-21</em>19:16:27 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7036f714-4c4d-4768-9768-4b3da61fd027 GraphRequestId=7036f714-4c4d-4768-9768-4b3da61fd027 | Tool Error: CorrelationId: 7036f714-4c4d-4768-9768-4b3da61fd027, TimeStamp: 2025-10-21</em>19:16:28</li>
+</ul>
+
+<p><strong>44. <code>test_case_050</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with all team members of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>20bf1b4f-8308-483e-b108-8bec935354cb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=87fe962a-6867-4244-b4e5-c2728691f2eb GraphRequestId=87fe962a-6867-4244-b4e5-c2728691f2eb | Tool Error: CorrelationId: 87fe962a-6867-4244-b4e5-c2728691f2eb, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=83f2e479-ad1d-4644-85b3-b94ea421faf6 GraphRequestId=83f2e479-ad1d-4644-85b3-b94ea421faf6 | Tool Error: CorrelationId: 83f2e479-ad1d-4644-85b3-b94ea421faf6, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=2736cf05-34c5-4524-b93c-49295b1eb169 GraphRequestId=2736cf05-34c5-4524-b93c-49295b1eb169 | Tool Error: CorrelationId: 2736cf05-34c5-4524-b93c-49295b1eb169, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=354e1aff-799d-47a5-89bd-f1293ee121a1 GraphRequestId=354e1aff-799d-47a5-89bd-f1293ee121a1 | Tool Error: CorrelationId: 354e1aff-799d-47a5-89bd-f1293ee121a1, TimeStamp: 2025-10-21</em>19:16:32 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=8aa9dc65-10c0-4f41-a0b0-b768306c172c GraphRequestId=8aa9dc65-10c0-4f41-a0b0-b768306c172c | Tool Error: CorrelationId: 8aa9dc65-10c0-4f41-a0b0-b768306c172c, TimeStamp: 2025-10-21</em>19:16:32</li>
+</ul>
+
+<p><strong>45. <code>test_case_050</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with all team members of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3247837a-5b0b-47d6-9bd6-43b3ddc1b418</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=46aa13a8-feff-4e29-94ab-bfd47e8b18ea GraphRequestId=46aa13a8-feff-4e29-94ab-bfd47e8b18ea | Tool Error: CorrelationId: 46aa13a8-feff-4e29-94ab-bfd47e8b18ea, TimeStamp: 2025-10-21</em>19:16:30 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=75957140-d9b9-4858-ae44-3edb09d2a5bc GraphRequestId=75957140-d9b9-4858-ae44-3edb09d2a5bc | Tool Error: CorrelationId: 75957140-d9b9-4858-ae44-3edb09d2a5bc, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b4b3bbe6-2e7b-4c06-8b73-2947d5fb94c7 GraphRequestId=b4b3bbe6-2e7b-4c06-8b73-2947d5fb94c7 | Tool Error: CorrelationId: b4b3bbe6-2e7b-4c06-8b73-2947d5fb94c7, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f58b850d-d63d-401b-b82a-2fc52ebb45e5 GraphRequestId=f58b850d-d63d-401b-b82a-2fc52ebb45e5 | Tool Error: CorrelationId: f58b850d-d63d-401b-b82a-2fc52ebb45e5, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6a51db4d-5786-4d58-ac82-9c12ff3c4c80 GraphRequestId=6a51db4d-5786-4d58-ac82-9c12ff3c4c80 | Tool Error: CorrelationId: 6a51db4d-5786-4d58-ac82-9c12ff3c4c80, TimeStamp: 2025-10-21</em>19:16:32</li>
+</ul>
+
+<p><strong>46. <code>test_case_051</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate 1-on-1 conversations with all team members of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0dd23538-b2e1-422f-8a87-160b5f0fe96e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Gio. Status=404 (Not Found). CorrelationId=0dd23538-b2e1-422f-8a87-160b5f0fe96e GraphRequestId=0dd23538-b2e1-422f-8a87-160b5f0fe96e | Tool Error: CorrelationId: 0dd23538-b2e1-422f-8a87-160b5f0fe96e, TimeStamp: 2025-10-21</em>19:16:24</li>
+</ul>
+
+<p><strong>47. <code>test_case_052</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with all team members of a specific person about a topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6afdc75c-d3ec-4f91-b270-46f9b0ed1133</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getDirectReports': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Ramya/directReports?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=6afdc75c-d3ec-4f91-b270-46f9b0ed1133 GraphRequestId=6afdc75c-d3ec-4f91-b270-46f9b0ed1133 | Tool Error: CorrelationId: 6afdc75c-d3ec-4f91-b270-46f9b0ed1133, TimeStamp: 2025-10-21_19:16:27</li>
+</ul>
+
+<p><strong>48. <code>test_case_053</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all members of a specific person's team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>teams<em>listTeams, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>teams_listTeams✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>338aeb9b-51fc-4e0c-a642-43e5da2d93b3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/57dabc1c-fb45-4fef-8c75-a9c2f7afb776/joinedTeams. Status=403 (Forbidden). CorrelationId=282ca3b5-484f-4466-a9ba-af5953b14886 GraphRequestId=282ca3b5-484f-4466-a9ba-af5953b14886 | Tool Error: CorrelationId: 282ca3b5-484f-4466-a9ba-af5953b14886, TimeStamp: 2025-10-21</em>19:16:27</li>
+</ul>
+
+<p><strong>49. <code>test_case_054</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with all members of a specific person's team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>teams<em>listTeams, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>teams_listTeams✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d0c5b0d2-807e-4dcb-ab90-e654d14dbad7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/a01c0b15-2dbd-41bb-ae0f-b2cfbbf7844c/joinedTeams. Status=403 (Forbidden). CorrelationId=7ea354aa-c8c7-4125-8fa8-f9663eefc7d6 GraphRequestId=7ea354aa-c8c7-4125-8fa8-f9663eefc7d6 | Tool Error: CorrelationId: 7ea354aa-c8c7-4125-8fa8-f9663eefc7d6, TimeStamp: 2025-10-21</em>19:16:29</li>
+</ul>
+
+<p><strong>50. <code>test_case_055</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a message/chat with all members of a specific person's team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>MailTools</em>graph<em>mail</em>createMessage, mcp<em>graph</em>teams<em>listTeams, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>teams</em>listTeams✅, graph<em>getDirectReports✅, Mailmail</em>createMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ff2f1737-8c92-4e2f-b74d-fab515eb3da4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/sabin.nair%40a365testtenant.onmicrosoft.com/joinedTeams. Status=403 (Forbidden). CorrelationId=afda3b40-5afb-4c88-bc53-cf98418218af GraphRequestId=afda3b40-5afb-4c88-bc53-cf98418218af | Tool Error: CorrelationId: afda3b40-5afb-4c88-bc53-cf98418218af, TimeStamp: 2025-10-21</em>19:16:30</li>
+</ul>
+
+<p><strong>51. <code>test_case_056</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all team members of multiple people sharing the same name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>teams<em>listTeams, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>teams<em>listTeams✅, graph</em>teams<em>listTeams✅, graph</em>teams_listTeams✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>202b5179-ee62-45dc-8a91-95d5ae645312</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/a526ad1b-ca2d-4d98-b26f-82bbed13da5d/joinedTeams. Status=403 (Forbidden). CorrelationId=0c7d6d7a-ed87-405a-9c24-198296f93a02 GraphRequestId=0c7d6d7a-ed87-405a-9c24-198296f93a02 | Tool Error: CorrelationId: 0c7d6d7a-ed87-405a-9c24-198296f93a02, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/b6221f56-4881-444c-8a83-ed9cd24c40ed/joinedTeams. Status=403 (Forbidden). CorrelationId=ecadc361-1342-4bbd-a9fb-b8263a624a4b GraphRequestId=ecadc361-1342-4bbd-a9fb-b8263a624a4b | Tool Error: CorrelationId: ecadc361-1342-4bbd-a9fb-b8263a624a4b, TimeStamp: 2025-10-21</em>19:16:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>teams<em>listTeams': Failed to call graph API at https://graph.microsoft.com/v1.0/users/e6bdd9a6-581b-4906-94dd-8fba55dd0a3f/joinedTeams. Status=403 (Forbidden). CorrelationId=18e64f37-341f-4900-83a4-1913ff2627be GraphRequestId=18e64f37-341f-4900-83a4-1913ff2627be | Tool Error: CorrelationId: 18e64f37-341f-4900-83a4-1913ff2627be, TimeStamp: 2025-10-21</em>19:16:31</li>
+</ul>
+
+<p><strong>52. <code>test_case_058</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with a specific person's leadership team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>32688c5e-07a3-42a3-bdea-4d1b8f5360ca</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=54c76c98-1be1-494e-92e1-fd5a507bcc4f GraphRequestId=54c76c98-1be1-494e-92e1-fd5a507bcc4f | Tool Error: CorrelationId: 54c76c98-1be1-494e-92e1-fd5a507bcc4f, TimeStamp: 2025-10-21</em>19:16:40</li>
+</ul>
+
+<p><strong>53. <code>test_case_059</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone from a specific team based on their expertise</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>getUserProfile, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>be50b2b3-fdd8-4b59-9455-4c3b45029e94</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22skills%3ACORS%20OR%20backend%20OR%20jobTitle%3Abackend%22&amp;%24top=10&amp;%24select=id%2CdisplayName%2Cmail%2CjobTitle%2Cskills%2CuserPrincipalName. Status=400 (Bad Request). CorrelationId=8693a727-ee26-4442-b17f-513d3ce681cf GraphRequestId=8693a727-ee26-4442-b17f-513d3ce681cf | Tool Error: CorrelationId: 8693a727-ee26-4442-b17f-513d3ce681cf, TimeStamp: 2025-10-21<em>19:16:49 | Tool Error: Graph API call failed for tool 'mcp</em>graph<em>chat</em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=1ffffbb8-faa3-4185-a535-9818771fed35 GraphRequestId=1ffffbb8-faa3-4185-a535-9818771fed35 | Tool Error: CorrelationId: 1ffffbb8-faa3-4185-a535-9818771fed35, TimeStamp: 2025-10-21_19:16:51</li>
+</ul>
+
+<p><strong>54. <code>test_case_060</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>title</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with any person at a specific level</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b83c417f-eb86-47b7-b078-926deff405ee</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>55. <code>test_case_061</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone at a specific level from a specific team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>MailTools</em>graph<em>mail</em>createMessage, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>getDirectReports✅, Mailmail</em>createMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d04aa04b-e258-4093-abcb-fc1c91fe26de</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>56. <code>test_case_062</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with whoever has a specific role or duty today</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>CalendarTools<em>graph</em>listEvents reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistEvents✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d68a38d6-dd55-4f0b-b703-f2cb54379ebb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f9007168-d560-4164-83ce-7c99ea8abf53 GraphRequestId=f9007168-d560-4164-83ce-7c99ea8abf53 | Tool Error: CorrelationId: f9007168-d560-4164-83ce-7c99ea8abf53, TimeStamp: 2025-10-21</em>19:16:43</li>
+</ul>
+
+<p><strong>57. <code>test_case_063</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a specific person based on their expertise</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e6dab7c6-fb64-460c-b2ef-73284a19c6f3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7ddd1441-c302-4ee8-82b0-24501b39c629 GraphRequestId=7ddd1441-c302-4ee8-82b0-24501b39c629 | Tool Error: CorrelationId: 7ddd1441-c302-4ee8-82b0-24501b39c629, TimeStamp: 2025-10-21</em>19:16:41</li>
+</ul>
+
+<p><strong>58. <code>test_case_065</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_project</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate chats with leads from multiple disciplines for a specific project</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ccfd53c4-d7be-4159-a4df-41d8bf1be5df</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>59. <code>test_case_066</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate conversations with representatives from multiple disciplines</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>41fe66f9-1feb-4f15-8369-256df7d2a700</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=41fe66f9-1feb-4f15-8369-256df7d2a700 GraphRequestId=41fe66f9-1feb-4f15-8369-256df7d2a700 | Tool Error: CorrelationId: 41fe66f9-1feb-4f15-8369-256df7d2a700, TimeStamp: 2025-10-21</em>19:16:41 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b4db2191-ba6d-4492-b17a-4f0ef4c7ac09 GraphRequestId=b4db2191-ba6d-4492-b17a-4f0ef4c7ac09 | Tool Error: CorrelationId: b4db2191-ba6d-4492-b17a-4f0ef4c7ac09, TimeStamp: 2025-10-21</em>19:16:42</li>
+</ul>
+
+<p><strong>60. <code>test_case_067</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate chats with multiple specific people</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c33b697f-1ae8-466f-a9b7-ad0e2d725a81</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6563f68b-1701-448e-9851-744f799c8d2f GraphRequestId=6563f68b-1701-448e-9851-744f799c8d2f | Tool Error: CorrelationId: 6563f68b-1701-448e-9851-744f799c8d2f, TimeStamp: 2025-10-21</em>19:16:44 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=672f451f-12ea-49a3-8284-9297fe10cea6 GraphRequestId=672f451f-12ea-49a3-8284-9297fe10cea6 | Tool Error: CorrelationId: 672f451f-12ea-49a3-8284-9297fe10cea6, TimeStamp: 2025-10-21</em>19:16:44</li>
+</ul>
+
+<p><strong>61. <code>test_case_068</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate chats with stakeholders from different disciplines</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7791deea-8b59-4f30-afff-6697d5086157</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>62. <code>test_case_069</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate individual conversations with specific people about a topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0117793e-4555-474d-8cef-e060c8852d79</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=0251af28-9f8f-44b1-9a92-b003cbed4dfc GraphRequestId=0251af28-9f8f-44b1-9a92-b003cbed4dfc | Tool Error: CorrelationId: 0251af28-9f8f-44b1-9a92-b003cbed4dfc, TimeStamp: 2025-10-21</em>19:16:51 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6fded22b-a061-47a3-aea9-c6a6847a8362 GraphRequestId=6fded22b-a061-47a3-aea9-c6a6847a8362 | Tool Error: CorrelationId: 6fded22b-a061-47a3-aea9-c6a6847a8362, TimeStamp: 2025-10-21</em>19:16:51</li>
+</ul>
+
+<p><strong>63. <code>test_case_070</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create separate sequential chats with specific people</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9e2fd103-079c-4e2a-8fa6-8100490c8180</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=dfb7538a-6dc5-4687-a379-eecceea2ccff GraphRequestId=dfb7538a-6dc5-4687-a379-eecceea2ccff | Tool Error: CorrelationId: dfb7538a-6dc5-4687-a379-eecceea2ccff, TimeStamp: 2025-10-21</em>19:16:49 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=bcdb8a7a-e612-419c-a38b-4481a6d458da GraphRequestId=bcdb8a7a-e612-419c-a38b-4481a6d458da | Tool Error: CorrelationId: bcdb8a7a-e612-419c-a38b-4481a6d458da, TimeStamp: 2025-10-21</em>19:16:49</li>
+</ul>
+
+<p><strong>64. <code>test_case_072</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>scheduled</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat scheduled for a specific time with a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c96fc4d5-e972-4474-a4dd-0a5e8ddb9a2a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=0db12f82-861a-478e-a742-d35bc49eece4 GraphRequestId=0db12f82-861a-478e-a742-d35bc49eece4 | Tool Error: CorrelationId: 0db12f82-861a-478e-a742-d35bc49eece4, TimeStamp: 2025-10-21</em>19:16:51 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=9fce6cf2-e9a5-41c2-bba2-4c6761799243 GraphRequestId=9fce6cf2-e9a5-41c2-bba2-4c6761799243 | Tool Error: CorrelationId: 9fce6cf2-e9a5-41c2-bba2-4c6761799243, TimeStamp: 2025-10-21</em>19:16:51</li>
+</ul>
+
+<p><strong>65. <code>test_case_073</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>scheduled</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation scheduled after a specific event completes</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>07ffeeb2-4717-48e1-8236-fd5161e7601e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6b7265a6-d9ea-488a-8fce-d0dcb465f53b GraphRequestId=6b7265a6-d9ea-488a-8fce-d0dcb465f53b | Tool Error: CorrelationId: 6b7265a6-d9ea-488a-8fce-d0dcb465f53b, TimeStamp: 2025-10-21</em>19:16:50</li>
+</ul>
+
+<p><strong>66. <code>test_case_077</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>scheduled</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat scheduled for a specific day with a specific purpose</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3b5d00f7-ec9e-4b21-b524-00960989278a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=cd0c972a-0a0c-420c-b1c1-a68296acc905 GraphRequestId=cd0c972a-0a0c-420c-b1c1-a68296acc905 | Tool Error: CorrelationId: cd0c972a-0a0c-420c-b1c1-a68296acc905, TimeStamp: 2025-10-21</em>19:16:54</li>
+</ul>
+
+<p><strong>67. <code>test_case_078</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with conditional follow-up chat based on response</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>adaad07f-101e-4ce2-9dd4-959f1b4104ac</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4a639ec1-2262-4182-82c2-7565e92ee188 GraphRequestId=4a639ec1-2262-4182-82c2-7565e92ee188 | Tool Error: CorrelationId: 4a639ec1-2262-4182-82c2-7565e92ee188, TimeStamp: 2025-10-21</em>19:16:55</li>
+</ul>
+
+<p><strong>68. <code>test_case_079</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with conditional escalation to another person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9e69e388-78ad-4fdd-ab17-0148c7c7c3d2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b4563746-643e-423b-bd27-d1f094fcfc99 GraphRequestId=b4563746-643e-423b-bd27-d1f094fcfc99 | Tool Error: CorrelationId: b4563746-643e-423b-bd27-d1f094fcfc99, TimeStamp: 2025-10-21</em>19:16:55</li>
+</ul>
+
+<p><strong>69. <code>test_case_080</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with conditional escalation to manager</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat<em>createChat✅, graph</em>getUsersManager✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0745c4b9-531d-4b83-9c43-2507aa3c9582</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7ec7a7bc-0a20-41ad-9a12-1fcbe8c5ab3d GraphRequestId=7ec7a7bc-0a20-41ad-9a12-1fcbe8c5ab3d | Tool Error: CorrelationId: 7ec7a7bc-0a20-41ad-9a12-1fcbe8c5ab3d, TimeStamp: 2025-10-21</em>19:16:58 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=8bc5b4d3-d645-4415-b586-160aa43da4a2 GraphRequestId=8bc5b4d3-d645-4415-b586-160aa43da4a2 | Tool Error: CorrelationId: 8bc5b4d3-d645-4415-b586-160aa43da4a2, TimeStamp: 2025-10-21</em>19:17:02</li>
+</ul>
+
+<p><strong>70. <code>test_case_081</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with conditional fallback to another person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>listChats, mcp</em>graph<em>chat</em>createChat, mcp<em>graph</em>listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat<em>listChats✅, graph</em>chat<em>createChat✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cf2909c5-7253-4672-847c-5ec3c6690d42</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>listChats': Failed to call graph API at https://graph.microsoft.com/v1.0/chats?%24top=20. Status=403 (Forbidden). CorrelationId=c12baa90-dc84-4ea9-aab1-08b51a463470 GraphRequestId=c12baa90-dc84-4ea9-aab1-08b51a463470 | Tool Error: CorrelationId: c12baa90-dc84-4ea9-aab1-08b51a463470, TimeStamp: 2025-10-21</em>19:16:57 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=9b29f974-aeac-4363-b059-b54f8062a9d3 GraphRequestId=9b29f974-aeac-4363-b059-b54f8062a9d3 | Tool Error: CorrelationId: 9b29f974-aeac-4363-b059-b54f8062a9d3, TimeStamp: 2025-10-21</em>19:16:59 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=924ad680-9bd8-4cf5-975b-5f68854d078b GraphRequestId=924ad680-9bd8-4cf5-975b-5f68854d078b | Tool Error: CorrelationId: 924ad680-9bd8-4cf5-975b-5f68854d078b, TimeStamp: 2025-10-21</em>19:17:03</li>
+</ul>
+
+<p><strong>71. <code>test_case_082</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_parallel</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create multiple simultaneous conversations with people at a specific level</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>be577dcb-6002-46d3-baac-42fa320be83d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>72. <code>test_case_083</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_parallel</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create concurrent chats with specific people</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>041a79e4-de38-406b-9e8d-fa95138e7888</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=2d78f6c4-293a-4d9d-ab41-00977bacb48d GraphRequestId=2d78f6c4-293a-4d9d-ab41-00977bacb48d | Tool Error: CorrelationId: 2d78f6c4-293a-4d9d-ab41-00977bacb48d, TimeStamp: 2025-10-21</em>19:17:01 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d6ca358b-4dc9-4d45-9d52-c7f770619def GraphRequestId=d6ca358b-4dc9-4d45-9d52-c7f770619def | Tool Error: CorrelationId: d6ca358b-4dc9-4d45-9d52-c7f770619def, TimeStamp: 2025-10-21</em>19:17:01</li>
+</ul>
+
+<p><strong>73. <code>test_case_086</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with planned follow-up chats based on suggestions</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d94d114e-4bb8-4538-aa96-dc8122d1ebd6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=bd0b2c16-4a0b-456f-b99e-d45c5223710c GraphRequestId=bd0b2c16-4a0b-456f-b99e-d45c5223710c | Tool Error: CorrelationId: bd0b2c16-4a0b-456f-b99e-d45c5223710c, TimeStamp: 2025-10-21</em>19:17:02</li>
+</ul>
+
+<p><strong>74. <code>test_case_087</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with planned follow-up chats based on delegation</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>73caf2c9-0b01-4d63-9816-a6cd99a24826</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>75. <code>test_case_088</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with planned follow-up chats with VPs based on guidance</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>postMessage, mcp</em>graph<em>getDirectReports, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>postMessage✅, graph<em>chat</em>postMessage✅, graph<em>chat</em>postMessage✅, graph<em>chat</em>postMessage✅, graph<em>chat</em>postMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>eb7f096a-c578-4a0d-b124-977b95210095</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/b56a5201-4116-4f6c-87c0-ef371608b8aa/messages. Status=403 (Forbidden). CorrelationId=3e95b88e-4d91-4aaa-ad10-cd8f6237d37e GraphRequestId=3e95b88e-4d91-4aaa-ad10-cd8f6237d37e | Tool Error: CorrelationId: 3e95b88e-4d91-4aaa-ad10-cd8f6237d37e, TimeStamp: 2025-10-21</em>19:17:06 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/b3e1c230-667c-495c-a44c-ee26fb794370/messages. Status=403 (Forbidden). CorrelationId=7dbdc43c-433e-4b96-ae8a-b91f15e04301 GraphRequestId=7dbdc43c-433e-4b96-ae8a-b91f15e04301 | Tool Error: CorrelationId: 7dbdc43c-433e-4b96-ae8a-b91f15e04301, TimeStamp: 2025-10-21</em>19:17:07 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/a7ccd455-5161-4b4a-9f74-1c51caa3ea90/messages. Status=403 (Forbidden). CorrelationId=8727dd36-86d8-47c7-94b2-c565839161b7 GraphRequestId=8727dd36-86d8-47c7-94b2-c565839161b7 | Tool Error: CorrelationId: 8727dd36-86d8-47c7-94b2-c565839161b7, TimeStamp: 2025-10-21</em>19:17:07 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/854769c0-cdd0-4ac7-9a16-15bf0969c53d/messages. Status=403 (Forbidden). CorrelationId=b83b9f7a-36f7-4ebc-9b8d-02959dcb70c9 GraphRequestId=b83b9f7a-36f7-4ebc-9b8d-02959dcb70c9 | Tool Error: CorrelationId: b83b9f7a-36f7-4ebc-9b8d-02959dcb70c9, TimeStamp: 2025-10-21</em>19:17:08 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/09614ddb-42eb-4e11-a188-a2bb5b5ff9bb/messages. Status=403 (Forbidden). CorrelationId=1d448882-8729-4749-960f-9c4148956819 GraphRequestId=1d448882-8729-4749-960f-9c4148956819 | Tool Error: CorrelationId: 1d448882-8729-4749-960f-9c4148956819, TimeStamp: 2025-10-21</em>19:17:08</li>
+</ul>
+
+<p><strong>76. <code>test_case_089</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with planned follow-up connections based on recommendations</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3f4d5359-6e4a-40d3-9954-61103bbffa1f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>77. <code>test_case_090</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>conditional</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with planned engagement with stakeholders based on identification</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>af51c861-60ba-4ee6-b758-85f5200d6bc9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=3ca3964c-f79a-4257-bb0f-b37966dd77f3 GraphRequestId=3ca3964c-f79a-4257-bb0f-b37966dd77f3 | Tool Error: CorrelationId: 3ca3964c-f79a-4257-bb0f-b37966dd77f3, TimeStamp: 2025-10-21</em>19:17:04</li>
+</ul>
+
+<p><strong>78. <code>test_case_092</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>fallback</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with primary contact or designated backup</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3016669b-b2bb-4fa1-838c-60a5f9b57e73</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=143371d2-e60c-4678-8b85-05528402ae7c GraphRequestId=143371d2-e60c-4678-8b85-05528402ae7c | Tool Error: CorrelationId: 143371d2-e60c-4678-8b85-05528402ae7c, TimeStamp: 2025-10-21</em>19:17:09</li>
+</ul>
+
+<p><strong>79. <code>test_case_093</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>fallback</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with preferred person or alternative</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>95987386-b59d-4fea-90c4-576cced654b0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=dcd282cd-c4d9-43e5-a41e-873dab35b914 GraphRequestId=dcd282cd-c4d9-43e5-a41e-873dab35b914 | Tool Error: CorrelationId: dcd282cd-c4d9-43e5-a41e-873dab35b914, TimeStamp: 2025-10-21</em>19:17:11</li>
+</ul>
+
+<p><strong>80. <code>test_case_094</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>fallback</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with first choice or second choice person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>42e0d78f-ae6a-49b2-aed0-65ac00bc20c2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>81. <code>test_case_095</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>fallback</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with person or specified substitute</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9a2fe2a7-0330-404e-aa8c-b92ba0845f82</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=07f78f3c-7944-4802-9388-c4023b34b152 GraphRequestId=07f78f3c-7944-4802-9388-c4023b34b152 | Tool Error: CorrelationId: 07f78f3c-7944-4802-9388-c4023b34b152, TimeStamp: 2025-10-21</em>19:17:11</li>
+</ul>
+
+<p><strong>82. <code>test_case_096</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>fallback</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with person or their coverage while out</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>getDirectReports✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>dd17a45a-b849-4913-9ce5-3eb1577b973e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=3a68cdae-4f3c-435b-80d6-0cc2afd8d9f8 GraphRequestId=3a68cdae-4f3c-435b-80d6-0cc2afd8d9f8 | Tool Error: CorrelationId: 3a68cdae-4f3c-435b-80d6-0cc2afd8d9f8, TimeStamp: 2025-10-21</em>19:17:14</li>
+</ul>
+
+<p><strong>83. <code>test_case_097</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>counterpart</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a person's cross-functional counterpart</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>getDirectReports, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>getDirectReports✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c8869ff8-3ce7-4080-a75a-dbdf343ba792</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=a4b591e1-435c-415c-aed3-85121b11d1f0 GraphRequestId=a4b591e1-435c-415c-aed3-85121b11d1f0 | Tool Error: CorrelationId: a4b591e1-435c-415c-aed3-85121b11d1f0, TimeStamp: 2025-10-21</em>19:17:14</li>
+</ul>
+
+<p><strong>84. <code>test_case_098</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>counterpart</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with the PM partner of an engineering team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>aa19a85c-c994-472c-b906-53c2633d0ded</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b56f298e-5d53-47f0-8385-60029f21de6e GraphRequestId=b56f298e-5d53-47f0-8385-60029f21de6e | Tool Error: CorrelationId: b56f298e-5d53-47f0-8385-60029f21de6e, TimeStamp: 2025-10-21</em>19:17:17</li>
+</ul>
+
+<p><strong>85. <code>test_case_099</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>counterpart</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with a cross-functional partner for specific initiatives</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bb08ec26-38c7-40b4-8551-2985ce40090a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=9bbf2e19-50e4-48e1-aecf-c19680328cd1 GraphRequestId=9bbf2e19-50e4-48e1-aecf-c19680328cd1 | Tool Error: CorrelationId: 9bbf2e19-50e4-48e1-aecf-c19680328cd1, TimeStamp: 2025-10-21</em>19:17:16</li>
+</ul>
+
+<p><strong>86. <code>test_case_100</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>counterpart</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with sales counterpart for a product area</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>getUsersManager✅, graph</em>chat<em>createChat✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>588ae136-2d9c-423c-83b4-1617ca09f53c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=167bbdba-61c0-4d20-a513-1a7c07c50cb7 GraphRequestId=167bbdba-61c0-4d20-a513-1a7c07c50cb7 | Tool Error: CorrelationId: 167bbdba-61c0-4d20-a513-1a7c07c50cb7, TimeStamp: 2025-10-21</em>19:17:19 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=379051c0-2c39-4bc1-966f-2386096aa6e2 GraphRequestId=379051c0-2c39-4bc1-966f-2386096aa6e2 | Tool Error: CorrelationId: 379051c0-2c39-4bc1-966f-2386096aa6e2, TimeStamp: 2025-10-21</em>19:17:19</li>
+</ul>
+
+<p><strong>87. <code>test_case_102</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with all people in a direct reporting line</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>647978f4-85b3-4b3f-b6da-1d424fb20199</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=e464df4d-c48a-4394-b673-0739de89d883 GraphRequestId=e464df4d-c48a-4394-b673-0739de89d883 | Tool Error: CorrelationId: e464df4d-c48a-4394-b673-0739de89d883, TimeStamp: 2025-10-21</em>19:17:21</li>
+</ul>
+
+<p><strong>88. <code>test_case_103</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create conversations with all skip-level reports of a specific person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>getDirectReports✅, graph</em>getDirectReports✅, graph<em>getDirectReports✅, graph</em>getDirectReports✅, graph<em>getDirectReports✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat<em>createChat✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0b582773-b78b-4eed-8df7-8b445e2b9d52</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=abcba4e4-01fe-4341-9210-d0490f938228 GraphRequestId=abcba4e4-01fe-4341-9210-d0490f938228 | Tool Error: CorrelationId: abcba4e4-01fe-4341-9210-d0490f938228, TimeStamp: 2025-10-21</em>19:17:30 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7d16f1eb-92e8-442a-90cd-fa0205015dcb GraphRequestId=7d16f1eb-92e8-442a-90cd-fa0205015dcb | Tool Error: CorrelationId: 7d16f1eb-92e8-442a-90cd-fa0205015dcb, TimeStamp: 2025-10-21</em>19:17:30 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6d65b510-1016-4cdb-b85d-ea3c64c4a99b GraphRequestId=6d65b510-1016-4cdb-b85d-ea3c64c4a99b | Tool Error: CorrelationId: 6d65b510-1016-4cdb-b85d-ea3c64c4a99b, TimeStamp: 2025-10-21</em>19:17:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d86b66b5-e021-44cd-8112-064e589d1509 GraphRequestId=d86b66b5-e021-44cd-8112-064e589d1509 | Tool Error: CorrelationId: d86b66b5-e021-44cd-8112-064e589d1509, TimeStamp: 2025-10-21</em>19:17:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f78714b5-7277-45f3-8f4a-fbb043c520e2 GraphRequestId=f78714b5-7277-45f3-8f4a-fbb043c520e2 | Tool Error: CorrelationId: f78714b5-7277-45f3-8f4a-fbb043c520e2, TimeStamp: 2025-10-21</em>19:17:31 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b9b37a46-70e3-4cb4-863b-22ab1d0337a5 GraphRequestId=b9b37a46-70e3-4cb4-863b-22ab1d0337a5 | Tool Error: CorrelationId: b9b37a46-70e3-4cb4-863b-22ab1d0337a5, TimeStamp: 2025-10-21</em>19:17:32 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=1858c2ff-bcac-4f59-992d-bb7ee62be96e GraphRequestId=1858c2ff-bcac-4f59-992d-bb7ee62be96e | Tool Error: CorrelationId: 1858c2ff-bcac-4f59-992d-bb7ee62be96e, TimeStamp: 2025-10-21</em>19:17:32 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=539c799c-8bea-47e3-9a1b-5afada550af4 GraphRequestId=539c799c-8bea-47e3-9a1b-5afada550af4 | Tool Error: CorrelationId: 539c799c-8bea-47e3-9a1b-5afada550af4, TimeStamp: 2025-10-21</em>19:17:32 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6098be61-78d7-41ad-9688-a27a66bbe7fd GraphRequestId=6098be61-78d7-41ad-9688-a27a66bbe7fd | Tool Error: CorrelationId: 6098be61-78d7-41ad-9688-a27a66bbe7fd, TimeStamp: 2025-10-21</em>19:17:33</li>
+</ul>
+
+<p><strong>89. <code>test_case_105</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chats with all people in the user's management chain up to a specific level</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getMyProfile, mcp<em>graph</em>getMyManager reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getMyProfile✅, graph</em>getMyManager✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4d78b58e-5a1f-4c21-a4bc-e00a61399414</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getMyManager': Failed to call graph API at https://graph.microsoft.com/v1.0/me/manager?%24select=id%2CdisplayName%2Cmail%2CjobTitle%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=91e14e8f-47d7-44d9-b0e0-caba2d377fce GraphRequestId=91e14e8f-47d7-44d9-b0e0-caba2d377fce | Tool Error: CorrelationId: 91e14e8f-47d7-44d9-b0e0-caba2d377fce, TimeStamp: 2025-10-21_19:17:19</li>
+</ul>
+
+<p><strong>90. <code>test_case_106</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create conversations with all reports of a team</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7c8d01aa-15c3-451a-ad97-c6dac2e73c70</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=2bd59c99-de35-49a0-a963-aaaf52d66bc9 GraphRequestId=2bd59c99-de35-49a0-a963-aaaf52d66bc9 | Tool Error: CorrelationId: 2bd59c99-de35-49a0-a963-aaaf52d66bc9, TimeStamp: 2025-10-21</em>19:17:26 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d438220b-feee-4295-b717-10dcde8462e3 GraphRequestId=d438220b-feee-4295-b717-10dcde8462e3 | Tool Error: CorrelationId: d438220b-feee-4295-b717-10dcde8462e3, TimeStamp: 2025-10-21</em>19:17:26</li>
+</ul>
+
+<p><strong>91. <code>test_case_110</code></strong>- <strong>Category:</strong>
+**create<em>multiple</em>chats_project</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create individual chats with all executive sponsors</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>78a10c9e-0e2c-4b03-82a7-4b19b45359eb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>92. <code>test_case_111</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with an assigned mentor</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getMyProfile, mcp<em>graph</em>getMyManager reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getMyProfile✅, graph</em>getMyManager✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4fe28ade-dc28-4a67-9eb2-a3a6eb3ad828</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getMyManager': Failed to call graph API at https://graph.microsoft.com/v1.0/me/manager?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=27dccd65-d379-4551-8f2d-fff9b51bbe30 GraphRequestId=27dccd65-d379-4551-8f2d-fff9b51bbe30 | Tool Error: CorrelationId: 27dccd65-d379-4551-8f2d-fff9b51bbe30, TimeStamp: 2025-10-21_19:17:27</li>
+</ul>
+
+<p><strong>93. <code>test_case_112</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with mentees the user is supporting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>eda1282e-5bfc-4717-acf4-e0f04ee07162</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=cf740426-7ec6-4cb9-8459-40b7c6a43089 GraphRequestId=cf740426-7ec6-4cb9-8459-40b7c6a43089 | Tool Error: CorrelationId: cf740426-7ec6-4cb9-8459-40b7c6a43089, TimeStamp: 2025-10-21</em>19:17:29</li>
+</ul>
+
+<p><strong>94. <code>test_case_113</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone's onboarding buddy</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>88640f0e-6208-401f-a752-8a85db811415</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>95. <code>test_case_114</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with an experienced person who can guide a new hire</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2a331ea6-28f3-45e8-a952-d1e1dcaf2d0e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=e42d0949-ac34-44e4-934a-52ffe2297710 GraphRequestId=e42d0949-ac34-44e4-934a-52ffe2297710 | Tool Error: CorrelationId: e42d0949-ac34-44e4-934a-52ffe2297710, TimeStamp: 2025-10-21</em>19:17:32</li>
+</ul>
+
+<p><strong>96. <code>test_case_116</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone who handles a specific type of issue</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9f6e8a75-859f-4e44-946c-57c13a1a7554</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d2b99e11-4f2a-4f6a-a1eb-5aa2e4c4dada GraphRequestId=d2b99e11-4f2a-4f6a-a1eb-5aa2e4c4dada | Tool Error: CorrelationId: d2b99e11-4f2a-4f6a-a1eb-5aa2e4c4dada, TimeStamp: 2025-10-21</em>19:17:30</li>
+</ul>
+
+<p><strong>97. <code>test_case_117</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with the right person for a specific domain</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>212468b0-1090-429f-866c-55c02fed7837</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>98. <code>test_case_118</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone who has specific approval authority</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>listChats, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_listChats✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ed5547cf-f98a-4ce0-a887-1d1df7ef566e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>listChats': Failed to call graph API at https://graph.microsoft.com/v1.0/chats?%24top=20. Status=403 (Forbidden). CorrelationId=2695c2ff-92c3-4e95-bf38-ca4eb04b0d2a GraphRequestId=2695c2ff-92c3-4e95-bf38-ca4eb04b0d2a | Tool Error: CorrelationId: 2695c2ff-92c3-4e95-bf38-ca4eb04b0d2a, TimeStamp: 2025-10-21</em>19:17:33</li>
+</ul>
+
+<p><strong>99. <code>test_case_119</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with an expert on a specific system</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e782416b-cb05-4eca-a73d-6b3a9a24e1bf</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=3baea517-eb3b-4959-9015-0f5e058b8e73 GraphRequestId=3baea517-eb3b-4959-9015-0f5e058b8e73 | Tool Error: CorrelationId: 3baea517-eb3b-4959-9015-0f5e058b8e73, TimeStamp: 2025-10-21</em>19:17:35</li>
+</ul>
+
+<p><strong>100. <code>test_case_120</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with the person responsible for a specific function</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0adf4d88-cd03-4b55-9085-b646b168ae0d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=72acd5a6-0b05-4aea-9a7d-3031fdae860b GraphRequestId=72acd5a6-0b05-4aea-9a7d-3031fdae860b | Tool Error: CorrelationId: 72acd5a6-0b05-4aea-9a7d-3031fdae860b, TimeStamp: 2025-10-21</em>19:17:37</li>
+</ul>
+
+<p><strong>101. <code>test_case_123</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with someone at a specific hierarchical level above another person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>getUsersManager✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d7d9f7dd-a44c-4442-b068-fe48c2203c50</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=55048ad6-2490-40ec-9e3c-98ce8cc1e648 GraphRequestId=55048ad6-2490-40ec-9e3c-98ce8cc1e648 | Tool Error: CorrelationId: 55048ad6-2490-40ec-9e3c-98ce8cc1e648, TimeStamp: 2025-10-21</em>19:17:44</li>
+</ul>
+
+<p><strong>102. <code>test_case_125</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone in a parallel organization at the same level</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile, mcp<em>graph</em>getMyProfile, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getMyProfile✅, graph</em>listUsers✅, graph<em>getUserProfile✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e6dfae87-02ec-47cf-962c-1e8a8af6847e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=5bca626e-9bef-4306-b74e-9af0d05d2d3e GraphRequestId=5bca626e-9bef-4306-b74e-9af0d05d2d3e | Tool Error: CorrelationId: 5bca626e-9bef-4306-b74e-9af0d05d2d3e, TimeStamp: 2025-10-21</em>19:17:45</li>
+</ul>
+
+<p><strong>103. <code>test_case_126</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>relationship</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone with a specific reporting structure including dotted line</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile, mcp<em>graph</em>chat<em>createChat, mcp</em>graph<em>getDirectReports, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUserProfile✅, graph<em>getDirectReports✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0d615fbf-8991-4eda-9dba-9a9fee6947ec</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=8e894f76-fb1d-4f66-b4d8-0e7f92afea39 GraphRequestId=8e894f76-fb1d-4f66-b4d8-0e7f92afea39 | Tool Error: CorrelationId: 8e894f76-fb1d-4f66-b4d8-0e7f92afea39, TimeStamp: 2025-10-21</em>19:17:46</li>
+</ul>
+
+<p><strong>104. <code>test_case_127</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the current holder of a rotating role</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>226c044b-6f9c-4a00-9411-b0420dfd4e20</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=004b8dd9-19b7-4636-9d75-d1b16ace16bc GraphRequestId=004b8dd9-19b7-4636-9d75-d1b16ace16bc | Tool Error: CorrelationId: 004b8dd9-19b7-4636-9d75-d1b16ace16bc, TimeStamp: 2025-10-21</em>19:17:43</li>
+</ul>
+
+<p><strong>105. <code>test_case_128</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with the current on-call person for a time period</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ee2745b7-e154-4a3d-92a4-7cbc15c9a6c6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=a9cdd4e0-4fbc-4b26-9d4a-e7a9c1292d35 GraphRequestId=a9cdd4e0-4fbc-4b26-9d4a-e7a9c1292d35 | Tool Error: CorrelationId: a9cdd4e0-4fbc-4b26-9d4a-e7a9c1292d35, TimeStamp: 2025-10-21</em>19:17:44</li>
+</ul>
+
+<p><strong>106. <code>test_case_130</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the current rotating facilitator</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a9895a02-c7e6-4922-8295-59ad7d4bfc9a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=a10416ac-d496-4f74-be55-9ddf6afb8114 GraphRequestId=a10416ac-d496-4f74-be55-9ddf6afb8114 | Tool Error: CorrelationId: a10416ac-d496-4f74-be55-9ddf6afb8114, TimeStamp: 2025-10-21</em>19:17:45</li>
+</ul>
+
+<p><strong>107. <code>test_case_131</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with the current Directly Responsible Individual</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>20ba7ab8-6419-48ff-a5c7-d0d8f0e0e5dd</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6d0e0b1c-2828-4384-8b73-3fff3f15e283 GraphRequestId=6d0e0b1c-2828-4384-8b73-3fff3f15e283 | Tool Error: CorrelationId: 6d0e0b1c-2828-4384-8b73-3fff3f15e283, TimeStamp: 2025-10-21</em>19:17:46</li>
+</ul>
+
+<p><strong>108. <code>test_case_132</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>role</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the current month's primary contact for a function</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b52f7214-16f9-4ca7-b4c8-9893f73802c9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=c74b60e0-4cb6-405e-b8db-99f57ebd6d61 GraphRequestId=c74b60e0-4cb6-405e-b8db-99f57ebd6d61 | Tool Error: CorrelationId: c74b60e0-4cb6-405e-b8db-99f57ebd6d61, TimeStamp: 2025-10-21</em>19:17:51</li>
+</ul>
+
+<p><strong>109. <code>test_case_133</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone matching multiple criteria including level, org, and expertise</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9b4a5833-e4dc-4a50-8280-101c1ffbabc5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4e14362a-61dc-4c19-91e9-fbb2d6fa4413 GraphRequestId=4e14362a-61dc-4c19-91e9-fbb2d6fa4413 | Tool Error: CorrelationId: 4e14362a-61dc-4c19-91e9-fbb2d6fa4413, TimeStamp: 2025-10-21</em>19:17:51</li>
+</ul>
+
+<p><strong>110. <code>test_case_134</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with someone matching availability, team, and experience criteria</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f3db2c3e-b56a-45e0-9693-ce98427e92fd</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>111. <code>test_case_136</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>skill</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with any person matching role and expertise criteria</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a23bfe98-1c97-4038-be71-bcacbc11d0e2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=20e5b18b-ac4f-4298-9e63-e9ca9f3b889e GraphRequestId=20e5b18b-ac4f-4298-9e63-e9ca9f3b889e | Tool Error: CorrelationId: 20e5b18b-ac4f-4298-9e63-e9ca9f3b889e, TimeStamp: 2025-10-21</em>19:17:52</li>
+</ul>
+
+<p><strong>112. <code>test_case_138</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>delegation</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone or their specified delegate if unavailable</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>graph<em>getDirectReports, mcp</em>graph<em>chat</em>createChat, mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph_getUsersManager reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendarlistUsers✅, graph<em>getUsersManager✅, graph</em>getUsersManager✅, graph<em>getDirectReports✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>57b4c8e1-8d63-4205-83a9-cdc0780bb7c9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Rakesh. Status=404 (Not Found). CorrelationId=57b4c8e1-8d63-4205-83a9-cdc0780bb7c9 GraphRequestId=57b4c8e1-8d63-4205-83a9-cdc0780bb7c9 | Tool Error: CorrelationId: 57b4c8e1-8d63-4205-83a9-cdc0780bb7c9, TimeStamp: 2025-10-21</em>19:17:51 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=831154d3-3ac4-4ce4-85b2-298546454e2f GraphRequestId=831154d3-3ac4-4ce4-85b2-298546454e2f | Tool Error: CorrelationId: 831154d3-3ac4-4ce4-85b2-298546454e2f, TimeStamp: 2025-10-21</em>19:18:00</li>
+</ul>
+
+<p><strong>113. <code>test_case_139</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>delegation</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with someone who is covering for another person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8aa68562-8911-47a0-8af7-44cf7d082e6a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=259d6610-e115-44cb-b962-3de1396aa9a4 GraphRequestId=259d6610-e115-44cb-b962-3de1396aa9a4 | Tool Error: CorrelationId: 259d6610-e115-44cb-b962-3de1396aa9a4, TimeStamp: 2025-10-21</em>19:17:54</li>
+</ul>
+
+<p><strong>114. <code>test_case_140</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>delegation</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone who is a backup for specific decisions</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1db27fc2-196b-4621-9277-8e7e874f7fc6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>115. <code>test_case_141</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>delegation</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with an acting manager during permanent manager's leave</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6edec43a-386b-4c9c-9388-eb61b6eee371</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4bce5e96-f795-4235-958d-d8cd83587ad5 GraphRequestId=4bce5e96-f795-4235-958d-d8cd83587ad5 | Tool Error: CorrelationId: 4bce5e96-f795-4235-958d-d8cd83587ad5, TimeStamp: 2025-10-21</em>19:17:56</li>
+</ul>
+
+<p><strong>116. <code>test_case_142</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>delegation</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with an interim role holder after a role change</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1a7fee96-67c3-4566-b5b8-887c75dc93a5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=0e725879-609e-4cdd-a78e-a9ac10767fc7 GraphRequestId=0e725879-609e-4cdd-a78e-a9ac10767fc7 | Tool Error: CorrelationId: 0e725879-609e-4cdd-a78e-a9ac10767fc7, TimeStamp: 2025-10-21</em>19:17:56</li>
+</ul>
+
+<p><strong>117. <code>test_case_143</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>delegation</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the current holder of a previously held role</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d3341df5-c0ad-4fc3-94f2-fb58b6779ac1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=ca70aab4-56b1-4ed4-8915-632595eb8b8f GraphRequestId=ca70aab4-56b1-4ed4-8915-632595eb8b8f | Tool Error: CorrelationId: ca70aab4-56b1-4ed4-8915-632595eb8b8f, TimeStamp: 2025-10-21</em>19:17:57</li>
+</ul>
+
+<p><strong>118. <code>test_case_144</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the appropriate person for a specific type of issue</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile, mcp<em>graph</em>chat<em>createChat, mcp</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>listUsers, mcp<em>graph</em>getUsersManager reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph<em>getUsersManager✅, graph</em>getUsersManager✅, graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>63c72e3a-2950-4ff0-9426-03aacd9f5af9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f00fa2f3-6be2-4d23-9697-8df24b455243 GraphRequestId=f00fa2f3-6be2-4d23-9697-8df24b455243 | Tool Error: CorrelationId: f00fa2f3-6be2-4d23-9697-8df24b455243, TimeStamp: 2025-10-21</em>19:18:10</li>
+</ul>
+
+<p><strong>119. <code>test_case_145</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the right contact for a specific domain of questions</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>postMessage, mcp</em>graph<em>getUserProfile, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUserProfile✅, graph<em>chat</em>postMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2e00b50a-d6cb-4bf4-8146-48148aab66ae</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/tracie.sunday%40a365testtenant.onmicrosoft.com/messages. Status=403 (Forbidden). CorrelationId=7adcc2aa-0281-401c-8cd6-4b1291f6c8c8 GraphRequestId=7adcc2aa-0281-401c-8cd6-4b1291f6c8c8 | Tool Error: CorrelationId: 7adcc2aa-0281-401c-8cd6-4b1291f6c8c8, TimeStamp: 2025-10-21</em>19:18:02</li>
+</ul>
+
+<p><strong>120. <code>test_case_146</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>expertise</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with the appropriate contact for IT issues</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getMyProfile, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getMyProfile✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d0f58abe-5a6c-4882-867d-7a83f7a9497e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>121. <code>test_case_148</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>history</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone based on previous conversation history</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat_listChats reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>chat</em>listChats✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>82b63579-6b63-4aa7-9163-0f3a9cfebd1b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>listChats': Failed to call graph API at https://graph.microsoft.com/v1.0/chats?%24top=20. Status=403 (Forbidden). CorrelationId=82b63579-6b63-4aa7-9163-0f3a9cfebd1b GraphRequestId=82b63579-6b63-4aa7-9163-0f3a9cfebd1b | Tool Error: CorrelationId: 82b63579-6b63-4aa7-9163-0f3a9cfebd1b, TimeStamp: 2025-10-21</em>19:17:59</li>
+</ul>
+
+<p><strong>122. <code>test_case_149</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>history</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with someone based on recent discussion</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>listChats, mcp</em>graph<em>getMyProfile, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getMyProfile✅, graph</em>chat<em>listChats✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>eed52a2e-f124-4670-a86e-14eac5c71002</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>listChats': Failed to call graph API at https://graph.microsoft.com/v1.0/chats?%24top=30. Status=403 (Forbidden). CorrelationId=bc00de31-da3f-4852-8422-ea2fb8f6c646 GraphRequestId=bc00de31-da3f-4852-8422-ea2fb8f6c646 | Tool Error: CorrelationId: bc00de31-da3f-4852-8422-ea2fb8f6c646, TimeStamp: 2025-10-21</em>19:18:02 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=bdc41bb3-3c65-4e69-9e89-0f3e12cac403 GraphRequestId=bdc41bb3-3c65-4e69-9e89-0f3e12cac403 | Tool Error: CorrelationId: bdc41bb3-3c65-4e69-9e89-0f3e12cac403, TimeStamp: 2025-10-21</em>19:18:04</li>
+</ul>
+
+<p><strong>123. <code>test_case_150</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>history</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with the same participants from a previous conversation</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat_listChats reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>chat</em>listChats✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4bda0f78-232d-49e1-a2ab-c64af1804c27</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>listChats': Failed to call graph API at https://graph.microsoft.com/v1.0/chats?%24top=20. Status=403 (Forbidden). CorrelationId=4bda0f78-232d-49e1-a2ab-c64af1804c27 GraphRequestId=4bda0f78-232d-49e1-a2ab-c64af1804c27 | Tool Error: CorrelationId: 4bda0f78-232d-49e1-a2ab-c64af1804c27, TimeStamp: 2025-10-21</em>19:18:02</li>
+</ul>
+
+<p><strong>124. <code>test_case_151</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>history</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with frequent collaborators on a specific topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>070e2eb0-7f30-491a-bfc9-cc29fbc362e6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=58020a0a-b561-464b-b32a-21df112d984a GraphRequestId=58020a0a-b561-464b-b32a-21df112d984a | Tool Error: CorrelationId: 58020a0a-b561-464b-b32a-21df112d984a, TimeStamp: 2025-10-21</em>19:18:05</li>
+</ul>
+
+<p><strong>125. <code>test_case_152</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>history</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a conversation with the most frequent chat partner for a topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3d43833d-9bd8-4ef0-9116-995bf5fa1974</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=1abd04ea-cc95-412d-8cb6-5aee8e3271ca GraphRequestId=1abd04ea-cc95-412d-8cb6-5aee8e3271ca | Tool Error: CorrelationId: 1abd04ea-cc95-412d-8cb6-5aee8e3271ca, TimeStamp: 2025-10-21</em>19:18:04</li>
+</ul>
+
+<p><strong>126. <code>test_case_153</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>history</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a chat with someone the user hasn't talked to recently</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1e546a96-5b55-45b0-aebd-40af7e86becf</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d569f375-6f21-4b86-a546-ffafe3989136 GraphRequestId=d569f375-6f21-4b86-a546-ffafe3989136 | Tool Error: CorrelationId: d569f375-6f21-4b86-a546-ffafe3989136, TimeStamp: 2025-10-21</em>19:18:05</li>
+</ul>
+
+<p><strong>127. <code>test_case_154</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>priority</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create an urgent priority chat about a critical issue</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2de1e803-31ae-4e4d-811f-d0cae00e379c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=79f2f156-21d9-4bed-971b-1e277e6c0c1b GraphRequestId=79f2f156-21d9-4bed-971b-1e277e6c0c1b | Tool Error: CorrelationId: 79f2f156-21d9-4bed-971b-1e277e6c0c1b, TimeStamp: 2025-10-21</em>19:18:08</li>
+</ul>
+
+<p><strong>128. <code>test_case_155</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>priority</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create a high-priority conversation about an escalation</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d52caf1c-ffd9-4818-8b93-1137ae4eef9c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=da00f773-050e-48dc-956b-4cdd5226b840 GraphRequestId=da00f773-050e-48dc-956b-4cdd5226b840 | Tool Error: CorrelationId: da00f773-050e-48dc-956b-4cdd5226b840, TimeStamp: 2025-10-21</em>19:18:08</li>
+</ul>
+
+<p><em>Total 128 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>18
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_013</code> - create<em>chat
+   - *Create a conversation with a specific person using full name with detailed topic*
+   - Score: 2.5
+2. <code>test_case_017</code> - create</em>chat
+   - <em>Create a DM with a specific person using team/department disambiguation</em>
+   - Score: 3
+3. <code>test_case_042</code> - create<em>chat</em>title
+   - <em>Create a chat with multiple people by title and department</em>
+   - Score: 2.5
+4. <code>test_case_045</code> - create<em>chat</em>title
+   - <em>Create a conversation with a person by their executive title</em>
+   - Score: 3.5
+5. <code>test_case_060</code> - create<em>chat</em>title
+   - <em>Create a conversation with any person at a specific level</em>
+   - Score: 2.5
+6. <code>test_case_061</code> - create<em>chat</em>skill
+   - <em>Create a chat with someone at a specific level from a specific team</em>
+   - Score: 3.25
+7. <code>test_case_065</code> - create<em>multiple</em>chats<em>project
+   - *Create separate chats with leads from multiple disciplines for a specific projec...*
+   - Score: 2.5
+8. <code>test_case_068</code> - create</em>multiple<em>chats</em>role
+   - <em>Create separate chats with stakeholders from different disciplines</em>
+   - Score: 3.25
+9. <code>test_case_082</code> - create<em>multiple</em>chats<em>parallel
+   - *Create multiple simultaneous conversations with people at a specific level*
+   - Score: 2.5
+10. <code>test_case_087</code> - create</em>chat<em>conditional
+   - *Create a chat with planned follow-up chats based on delegation*
+   - Score: 2.75
+11. <code>test_case_089</code> - create</em>chat<em>conditional
+   - *Create a chat with planned follow-up connections based on recommendations*
+   - Score: 3
+12. <code>test_case_094</code> - create</em>chat<em>fallback
+   - *Create a chat with first choice or second choice person*
+   - Score: 2.75
+13. <code>test_case_110</code> - create</em>multiple<em>chats</em>project
+   - <em>Create individual chats with all executive sponsors</em>
+   - Score: 2.75
+14. <code>test_case_113</code> - create<em>chat</em>relationship
+   - <em>Create a chat with someone's onboarding buddy</em>
+   - Score: 2.25
+15. <code>test_case_117</code> - create<em>chat</em>expertise
+   - <em>Create a conversation with the right person for a specific domain</em>
+   - Score: 2.5
+16. <code>test_case_134</code> - create<em>chat</em>skill
+   - <em>Create a conversation with someone matching availability, team, and experience c...</em>
+   - Score: 3
+17. <code>test_case_140</code> - create<em>chat</em>delegation
+   - <em>Create a chat with someone who is a backup for specific decisions</em>
+   - Score: 2.25
+18. <code>test_case_146</code> - create<em>chat</em>expertise
+   - <em>Create a conversation with the appropriate contact for IT issues</em>
+   - Score: 3</p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-21 21:47:36</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-21 21:47:36</footer>
+</body>
+</html>

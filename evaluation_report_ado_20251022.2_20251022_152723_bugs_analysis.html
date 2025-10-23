@@ -1,0 +1,3473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251022.2</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251022.2</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251022.2_20251022_152723_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</a></li>
+    </ul></li>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</a></li>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251022.2_20251022_152723.json</code>
+<strong>Test Run:</strong>2025-10-22 15:27:23
+<strong>Report Created:</strong>2025-10-22 09:04:43</p>
+
+<p><strong>Bugs to File:</strong>144 cases
+<strong>Total Failures Analyzed:</strong>197</p>
+
+<h2 id="tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>No Tools Called:</strong>
+53 cases</p>
+
+<h3 id="detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</h3>
+
+<p><strong>1. sendEmail_013</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email including inline code snippet</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>2. sendEmail_017</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email summarizing improvements</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>3. sendEmail_024</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - multiple formatting styles with code snippet</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>4. sendEmail_032</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to multiple To recipients with mixed display names and raw addresses</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>5. sendEmail_035</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email with same address but different display names in To</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>6. sendEmail_043</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to single To using alias that maps to multiple addresses</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>7. sendEmail<em>To+cc</em>009</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC emphasizing key phrases with bold formatting.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>8. sendEmail<em>To+cc</em>021</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with personalized note.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>9. sendEmail<em>To+cc</em>032</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC including translation note.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>10. sendEmail<em>To+cc</em>033</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC containing calendar invite link.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>11. sendEmail<em>To+cc</em>037</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC listing milestones.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>12. sendEmail<em>To+cc</em>039</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC in formal tone.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>13. sendEmail<em>To+cc</em>050</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC combining text + table.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>14. sendEmail<em>To+bcc</em>001</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC with content formatting.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>15. sendEmail<em>To+bcc</em>011</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC inline code example.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>16. sendEmail<em>To+bcc</em>020</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC personalized note.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>17. sendEmail<em>To+bcc</em>023</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC version history summary.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>18. sendEmail<em>To+bcc</em>030</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC translation note.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>19. sendEmail<em>To+bcc</em>031</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC calendar invite link.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>20. sendEmail<em>To+bcc</em>032</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC Teams/Zoom link.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>21. sendEmail<em>To+bcc</em>035</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC exceeding recipient limit.</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>22. sendEmail<em>To+bcc</em>037</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC scheduled for later delivery</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>23. sendEmail<em>To+bcc</em>038</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC mixed case / spacing errors</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>24. sendEmail<em>To+bcc</em>041</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC persuasive tone</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>25. sendEmail<em>To+bcc</em>043</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC neutral/factual tone</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>26. sendEmail<em>To+bcc</em>045</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC multi-language sections</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>27. sendEmail<em>To+bcc</em>047</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - To + BCC combining text + table</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>28. sendEmail<em>To+bcc</em>049</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - To + BCC version history + disclaimer</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>29. sendEmail<em>To+bcc</em>050</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - To + BCC exceeding attachment size</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>30. sendEmail<em>To+cc+bcc</em>004</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Multiple To + CC + BCC recipients</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>31. sendEmail<em>To+cc+bcc</em>012</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with summary paragraph</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>32. sendEmail<em>To+cc+bcc</em>024</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with analytics summary</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>33. sendEmail<em>To+cc+bcc</em>025</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with troubleshooting steps</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>34. sendEmail<em>To+cc+bcc</em>032</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email including Teams/Zoom link</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>35. sendEmail<em>To+cc+bcc</em>035</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email exceeding recipient limit</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>36. sendEmail<em>To+cc+bcc</em>036</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC DLP violation</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>37. sendEmail<em>To+cc+bcc</em>039</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC scheduled send</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>38. sendEmail<em>To+cc+bcc</em>044</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with neutral/factual tone</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>39. sendEmail<em>To+cc+bcc</em>046</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with dual-language sections</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>40. sendEmail<em>To+cc+bcc</em>048</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email combining text and table</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>41. sendEmail<em>To+cc+bcc</em>050</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC confidential report</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>42. sendEmail<em>To+cc+bcc</em>056</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC alias addresses</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>43. sendEmail<em>To+cc+bcc</em>074</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC version history summary</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>44. sendEmail<em>To+cc+bcc</em>075</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC analytics summary</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>45. sendEmail<em>To+cc+bcc</em>076</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC troubleshooting steps</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>46. sendEmail<em>To+cc+bcc</em>081</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC translation note</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>47. sendEmail<em>To+cc+bcc</em>083</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC Teams/Zoom link</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>48. sendEmail<em>To+cc+bcc</em>087</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC DLP violation</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>49. sendEmail<em>To+cc+bcc</em>090</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC scheduled send</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>50. sendEmail<em>To+cc+bcc</em>093</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC tone: persuasive</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>51. sendEmail<em>To+cc+bcc</em>095</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC tone: neutral/factual</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>52. sendEmail<em>To+cc+bcc</em>100</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with multiple formatting styles (numbered + bold).</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>53. sendEmail<em>To+cc+bcc</em>101</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC numbered steps + bold highlights</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><em>Total 53 failures in this category</em></p>
+
+<hr />
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Right Tools Called But Failed:</strong>
+84 cases</p>
+
+<ul>
+<li><strong>Tool Call Successful But Test Failed:</strong>
+60 cases</li>
+</ul>
+
+<h3 id="bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>84
+<strong>Recommended Action:</strong>File infrastructure bug - tool implementation needs fixing. Check tool parameters, API endpoints, and error handling.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>sendEmail_002</code> - sendEmail
+   - <em>Email mcp server functionality test</em>
+   - Score: 2.5
+2. <code>sendEmail_005</code> - sendEmail
+   - <em>Email with numbered benefits for easy readability</em>
+   - Score: 2.5
+3. <code>sendEmail_006</code> - sendEmail
+   - <em>Email with bullet points for quick readability</em>
+   - Score: 3.75
+4. <code>sendEmail_007</code> - sendEmail
+   - <em>Email with greeting and closing for professional tone</em>
+   - Score: 2.5
+5. <code>sendEmail_014</code> - sendEmail
+   - <em>Email emphasizing multiple key phrases</em>
+   - Score: 2.5
+6. <code>sendEmail_016</code> - sendEmail
+   - <em>Email with structured numbered + bullet list</em>
+   - Score: 2.5
+7. <code>sendEmail_018</code> - sendEmail
+   - <em>Email to multiple recipients</em>
+   - Score: 2.5
+8. <code>createDraft_001</code> - createDraft
+   - <em>Draft creation functionality test (plain text)</em>
+   - Score: 2.5
+9. <code>createDraft_002</code> - createDraft
+   - <em>Draft creation functionality test (formatted text)</em>
+   - Score: 2.75
+10. <code>createDraft_003</code> - createDraft
+   - <em>Draft creation functionality test (generic draft)</em>
+   - Score: 3
+11. <code>createDraft_004</code> - createDraft
+   - <em>Draft creation functionality test (with greeting)</em>
+   - Score: 2.75
+12. <code>createDraft_005</code> - createDraft
+   - <em>Draft creation functionality test (with closing)</em>
+   - Score: 2.75
+13. <code>createDraft_006</code> - createDraft
+   - <em>Draft creation functionality test (numbered list)</em>
+   - Score: 2.25
+14. <code>createDraft_007</code> - createDraft
+   - <em>Draft creation functionality test (bullet points)</em>
+   - Score: 2.25
+15. <code>createDraft_008</code> - createDraft
+   - <em>Draft creation functionality test (bold highlights)</em>
+   - Score: 2.25
+16. <code>createDraft_009</code> - createDraft
+   - <em>Draft email creation functionality test - internal team updates</em>
+   - Score: 2.5
+17. <code>createDraft_010</code> - createDraft
+   - <em>Draft email creation functionality test - call to action</em>
+   - Score: 2.75
+18. <code>createDraft_011</code> - createDraft
+   - <em>Draft email creation functionality test - with FAQs</em>
+   - Score: 2.5
+19. <code>createDraft_012</code> - createDraft
+   - <em>Draft email creation functionality test - with code example</em>
+   - Score: 2.5
+20. <code>createDraft_013</code> - createDraft
+   - <em>Draft email creation functionality test - pros and cons list</em>
+   - Score: 2.5
+21. <code>createDraft_0014</code> - createDraft
+   - <em>Draft email creation functionality test - comparison with other tools</em>
+   - Score: 2.5
+22. <code>createDraft_015</code> - createDraft
+   - <em>Draft email creation functionality test - highlight new feature</em>
+   - Score: 2.75
+23. <code>createDraft_016</code> - createDraft
+   - <em>Draft email creation functionality test - 1 paragraph summary</em>
+   - Score: 3
+24. <code>createDraft_017</code> - createDraft
+   - <em>Draft email creation functionality test - extended explanation</em>
+   - Score: 2.5
+25. <code>sendEmail_022</code> - sendEmail
+   - <em>Email MCP server functionality test - formatted rich text email</em>
+   - Score: 3.75
+26. <code>sendEmail_023</code> - sendEmail
+   - <em>Email MCP server functionality test - emphasizing productivity and quality benef...</em>
+   - Score: 2
+27. <code>sendEmail_026</code> - sendEmail
+   - <em>Email MCP server functionality test - internal rollout announcement</em>
+   - Score: 3
+28. <code>sendEmail_To+cc_002</code> - sendEmail
+   - <em>Email MCP server test - To + CC recipients, plain text version.</em>
+   - Score: 3.25
+29. <code>sendEmail_To+cc_017</code> - sendEmail
+   - <em>Email MCP server test - To + CC FYI note.</em>
+   - Score: 3.75
+30. <code>sendEmail_To+cc_036</code> - sendEmail
+   - <em>Email MCP server test - To + CC including timezone note.</em>
+   - Score: 2.5
+31. <code>sendEmail_To+cc_041</code> - sendEmail
+   - <em>Email MCP server test - To + CC in empathetic tone.</em>
+   - Score: 3.5
+32. <code>sendEmail_To+cc_045</code> - sendEmail
+   - <em>Email MCP server test - To + CC with apologetic tone.</em>
+   - Score: 2.75
+33. <code>sendEmail_To+cc_047</code> - sendEmail
+   - <em>Email MCP server test - To + CC with localized greeting.</em>
+   - Score: 2.5
+34. <code>sendEmail_To+cc_048</code> - sendEmail
+   - <em>Email MCP server test - To + CC multi-language sections.</em>
+   - Score: 3.25
+35. <code>sendEmail_To+cc_053</code> - sendEmail
+   - <em>Email MCP server test - To + CC using personalized placeholders (template handli...</em>
+   - Score: 3.5
+36. <code>sendEmail_To+bcc_002</code> - sendEmail
+   - <em>Email MCP server test - To + BCC without formatting.</em>
+   - Score: 2.5
+37. <code>sendEmail_To+bcc_004</code> - sendEmail
+   - <em>Email MCP server test - To + multiple BCC.</em>
+   - Score: 2.5
+38. <code>sendEmail_To+bcc_006</code> - sendEmail
+   - <em>Email MCP server test - To + BCC greeting + closing.</em>
+   - Score: 2.5
+39. <code>sendEmail_To+bcc_012</code> - sendEmail
+   - <em>Email MCP server test - To + BCC summary paragraph.</em>
+   - Score: 2.75
+40. <code>sendEmail_To+bcc_014</code> - sendEmail
+   - <em>Email MCP server test - To + BCC urgent note.</em>
+   - Score: 2.25
+41. <code>sendEmail_To+bcc_016</code> - sendEmail
+   - <em>Email MCP server test - To + BCC FYI note.</em>
+   - Score: 2.5
+42. <code>sendEmail_To+bcc_017</code> - sendEmail
+   - <em>Email MCP server test - To + BCC including inline link + summary.</em>
+   - Score: 2.5
+43. <code>sendEmail_To+bcc_018</code> - sendEmail
+   - <em>Email MCP server test - To + BCC summary + CTA.</em>
+   - Score: 2.25
+44. <code>sendEmail_To+bcc_019</code> - sendEmail
+   - <em>Email MCP server test - To + BCC emphasizing benefits.</em>
+   - Score: 3.25
+45. <code>sendEmail_To+bcc_028</code> - sendEmail
+   - <em>Email MCP server test - To + BCC summarizing customer feedback.</em>
+   - Score: 2.5
+46. <code>sendEmail_To+bcc_039</code> - sendEmail
+   - <em>To + BCC apology tone</em>
+   - Score: 3.25
+47. <code>sendEmail_To+bcc_040</code> - sendEmail
+   - <em>To + BCC motivational tone</em>
+   - Score: 2.5
+48. <code>sendEmail_To+bcc_042</code> - sendEmail
+   - <em>To + BCC storytelling style</em>
+   - Score: 2.5
+49. <code>sendEmail_To+bcc_044</code> - sendEmail
+   - <em>To + BCC localized greeting</em>
+   - Score: 2.75
+50. <code>sendEmail_To+bcc_051</code> - sendEmail
+   - <em>Email MCP server functionality test - To + BCC placeholder mismatch</em>
+   - Score: 2.5
+51. <code>sendEmail_To+cc+bcc_001</code> - sendEmail
+   - <em>To + CC + BCC email with formatted content</em>
+   - Score: 2.5
+52. <code>sendEmail_To+cc+bcc_002</code> - sendEmail
+   - <em>To + CC + BCC email without formatting</em>
+   - Score: 2.5
+53. <code>sendEmail_To+cc+bcc_003</code> - sendEmail
+   - <em>Simple To + CC + BCC email</em>
+   - Score: 2.5
+54. <code>sendEmail_To+cc+bcc_005</code> - sendEmail
+   - <em>To + CC + BCC with alias addresses</em>
+   - Score: 2.5
+55. <code>sendEmail_To+cc+bcc_016</code> - sendEmail
+   - <em>To + CC + BCC email flagged FYI</em>
+   - Score: 2.75
+56. <code>sendEmail_To+cc+bcc_017</code> - sendEmail
+   - <em>To + CC + BCC email including inline link + summary</em>
+   - Score: 2.25
+57. <code>sendEmail_To+cc+bcc_019</code> - sendEmail
+   - <em>To + CC + BCC email emphasizing benefits</em>
+   - Score: 2.25
+58. <code>sendEmail_To+cc+bcc_020</code> - sendEmail
+   - <em>To + CC + BCC email with personalized note</em>
+   - Score: 2.5
+59. <code>sendEmail_To+cc+bcc_027</code> - sendEmail
+   - <em>To + CC + BCC email with roadmap outline</em>
+   - Score: 2.25
+60. <code>sendEmail_To+cc+bcc_029</code> - sendEmail
+   - <em>To + CC + BCC email emphasizing confidentiality</em>
+   - Score: 2.75
+61. <code>sendEmail_To+cc+bcc_033</code> - sendEmail
+   - <em>To + CC + BCC email with accessibility note</em>
+   - Score: 2.75
+62. <code>sendEmail_To+cc+bcc_034</code> - sendEmail
+   - <em>To + CC + BCC email with timezone note</em>
+   - Score: 2.25
+63. <code>sendEmail_To+cc+bcc_037</code> - sendEmail
+   - <em>To + CC + BCC blocked BCC domain</em>
+   - Score: 2.5
+64. <code>sendEmail_To+cc+bcc_040</code> - sendEmail
+   - <em>To + CC + BCC email with apology tone</em>
+   - Score: 3
+65. <code>sendEmail_To+cc+bcc_041</code> - sendEmail
+   - <em>To + CC + BCC email with motivational tone</em>
+   - Score: 2.5
+66. <code>sendEmail_To+cc+bcc_043</code> - sendEmail
+   - <em>To + CC + BCC email with storytelling style</em>
+   - Score: 2.5
+67. <code>sendEmail_To+cc+bcc_045</code> - sendEmail
+   - <em>To + CC + BCC email with localized greeting</em>
+   - Score: 2.5
+68. <code>sendEmail_To+cc+bcc_047</code> - sendEmail
+   - <em>To + CC + BCC email with analytics summary</em>
+   - Score: 2.5
+69. <code>sendEmail_To+cc+bcc_052</code> - sendEmail
+   - <em>To + CC + BCC email with formatted content</em>
+   - Score: 2.5
+70. <code>sendEmail_To+cc+bcc_053</code> - sendEmail
+   - <em>To + CC + BCC email without formatting</em>
+   - Score: 2.5
+71. <code>sendEmail_To+cc+bcc_067</code> - sendEmail
+   - <em>To + CC + BCC FYI note</em>
+   - Score: 2.5
+72. <code>sendEmail_To+cc+bcc_078</code> - sendEmail
+   - <em>To + CC + BCC roadmap outline</em>
+   - Score: 2.5
+73. <code>sendEmail_To+cc+bcc_079</code> - sendEmail
+   - <em>To + CC + BCC summarizing customer feedback</em>
+   - Score: 2.25
+74. <code>sendEmail_To+cc+bcc_080</code> - sendEmail
+   - <em>To + CC + BCC confidentiality emphasis</em>
+   - Score: 2.5
+75. <code>sendEmail_To+cc+bcc_082</code> - sendEmail
+   - <em>To + CC + BCC calendar invite link</em>
+   - Score: 2.75
+76. <code>sendEmail_To+cc+bcc_085</code> - sendEmail
+   - <em>To + CC + BCC timezone note</em>
+   - Score: 2.5
+77. <code>sendEmail_To+cc+bcc_086</code> - sendEmail
+   - <em>To + CC + BCC exceeding recipient limit</em>
+   - Score: 2.25
+78. <code>sendEmail_To+cc+bcc_088</code> - sendEmail
+   - <em>To + CC + BCC blocked BCC domain</em>
+   - Score: 2.5
+79. <code>sendEmail_To+cc+bcc_089</code> - sendEmail
+   - <em>To + CC + BCC placeholder personalization</em>
+   - Score: 3.5
+80. <code>sendEmail_To+cc+bcc_091</code> - sendEmail
+   - <em>To + CC + BCC tone: apology</em>
+   - Score: 2.5
+81. <code>sendEmail_To+cc+bcc_094</code> - sendEmail
+   - <em>To + CC + BCC tone: storytelling</em>
+   - Score: 2.5
+82. <code>sendEmail_To+cc+bcc_096</code> - sendEmail
+   - <em>To + CC + BCC localized greeting</em>
+   - Score: 3.5
+83. <code>sendEmail_To+cc+bcc_098</code> - sendEmail
+   - <em>To + CC + BCC analytics summary</em>
+   - Score: 2.5
+84. <code>sendEmail_To+cc+bcc_102</code> - sendEmail
+   - <em>To + CC + BCC emphasizing key points with bold + italic</em>
+   - Score: 2.5</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. sendEmail_001</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email mcp server functionality test</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4e1529b3-e6bf-4698-b713-80573ff31662</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>2. sendEmail_002</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email mcp server functionality test</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7f13d69a-2f0e-4b1f-92da-99277ef4c80c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Priya Singh' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 7f13d69a-2f0e-4b1f-92da-99277ef4c80c, TimeStamp: 2025-10-22_15:27:38</li>
+</ul>
+
+<p><strong>3. sendEmail_003</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email mcp server functionality test</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6bbe8338-ecb0-4013-a260-b90d85c7049c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>4. sendEmail_004</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email mcp server functionality test</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3e3fdcd8-71d5-4e4a-8ceb-ad753ebce7bd</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>5. sendEmail_005</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email with numbered benefits for easy readability</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b8eafcf7-a788-471c-8af5-3cc6f680768d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Jane' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: b8eafcf7-a788-471c-8af5-3cc6f680768d, TimeStamp: 2025-10-22_15:27:38</li>
+</ul>
+
+<p><strong>6. sendEmail_006</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email with bullet points for quick readability</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cf26ca83-2e03-4a98-ab45-98f6355edda1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Rajnee' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: cf26ca83-2e03-4a98-ab45-98f6355edda1, TimeStamp: 2025-10-22_15:27:38</li>
+</ul>
+
+<p><strong>7. sendEmail_007</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email with greeting and closing for professional tone</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0bba5560-faf7-4b9f-bb02-3632e7203efe</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Priya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 0bba5560-faf7-4b9f-bb02-3632e7203efe, TimeStamp: 2025-10-22_15:27:38</li>
+</ul>
+
+<p><strong>8. sendEmail_008</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email emphasizing key phrases for highlighting important points</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0c2c3758-4efa-4856-987d-c9cb5b1f4820</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>9. sendEmail_009</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email with call-to-action to request feedback</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ec96fbcd-4ab8-44d0-8695-50722544c619</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>10. sendEmail_010</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email to multiple recipients with CC visibility</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4183062e-b4e7-414a-8724-20429ef75f41</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>11. sendEmail_012</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email requesting feedback</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2f1d9b87-0d5f-498c-b7ef-dea3a4e53a04</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>12. sendEmail_014</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email emphasizing multiple key phrases</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>00e3b8a4-a533-4b3b-866e-3920cb3744a4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Nithin' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 00e3b8a4-a533-4b3b-866e-3920cb3744a4, TimeStamp: 2025-10-22_15:27:44</li>
+</ul>
+
+<p><strong>13. sendEmail_015</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email with bold + italic formatting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>36cb8dad-d1aa-48d4-86a1-d618cac81805</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>14. sendEmail_016</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email with structured numbered + bullet list</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f5b9f8ed-1658-41c7-9618-a9909cf7fa34</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Nithin' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: f5b9f8ed-1658-41c7-9618-a9909cf7fa34, TimeStamp: 2025-10-22_15:27:46</li>
+</ul>
+
+<p><strong>15. sendEmail_018</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email to multiple recipients</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>79080fe4-4e47-454b-83a9-8db6331b0445</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Priya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 79080fe4-4e47-454b-83a9-8db6331b0445, TimeStamp: 2025-10-22_15:27:47</li>
+</ul>
+
+<p><strong>16. sendEmail_019</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Informational FYI email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1f0e6bad-053d-4ded-a586-d14af3ff4282</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>17. sendEmail_020</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email combining summary and call-to-action</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b854f3c0-8b24-4c07-a94a-1a54363f1563</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>18. createDraft_001</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (plain text)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9ad21fe7-50fb-4bbb-bafb-a6a171895a77</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 9ad21fe7-50fb-4bbb-bafb-a6a171895a77, TimeStamp: 2025-10-22_15:27:47</li>
+</ul>
+
+<p><strong>19. createDraft_002</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (formatted text)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0f21fc16-5c19-4f78-9a78-3fa437e01140</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 0f21fc16-5c19-4f78-9a78-3fa437e01140, TimeStamp: 2025-10-22_15:27:49</li>
+</ul>
+
+<p><strong>20. createDraft_003</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (generic draft)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>eb3966d1-1e96-49cc-a413-84d2d5a96651</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: eb3966d1-1e96-49cc-a413-84d2d5a96651, TimeStamp: 2025-10-22_15:27:49</li>
+</ul>
+
+<p><strong>21. createDraft_004</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (with greeting)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5c8edabf-b42c-4a40-9ddb-20a48effa7b9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 5c8edabf-b42c-4a40-9ddb-20a48effa7b9, TimeStamp: 2025-10-22_15:27:49</li>
+</ul>
+
+<p><strong>22. createDraft_005</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (with closing)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b01ca857-41ea-42f9-a9c1-e9d13578c036</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: b01ca857-41ea-42f9-a9c1-e9d13578c036, TimeStamp: 2025-10-22_15:27:50</li>
+</ul>
+
+<p><strong>23. createDraft_006</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (numbered list)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e5b2d85e-5b54-4bde-835c-cfd1dfc98484</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: e5b2d85e-5b54-4bde-835c-cfd1dfc98484, TimeStamp: 2025-10-22_15:27:51</li>
+</ul>
+
+<p><strong>24. createDraft_007</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (bullet points)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>29f0f29a-6ad4-45f3-9a65-81382ac199d9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 29f0f29a-6ad4-45f3-9a65-81382ac199d9, TimeStamp: 2025-10-22_15:27:52</li>
+</ul>
+
+<p><strong>25. createDraft_008</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft creation functionality test (bold highlights)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>01ee20b5-8c8b-42a7-90fa-6bf33c1e0212</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 01ee20b5-8c8b-42a7-90fa-6bf33c1e0212, TimeStamp: 2025-10-22_15:27:52</li>
+</ul>
+
+<p><strong>26. createDraft_009</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - internal team updates</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6a6ce69f-b370-493e-9145-8e8343290523</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 6a6ce69f-b370-493e-9145-8e8343290523, TimeStamp: 2025-10-22_15:27:52</li>
+</ul>
+
+<p><strong>27. createDraft_010</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - call to action</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8b214ace-f17f-4de9-a5db-d4423e582fea</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 8b214ace-f17f-4de9-a5db-d4423e582fea, TimeStamp: 2025-10-22_15:27:54</li>
+</ul>
+
+<p><strong>28. createDraft_011</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - with FAQs</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e3c4f8a9-df2d-459d-87b1-d4281c7cfb90</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: e3c4f8a9-df2d-459d-87b1-d4281c7cfb90, TimeStamp: 2025-10-22_15:27:55</li>
+</ul>
+
+<p><strong>29. createDraft_012</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - with code example</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5e5b9396-d122-4cc4-826b-1e38977b0194</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 5e5b9396-d122-4cc4-826b-1e38977b0194, TimeStamp: 2025-10-22_15:27:54</li>
+</ul>
+
+<p><strong>30. createDraft_013</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - pros and cons list</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>11855ed9-4376-44d9-9a93-c7a8aeda5fe9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 11855ed9-4376-44d9-9a93-c7a8aeda5fe9, TimeStamp: 2025-10-22_15:27:55</li>
+</ul>
+
+<p><strong>31. createDraft_0014</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - comparison with other tools</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9763cc92-fc15-4f4b-ace1-55fa0b95afc0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 9763cc92-fc15-4f4b-ace1-55fa0b95afc0, TimeStamp: 2025-10-22_15:27:58</li>
+</ul>
+
+<p><strong>32. createDraft_015</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - highlight new feature</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0565064a-0967-4e5c-a0e1-2bce512d57b8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 0565064a-0967-4e5c-a0e1-2bce512d57b8, TimeStamp: 2025-10-22_15:27:55</li>
+</ul>
+
+<p><strong>33. createDraft_016</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - 1 paragraph summary</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5e8e8569-e6e6-4081-9864-b5a3ef9f39f0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 5e8e8569-e6e6-4081-9864-b5a3ef9f39f0, TimeStamp: 2025-10-22_15:27:55</li>
+</ul>
+
+<p><strong>34. createDraft_017</strong>- <strong>Category:</strong>
+**createDraft</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Draft email creation functionality test - extended explanation</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>01e89a3f-b7a4-4423-a5f8-4ab612abce5d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one To recipient is required. | Tool Error: CorrelationId: 01e89a3f-b7a4-4423-a5f8-4ab612abce5d, TimeStamp: 2025-10-22_15:27:57</li>
+</ul>
+
+<p><strong>35. sendEmail_021</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - plain text email without formatting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>103386bd-b18b-4127-bb13-9ad48c4e1387</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>36. sendEmail_022</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - formatted rich text email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0f6f101f-0471-41e6-9252-a10ce93698b6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mengqi Qin' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 0f6f101f-0471-41e6-9252-a10ce93698b6, TimeStamp: 2025-10-22_15:27:59</li>
+</ul>
+
+<p><strong>37. sendEmail_023</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - emphasizing productivity and quality benefits</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e37817e8-b65b-477e-b009-7e6b8f24a7f2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Priya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: e37817e8-b65b-477e-b009-7e6b8f24a7f2, TimeStamp: 2025-10-22_15:27:59</li>
+</ul>
+
+<p><strong>38. sendEmail_025</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - personalized note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c4e43799-35aa-4d0e-9990-51d057b7559a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>39. sendEmail_026</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - internal rollout announcement</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f80f5eec-005a-400e-8fa5-f3bf2a914f1c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Nithin' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: f80f5eec-005a-400e-8fa5-f3bf2a914f1c, TimeStamp: 2025-10-22_15:28:00</li>
+</ul>
+
+<p><strong>40. sendEmail_030</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to two recipients separated by comma</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>da2b857b-ea64-45ea-a41e-deef575eee4b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>41. sendEmail_031</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to two recipients separated by semicolon</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>911cbdf5-9d05-47ce-8d96-85e13d37a7a7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>42. sendEmail_034</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email with duplicate addresses in To (dedupe)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b10df628-d785-40e3-9d58-1dc5f0658feb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>43. sendEmail_036</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to single To where recipient is a forwarding address</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e97af24e-4158-485d-b832-9c05906aece7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>44. sendEmail_037</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to To containing display name with comma (quoted)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bca862e6-9490-4b5d-92d3-428dcef31800</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>45. sendEmail_038</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to To containing personal alias + address</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ccce2a81-c9e6-4949-89d8-590e34000d7d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>46. sendEmail_039</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to To with whitespace and line breaks</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>fbb1858a-a823-411b-811e-f2e808c98b7b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>47. sendEmail_040</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to To with invalid email address (reject)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4bb1441f-2c81-4b89-87db-bd9a1eba0cd6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>48. sendEmail_041</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to To where one address is valid and one invalid — partial failure behavior</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5005721d-6951-4f81-b3a8-ddda50f8690a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>49. sendEmail_042</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Send email to single To that requires S/MIME encryption</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7de6bc74-5eb4-481c-91d3-ed4486971f02</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>50. sendEmail<em>To+cc</em>002</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC recipients, plain text version.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d096c21c-acbb-40ba-9c6f-3aeb5780691a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Hejia Liu' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: d096c21c-acbb-40ba-9c6f-3aeb5780691a, TimeStamp: 2025-10-22_15:28:12</li>
+</ul>
+
+<p><strong>51. sendEmail<em>To+cc</em>003</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - internal To + CC combination.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2496b498-2338-4ea9-b891-653cf878591d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>52. sendEmail<em>To+cc</em>005</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - multiple CC recipients.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>23ddb774-3600-44df-a337-f5f08d749b4a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>53. sendEmail<em>To+cc</em>011</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC including inline code example.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bf53b5ca-1d1a-4c37-a3c5-e559295d3234</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>54. sendEmail<em>To+cc</em>013</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with multiple formatting styles (numbered + bold).</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a397baca-9153-4526-954b-2ff430ac546d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>55. sendEmail<em>To+cc</em>014</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with urgency handling.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>efcbbab6-0cdc-47da-bbad-7a4d4962f2b4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>56. sendEmail<em>To+cc</em>017</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC FYI note.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, SendEmailWithAttachmentsAsync✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6c336db7-cf39-46cb-8d0e-ce9e97e7a545</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Hejia Liu' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 6c336db7-cf39-46cb-8d0e-ce9e97e7a545, TimeStamp: 2025-10-22<em>15:28:18 | Tool Error: At least one recipient is not valid., Recipient 'Deepak Singhal' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 418424ea-f063-45b4-a00c-02cd30fd4318, TimeStamp: 2025-10-22</em>15:28:21</li>
+</ul>
+
+<p><strong>57. sendEmail<em>To+cc</em>027</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC including troubleshooting steps.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6b579f3b-bf0d-4cd7-bd89-6c0fec671519</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>58. sendEmail<em>To+cc</em>029</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC outlining roadmap.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>168d3a6a-bda2-49e9-9fe7-19d3e150cae7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>59. sendEmail<em>To+cc</em>034</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC containing Teams/Zoom link.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4338bea5-e67c-460f-bef6-094c4ade2ba0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>60. sendEmail<em>To+cc</em>036</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC including timezone note.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c3d46cfa-c2ad-430e-a01c-ac85c6eb8584</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Hejia Liu' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: c3d46cfa-c2ad-430e-a01c-ac85c6eb8584, TimeStamp: 2025-10-22<em>15:28:33 | Tool Error: Graph API call failed for tool 'mcp</em>graph<em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22Qionghui%20Zhang%22&amp;%24top=1&amp;%24select=displayName%2Cmail%2CuserPrincipalName. Status=400 (Bad Request). CorrelationId=020f644d-ef77-4045-8308-eaf3351c93c9 GraphRequestId=020f644d-ef77-4045-8308-eaf3351c93c9 | Tool Error: CorrelationId: 020f644d-ef77-4045-8308-eaf3351c93c9, TimeStamp: 2025-10-22</em>15:28:34 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22Hejia%20Liu%22&amp;%24top=1&amp;%24select=displayName%2Cmail%2CuserPrincipalName. Status=400 (Bad Request). CorrelationId=ba9eb000-253d-48c8-b6ab-17d465c8d252 GraphRequestId=ba9eb000-253d-48c8-b6ab-17d465c8d252 | Tool Error: CorrelationId: ba9eb000-253d-48c8-b6ab-17d465c8d252, TimeStamp: 2025-10-22_15:28:35</li>
+</ul>
+
+<p><strong>61. sendEmail<em>To+cc</em>038</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC outlining meeting agenda.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0e1ba707-e9a1-45f5-9c60-ed648a571261</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>62. sendEmail<em>To+cc</em>040</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC in casual tone.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>30ae75e4-4224-4698-a331-5dc0a9af9d8d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>63. sendEmail<em>To+cc</em>041</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC in empathetic tone.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, SendEmailWithAttachmentsAsync✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>16984099-d6c7-4fea-ba8d-c56a87cdfda9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Rachiet Sharma' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 16984099-d6c7-4fea-ba8d-c56a87cdfda9, TimeStamp: 2025-10-22<em>15:28:36 | Tool Error: At least one recipient is not valid., Recipient 'Qionghui Zhang' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 071b7a08-6e71-4cd1-bde5-eecd13569b58, TimeStamp: 2025-10-22</em>15:28:39</li>
+</ul>
+
+<p><strong>64. sendEmail<em>To+cc</em>043</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with storytelling style.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>55e5752d-028c-4f32-9c99-ffdd0b5432f3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>65. sendEmail<em>To+cc</em>045</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with apologetic tone.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5007e529-6043-464e-9d6b-30899657ff18</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'mengqi.qin' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 5007e529-6043-464e-9d6b-30899657ff18, TimeStamp: 2025-10-22_15:28:37</li>
+</ul>
+
+<p><strong>66. sendEmail<em>To+cc</em>046</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with neutral factual tone.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ebfaae5b-6221-43fd-9830-2e356c426690</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>67. sendEmail<em>To+cc</em>047</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC with localized greeting.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5be505cf-128a-4112-806e-d3482d11cbd2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 5be505cf-128a-4112-806e-d3482d11cbd2, TimeStamp: 2025-10-22_15:28:39</li>
+</ul>
+
+<p><strong>68. sendEmail<em>To+cc</em>048</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC multi-language sections.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync, mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅, CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>44ff1e05-6cec-418d-a283-1b794ee31c9f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22Hejia%20Liu%22&amp;%24top=3&amp;%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=400 (Bad Request). CorrelationId=44ff1e05-6cec-418d-a283-1b794ee31c9f GraphRequestId=44ff1e05-6cec-418d-a283-1b794ee31c9f | Tool Error: CorrelationId: 44ff1e05-6cec-418d-a283-1b794ee31c9f, TimeStamp: 2025-10-22_15:28:40</li>
+</ul>
+
+<p><strong>69. sendEmail<em>To+cc</em>053</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + CC using personalized placeholders (template handling).</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f50a6e48-4ab2-409a-aa76-3c5c42e856fc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'mengqi.qin' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: f50a6e48-4ab2-409a-aa76-3c5c42e856fc, TimeStamp: 2025-10-22_15:28:42</li>
+</ul>
+
+<p><strong>70. sendEmail<em>To+bcc</em>002</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC without formatting.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ac2133f0-479c-4923-bc60-5c0fee2de852</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mayur Arora' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: ac2133f0-479c-4923-bc60-5c0fee2de852, TimeStamp: 2025-10-22_15:28:45</li>
+</ul>
+
+<p><strong>71. sendEmail<em>To+bcc</em>004</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + multiple BCC.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3a41b578-b2ae-4bc7-ac39-b7d2ff38dd61</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 3a41b578-b2ae-4bc7-ac39-b7d2ff38dd61, TimeStamp: 2025-10-22_15:28:43</li>
+</ul>
+
+<p><strong>72. sendEmail<em>To+bcc</em>005</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC alias address.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d81d9bd1-30d4-4bb3-957d-67beeeb7a357</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>73. sendEmail<em>To+bcc</em>006</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC greeting + closing.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9f2f7a65-bbdc-438f-898f-60daf8195601</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 9f2f7a65-bbdc-438f-898f-60daf8195601, TimeStamp: 2025-10-22_15:28:45</li>
+</ul>
+
+<p><strong>74. sendEmail<em>To+bcc</em>009</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC emphasizing key phrases.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c958cb52-4a61-4d3b-921f-afeae8a8fa59</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>75. sendEmail<em>To+bcc</em>012</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC summary paragraph.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>754476bb-c43f-4921-9567-55a1fd263ca4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Sushant Mudholkar' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 754476bb-c43f-4921-9567-55a1fd263ca4, TimeStamp: 2025-10-22_15:28:50</li>
+</ul>
+
+<p><strong>76. sendEmail<em>To+bcc</em>013</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC multiple formatting styles.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>753b42a0-7e75-4449-8bba-c28d5511595b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>77. sendEmail<em>To+bcc</em>014</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC urgent note.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9d8c6501-4e81-4716-8629-34b59cbf45a9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 9d8c6501-4e81-4716-8629-34b59cbf45a9, TimeStamp: 2025-10-22_15:28:50</li>
+</ul>
+
+<p><strong>78. sendEmail<em>To+bcc</em>016</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC FYI note.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>771f2f45-26ef-4a66-b3a7-d877057241ff</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Hao Kandiah' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 771f2f45-26ef-4a66-b3a7-d877057241ff, TimeStamp: 2025-10-22_15:28:51</li>
+</ul>
+
+<p><strong>79. sendEmail<em>To+bcc</em>017</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC including inline link + summary.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>711301fa-770b-4cdc-b845-1683fac2b60d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Hejia Liu' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 711301fa-770b-4cdc-b845-1683fac2b60d, TimeStamp: 2025-10-22_15:28:53</li>
+</ul>
+
+<p><strong>80. sendEmail<em>To+bcc</em>018</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC summary + CTA.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e8c26f7e-ca29-4590-b48a-805662171d69</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mengqi Qin' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: e8c26f7e-ca29-4590-b48a-805662171d69, TimeStamp: 2025-10-22_15:28:53</li>
+</ul>
+
+<p><strong>81. sendEmail<em>To+bcc</em>019</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC emphasizing benefits.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7e3ef00e-831f-4c73-b17b-2c85a4537fe3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Hejia Liu' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 7e3ef00e-831f-4c73-b17b-2c85a4537fe3, TimeStamp: 2025-10-22_15:28:54</li>
+</ul>
+
+<p><strong>82. sendEmail<em>To+bcc</em>024</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC analytics summary.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>252d11f6-e9d9-4d9d-8ef0-91e3cf2c328b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>83. sendEmail<em>To+bcc</em>026</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC KPI summary.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d2ca19fa-6ae0-4abd-b25c-a0af7aed4bc0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>84. sendEmail<em>To+bcc</em>028</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC summarizing customer feedback.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>be13ad58-8e81-4e2e-88de-eb2fb542e424</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Sushant Mudholkar' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: be13ad58-8e81-4e2e-88de-eb2fb542e424, TimeStamp: 2025-10-22_15:28:58</li>
+</ul>
+
+<p><strong>85. sendEmail<em>To+bcc</em>029</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server test - To + BCC confidentiality emphasis.</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d4206b5e-9345-4101-a8cb-b41a7b7892c4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>86. sendEmail<em>To+bcc</em>039</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC apology tone</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, SendEmailWithAttachmentsAsync✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c9d2c4cc-5cd4-4d17-b05c-4cf7ff8cccd5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mayur Arora' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: c9d2c4cc-5cd4-4d17-b05c-4cf7ff8cccd5, TimeStamp: 2025-10-22<em>15:29:05 | Tool Error: At least one recipient is not valid., Recipient 'Priya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 30a0dda3-5595-4e2f-9ebe-864a9d7013de, TimeStamp: 2025-10-22</em>15:29:08</li>
+</ul>
+
+<p><strong>87. sendEmail<em>To+bcc</em>040</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC motivational tone</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>259e9efa-66e5-44e1-ae22-2eb886ceae67</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Sushant Mudholkar' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 259e9efa-66e5-44e1-ae22-2eb886ceae67, TimeStamp: 2025-10-22<em>15:29:06 | Tool Error: Graph API call failed for tool 'mcp</em>graph<em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22Priya%22&amp;%24top=5. Status=400 (Bad Request). CorrelationId=ecee59e4-4a58-4917-9253-b31c33dbd145 GraphRequestId=ecee59e4-4a58-4917-9253-b31c33dbd145 | Tool Error: CorrelationId: ecee59e4-4a58-4917-9253-b31c33dbd145, TimeStamp: 2025-10-22</em>15:29:08 | Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22Sushant%20Mudholkar%22&amp;%24top=5. Status=400 (Bad Request). CorrelationId=24134663-9258-4d30-b7ef-d7c0018a0ee9 GraphRequestId=24134663-9258-4d30-b7ef-d7c0018a0ee9 | Tool Error: CorrelationId: 24134663-9258-4d30-b7ef-d7c0018a0ee9, TimeStamp: 2025-10-22_15:29:08</li>
+</ul>
+
+<p><strong>88. sendEmail<em>To+bcc</em>042</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC storytelling style</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>786edf62-dd5e-4a97-b158-561cba1e92c4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Hejia Liu' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 786edf62-dd5e-4a97-b158-561cba1e92c4, TimeStamp: 2025-10-22_15:29:06</li>
+</ul>
+
+<p><strong>89. sendEmail<em>To+bcc</em>044</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + BCC localized greeting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>380c3f54-0907-4d31-a20c-1e6620981ac0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: ae1e6af9-463e-4238-9091-62b9b8a3cec6, TimeStamp: 2025-10-22_15:29:09</li>
+</ul>
+
+<p><strong>90. sendEmail<em>To+bcc</em>051</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Email MCP server functionality test - To + BCC placeholder mismatch</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>getUserProfile✅, graph</em>getUserProfile✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a6f3086e-0c2e-40a1-aa98-fde49b8ae460</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Priya?%24select=mail%2CdisplayName. Status=404 (Not Found). CorrelationId=a6f3086e-0c2e-40a1-aa98-fde49b8ae460 GraphRequestId=a6f3086e-0c2e-40a1-aa98-fde49b8ae460 | Tool Error: CorrelationId: a6f3086e-0c2e-40a1-aa98-fde49b8ae460, TimeStamp: 2025-10-22<em>15:29:14 | Tool Error: Graph API call failed for tool 'mcp</em>graph<em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Deepak?%24select=mail%2CdisplayName. Status=404 (Not Found). CorrelationId=0df0ad8e-9bef-44be-b724-78dd0ed7ca74 GraphRequestId=0df0ad8e-9bef-44be-b724-78dd0ed7ca74 | Tool Error: CorrelationId: 0df0ad8e-9bef-44be-b724-78dd0ed7ca74, TimeStamp: 2025-10-22</em>15:29:14</li>
+</ul>
+
+<p><strong>91. sendEmail<em>To+cc+bcc</em>001</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with formatted content</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>fec214cd-0b87-4687-8b58-6901b4befa6a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mautkit' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: fec214cd-0b87-4687-8b58-6901b4befa6a, TimeStamp: 2025-10-22_15:29:15</li>
+</ul>
+
+<p><strong>92. sendEmail<em>To+cc+bcc</em>002</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email without formatting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d85ee937-716f-4a58-b813-c2b18b86d01e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Ilya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: d85ee937-716f-4a58-b813-c2b18b86d01e, TimeStamp: 2025-10-22_15:29:15</li>
+</ul>
+
+<p><strong>93. sendEmail<em>To+cc+bcc</em>003</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Simple To + CC + BCC email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>59812f1f-cf6c-47e6-b4e2-a65baf312b91</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Body is required. | Tool Error: CorrelationId: 59812f1f-cf6c-47e6-b4e2-a65baf312b91, TimeStamp: 2025-10-22_15:29:14</li>
+</ul>
+
+<p><strong>94. sendEmail<em>To+cc+bcc</em>005</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC with alias addresses</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>423ae961-b7e0-4ec6-8474-60ff839e4568</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 423ae961-b7e0-4ec6-8474-60ff839e4568, TimeStamp: 2025-10-22_15:29:15</li>
+</ul>
+
+<p><strong>95. sendEmail<em>To+cc+bcc</em>009</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email emphasizing key phrases</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>810dadd3-792c-4699-9003-cd2f95898630</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>96. sendEmail<em>To+cc+bcc</em>011</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with inline code example</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ab0ac977-07fa-4635-9a13-471e60a533c5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>97. sendEmail<em>To+cc+bcc</em>015</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with follow-up request</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SearchMessagesAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SearchMessagesAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e219794a-062c-4584-886f-81a68aebf262</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>98. sendEmail<em>To+cc+bcc</em>016</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email flagged FYI</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>438f8fec-af5c-40d3-a3a7-bc1356ece035</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Body is required. | Tool Error: CorrelationId: 438f8fec-af5c-40d3-a3a7-bc1356ece035, TimeStamp: 2025-10-22_15:29:21</li>
+</ul>
+
+<p><strong>99. sendEmail<em>To+cc+bcc</em>017</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email including inline link + summary</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>884aa466-585d-4207-8d0b-06ad04e50a68</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Ilya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 884aa466-585d-4207-8d0b-06ad04e50a68, TimeStamp: 2025-10-22_15:29:24</li>
+</ul>
+
+<p><strong>100. sendEmail<em>To+cc+bcc</em>019</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email emphasizing benefits</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>83206083-0a60-4083-97d8-7d79bb8b9bd7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'James' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 83206083-0a60-4083-97d8-7d79bb8b9bd7, TimeStamp: 2025-10-22_15:29:25</li>
+</ul>
+
+<p><strong>101. sendEmail<em>To+cc+bcc</em>020</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with personalized note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4d193d17-062e-4236-baa1-b4f66520f52f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mautkit' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 4d193d17-062e-4236-baa1-b4f66520f52f, TimeStamp: 2025-10-22_15:29:25</li>
+</ul>
+
+<p><strong>102. sendEmail<em>To+cc+bcc</em>021</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC internal announcement</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bdf33da7-f09d-4271-9abb-6c12005d79ff</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>103. sendEmail<em>To+cc+bcc</em>023</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with version history summary</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cb7445d5-fdba-4c2e-8618-da7f964e4527</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>104. sendEmail<em>To+cc+bcc</em>026</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with KPI summary</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>56412b93-0ecd-44d5-af87-de55b6fbd4f7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>105. sendEmail<em>To+cc+bcc</em>027</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with roadmap outline</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ec5371a5-3475-44ce-816d-18c899586882</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Gio' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: ec5371a5-3475-44ce-816d-18c899586882, TimeStamp: 2025-10-22_15:29:29</li>
+</ul>
+
+<p><strong>106. sendEmail<em>To+cc+bcc</em>028</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email summarizing customer feedback</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3a2eeb9f-644b-4247-b2ff-9545ccfe7c26</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>107. sendEmail<em>To+cc+bcc</em>029</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email emphasizing confidentiality</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a1d460b5-3ea5-41ec-8572-f97d93994e34</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Monica' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: a1d460b5-3ea5-41ec-8572-f97d93994e34, TimeStamp: 2025-10-22_15:29:30</li>
+</ul>
+
+<p><strong>108. sendEmail<em>To+cc+bcc</em>031</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with calendar invite link</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync, SendDraftMessageAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph<em>listUsers✅, graph</em>listUsers✅, CreateDraftMessageAsync✅, SendDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a8c580e5-f712-4930-ab64-5a96a189e23c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>109. sendEmail<em>To+cc+bcc</em>033</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with accessibility note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a4c48749-999e-4419-baa3-358d6c129cd3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Ilya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: a4c48749-999e-4419-baa3-358d6c129cd3, TimeStamp: 2025-10-22_15:29:32</li>
+</ul>
+
+<p><strong>110. sendEmail<em>To+cc+bcc</em>034</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with timezone note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8eeca400-5fe0-47f4-bda3-f3203d52867e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Monica' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 8eeca400-5fe0-47f4-bda3-f3203d52867e, TimeStamp: 2025-10-22_15:29:34</li>
+</ul>
+
+<p><strong>111. sendEmail<em>To+cc+bcc</em>037</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC blocked BCC domain</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ddfcd603-4378-4bd5-9f0b-e2b0cf8acbfe</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: ddfcd603-4378-4bd5-9f0b-e2b0cf8acbfe, TimeStamp: 2025-10-22_15:29:34</li>
+</ul>
+
+<p><strong>112. sendEmail<em>To+cc+bcc</em>040</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with apology tone</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e5089e72-b536-4f59-b430-c75ae621c87d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mautkit' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: e5089e72-b536-4f59-b430-c75ae621c87d, TimeStamp: 2025-10-22_15:29:36</li>
+</ul>
+
+<p><strong>113. sendEmail<em>To+cc+bcc</em>041</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with motivational tone</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4dfc885c-549a-485e-adb9-490b013a3290</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Manas' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 4dfc885c-549a-485e-adb9-490b013a3290, TimeStamp: 2025-10-22_15:29:38</li>
+</ul>
+
+<p><strong>114. sendEmail<em>To+cc+bcc</em>042</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with persuasive tone</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c757ffb0-26cc-4984-a37d-00c6270aae91</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>115. sendEmail<em>To+cc+bcc</em>043</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with storytelling style</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ab6a36c7-aa90-4375-a1e5-75a15f7cc455</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Ilya' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: ab6a36c7-aa90-4375-a1e5-75a15f7cc455, TimeStamp: 2025-10-22_15:29:38</li>
+</ul>
+
+<p><strong>116. sendEmail<em>To+cc+bcc</em>045</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with localized greeting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bdf67a35-40c9-415b-a6dd-1ce1db7b51c8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Mautkit' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: bdf67a35-40c9-415b-a6dd-1ce1db7b51c8, TimeStamp: 2025-10-22_15:29:39</li>
+</ul>
+
+<p><strong>117. sendEmail<em>To+cc+bcc</em>047</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with analytics summary</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4d013758-8d14-4c95-9a80-4a0c0ffab741</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Gio' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 4d013758-8d14-4c95-9a80-4a0c0ffab741, TimeStamp: 2025-10-22_15:29:41</li>
+</ul>
+
+<p><strong>118. sendEmail<em>To+cc+bcc</em>049</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with KPIs and roadmap</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>078ffadc-2476-44c2-ad2f-f8372e402456</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>119. sendEmail<em>To+cc+bcc</em>051</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC with placeholder mismatch</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>564c4372-d2f0-48f5-9c9e-48ecaef3161d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>120. sendEmail<em>To+cc+bcc</em>052</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email with formatted content</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5be1ae69-4397-4a86-a65c-728dc2d624b9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Shivani' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 5be1ae69-4397-4a86-a65c-728dc2d624b9, TimeStamp: 2025-10-22_15:29:44</li>
+</ul>
+
+<p><strong>121. sendEmail<em>To+cc+bcc</em>053</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC email without formatting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3832a2c9-603f-4a13-8e5c-f07e99b9b446</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Gio' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 3832a2c9-603f-4a13-8e5c-f07e99b9b446, TimeStamp: 2025-10-22_15:29:44</li>
+</ul>
+
+<p><strong>122. sendEmail<em>To+cc+bcc</em>054</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC simple email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>aa4ffd1f-759b-40cc-bc24-70bebd75ad05</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>123. sendEmail<em>To+cc+bcc</em>055</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC multiple recipients</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>59107027-dfbc-45ab-8af7-9e60618f55c9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>124. sendEmail<em>To+cc+bcc</em>064</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC multiple formatting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3e333556-b06b-4cea-a2b9-1b9290d97984</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>125. sendEmail<em>To+cc+bcc</em>066</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC follow-up request</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SearchMessagesAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SearchMessagesAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>22aa5c8a-a3d0-47ea-b563-ac1fd16897b1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>126. sendEmail<em>To+cc+bcc</em>067</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC FYI note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ecc0a07b-14f1-4275-8ba3-05454eac335c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Body is required. | Tool Error: CorrelationId: ecc0a07b-14f1-4275-8ba3-05454eac335c, TimeStamp: 2025-10-22_15:29:51</li>
+</ul>
+
+<p><strong>127. sendEmail<em>To+cc+bcc</em>071</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC personalized note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d1010670-301e-4e86-87bc-fb62af6f0214</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>128. sendEmail<em>To+cc+bcc</em>072</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC internal announcement</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9f10a58b-425e-4f6f-a344-ce20d5b958d9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>129. sendEmail<em>To+cc+bcc</em>078</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC roadmap outline</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>57357a98-3a2d-425a-9d08-aee8af787adc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'mayank' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 57357a98-3a2d-425a-9d08-aee8af787adc, TimeStamp: 2025-10-22_15:29:59</li>
+</ul>
+
+<p><strong>130. sendEmail<em>To+cc+bcc</em>079</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC summarizing customer feedback</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>726d089c-f049-4a94-892f-71f8db1159c5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Ilya Grebnov' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 726d089c-f049-4a94-892f-71f8db1159c5, TimeStamp: 2025-10-22_15:29:59</li>
+</ul>
+
+<p><strong>131. sendEmail<em>To+cc+bcc</em>080</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC confidentiality emphasis</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8c026973-356b-4595-a81c-b27438048455</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'tracie' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 8c026973-356b-4595-a81c-b27438048455, TimeStamp: 2025-10-22_15:29:59</li>
+</ul>
+
+<p><strong>132. sendEmail<em>To+cc+bcc</em>082</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC calendar invite link</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f7145059-3de7-46ba-a4c5-d882dc9fc79a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'James Oleinik' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: f7145059-3de7-46ba-a4c5-d882dc9fc79a, TimeStamp: 2025-10-22_15:29:59</li>
+</ul>
+
+<p><strong>133. sendEmail<em>To+cc+bcc</em>084</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC accessibility note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>831387c0-4311-43ee-bf9b-5ca86089990d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>134. sendEmail<em>To+cc+bcc</em>085</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC timezone note</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>fae62a24-a723-4f46-baa6-2e5c3af61649</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Scott' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: fae62a24-a723-4f46-baa6-2e5c3af61649, TimeStamp: 2025-10-22_15:30:01</li>
+</ul>
+
+<p><strong>135. sendEmail<em>To+cc+bcc</em>086</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC exceeding recipient limit</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>11b1cf69-3720-4cca-9d92-e2561b26ba49</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 11b1cf69-3720-4cca-9d92-e2561b26ba49, TimeStamp: 2025-10-22_15:30:02</li>
+</ul>
+
+<p><strong>136. sendEmail<em>To+cc+bcc</em>088</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC blocked BCC domain</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>558fbbda-5916-4793-9cc9-afff9c3004ef</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 558fbbda-5916-4793-9cc9-afff9c3004ef, TimeStamp: 2025-10-22_15:30:02</li>
+</ul>
+
+<p><strong>137. sendEmail<em>To+cc+bcc</em>089</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC placeholder personalization</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>32e2a899-4072-40e8-acee-499d229ce8c5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 32e2a899-4072-40e8-acee-499d229ce8c5, TimeStamp: 2025-10-22<em>15:30:02 | Tool Error: At least one recipient is not valid., Recipient 'Robert Bruckner' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 3178c93e-9a49-449b-9dc9-0bc48b0ce1b1, TimeStamp: 2025-10-22</em>15:30:06</li>
+</ul>
+
+<p><strong>138. sendEmail<em>To+cc+bcc</em>091</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC tone: apology</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6eb73894-a231-48a7-80bc-3e7a7b345c7a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Gio' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 6eb73894-a231-48a7-80bc-3e7a7b345c7a, TimeStamp: 2025-10-22_15:30:05</li>
+</ul>
+
+<p><strong>139. sendEmail<em>To+cc+bcc</em>092</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC tone: motivational</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3eb8bdcc-272d-4621-abca-84a23e4c51f8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>140. sendEmail<em>To+cc+bcc</em>094</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC tone: storytelling</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9db5051f-b5e4-481f-913f-91174f2ba313</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'James Oleinik' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: 9db5051f-b5e4-481f-913f-91174f2ba313, TimeStamp: 2025-10-22_15:30:06</li>
+</ul>
+
+<p><strong>141. sendEmail<em>To+cc+bcc</em>096</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC localized greeting</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅, graph<em>listUsers✅, graph</em>listUsers✅, graph_listUsers✅, SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>aabcf719-31eb-4a62-8e5a-bc70e0b71578</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Ilya Grebnov' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: aabcf719-31eb-4a62-8e5a-bc70e0b71578, TimeStamp: 2025-10-22_15:30:06</li>
+</ul>
+
+<p><strong>142. sendEmail<em>To+cc+bcc</em>097</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC dual-language sections</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate CreateDraftMessageAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CreateDraftMessageAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>43b61566-22fc-4edf-af9f-aa89c72b5de5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>143. sendEmail<em>To+cc+bcc</em>098</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC analytics summary</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ae7055a5-3178-4ca4-a216-06e04ea2e0e5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: At least one recipient is not valid., Recipient 'Nirav Shah' is not resolved. All recipients must be resolved before a message can be submitted. | Tool Error: CorrelationId: ae7055a5-3178-4ca4-a216-06e04ea2e0e5, TimeStamp: 2025-10-22_15:30:08</li>
+</ul>
+
+<p><strong>144. sendEmail<em>To+cc+bcc</em>102</strong>- <strong>Category:</strong>
+**sendEmail</p>
+
+<ul>
+<li><strong>Description:</strong>
+**To + CC + BCC emphasizing key points with bold + italic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate SendEmailWithAttachmentsAsync reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+SendEmailWithAttachmentsAsync✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6cf6f4fd-d31d-452e-b79c-f7bf76609dc1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Subject is required. | Tool Error: CorrelationId: 6cf6f4fd-d31d-452e-b79c-f7bf76609dc1, TimeStamp: 2025-10-22_15:30:10</li>
+</ul>
+
+<p><em>Total 144 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>60
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>sendEmail_001</code> - sendEmail
+   - <em>Email mcp server functionality test</em>
+   - Score: 3.75
+2. <code>sendEmail_003</code> - sendEmail
+   - <em>Email mcp server functionality test</em>
+   - Score: 3.75
+3. <code>sendEmail_004</code> - sendEmail
+   - <em>Email mcp server functionality test</em>
+   - Score: 3.5
+4. <code>sendEmail_008</code> - sendEmail
+   - <em>Email emphasizing key phrases for highlighting important points</em>
+   - Score: 4
+5. <code>sendEmail_009</code> - sendEmail
+   - <em>Email with call-to-action to request feedback</em>
+   - Score: 4
+6. <code>sendEmail_010</code> - sendEmail
+   - <em>Email to multiple recipients with CC visibility</em>
+   - Score: 3.25
+7. <code>sendEmail_012</code> - sendEmail
+   - <em>Email requesting feedback</em>
+   - Score: 3.75
+8. <code>sendEmail_015</code> - sendEmail
+   - <em>Email with bold + italic formatting</em>
+   - Score: 3.75
+9. <code>sendEmail_019</code> - sendEmail
+   - <em>Informational FYI email</em>
+   - Score: 3.75
+10. <code>sendEmail_020</code> - sendEmail
+   - <em>Email combining summary and call-to-action</em>
+   - Score: 4
+11. <code>sendEmail_021</code> - sendEmail
+   - <em>Email MCP server functionality test - plain text email without formatting</em>
+   - Score: 4
+12. <code>sendEmail_025</code> - sendEmail
+   - <em>Email MCP server functionality test - personalized note</em>
+   - Score: 3.5
+13. <code>sendEmail_030</code> - sendEmail
+   - <em>Send email to two recipients separated by comma</em>
+   - Score: 4
+14. <code>sendEmail_031</code> - sendEmail
+   - <em>Send email to two recipients separated by semicolon</em>
+   - Score: 4.25
+15. <code>sendEmail_034</code> - sendEmail
+   - <em>Send email with duplicate addresses in To (dedupe)</em>
+   - Score: 4
+16. <code>sendEmail_036</code> - sendEmail
+   - <em>Send email to single To where recipient is a forwarding address</em>
+   - Score: 3.75
+17. <code>sendEmail_037</code> - sendEmail
+   - <em>Send email to To containing display name with comma (quoted)</em>
+   - Score: 3.75
+18. <code>sendEmail_038</code> - sendEmail
+   - <em>Send email to To containing personal alias + address</em>
+   - Score: 3.75
+19. <code>sendEmail_039</code> - sendEmail
+   - <em>Send email to To with whitespace and line breaks</em>
+   - Score: 3.75
+20. <code>sendEmail_040</code> - sendEmail
+   - <em>Send email to To with invalid email address (reject)</em>
+   - Score: 3
+21. <code>sendEmail_041</code> - sendEmail
+   - <em>Send email to To where one address is valid and one invalid — partial failure be...</em>
+   - Score: 3.25
+22. <code>sendEmail_042</code> - sendEmail
+   - <em>Send email to single To that requires S/MIME encryption</em>
+   - Score: 3
+23. <code>sendEmail_To+cc_003</code> - sendEmail
+   - <em>Email MCP server test - internal To + CC combination.</em>
+   - Score: 3.25
+24. <code>sendEmail_To+cc_005</code> - sendEmail
+   - <em>Email MCP server test - multiple CC recipients.</em>
+   - Score: 2.5
+25. <code>sendEmail_To+cc_011</code> - sendEmail
+   - <em>Email MCP server test - To + CC including inline code example.</em>
+   - Score: 3.5
+26. <code>sendEmail_To+cc_013</code> - sendEmail
+   - <em>Email MCP server test - To + CC with multiple formatting styles (numbered + bold...</em>
+   - Score: 2.75
+27. <code>sendEmail_To+cc_014</code> - sendEmail
+   - <em>Email MCP server test - To + CC with urgency handling.</em>
+   - Score: 3.75
+28. <code>sendEmail_To+cc_027</code> - sendEmail
+   - <em>Email MCP server test - To + CC including troubleshooting steps.</em>
+   - Score: 3.5
+29. <code>sendEmail_To+cc_029</code> - sendEmail
+   - <em>Email MCP server test - To + CC outlining roadmap.</em>
+   - Score: 2.75
+30. <code>sendEmail_To+cc_034</code> - sendEmail
+   - <em>Email MCP server test - To + CC containing Teams/Zoom link.</em>
+   - Score: 3.5
+31. <code>sendEmail_To+cc_038</code> - sendEmail
+   - <em>Email MCP server test - To + CC outlining meeting agenda.</em>
+   - Score: 3.5
+32. <code>sendEmail_To+cc_040</code> - sendEmail
+   - <em>Email MCP server test - To + CC in casual tone.</em>
+   - Score: 3
+33. <code>sendEmail_To+cc_043</code> - sendEmail
+   - <em>Email MCP server test - To + CC with storytelling style.</em>
+   - Score: 3
+34. <code>sendEmail_To+cc_046</code> - sendEmail
+   - <em>Email MCP server test - To + CC with neutral factual tone.</em>
+   - Score: 2.75
+35. <code>sendEmail_To+bcc_005</code> - sendEmail
+   - <em>Email MCP server test - To + BCC alias address.</em>
+   - Score: 2.75
+36. <code>sendEmail_To+bcc_009</code> - sendEmail
+   - <em>Email MCP server test - To + BCC emphasizing key phrases.</em>
+   - Score: 2.75
+37. <code>sendEmail_To+bcc_013</code> - sendEmail
+   - <em>Email MCP server test - To + BCC multiple formatting styles.</em>
+   - Score: 2.5
+38. <code>sendEmail_To+bcc_024</code> - sendEmail
+   - <em>Email MCP server test - To + BCC analytics summary.</em>
+   - Score: 2.25
+39. <code>sendEmail_To+bcc_026</code> - sendEmail
+   - <em>Email MCP server test - To + BCC KPI summary.</em>
+   - Score: 2.25
+40. <code>sendEmail_To+bcc_029</code> - sendEmail
+   - <em>Email MCP server test - To + BCC confidentiality emphasis.</em>
+   - Score: 3
+41. <code>sendEmail_To+cc+bcc_009</code> - sendEmail
+   - <em>To + CC + BCC email emphasizing key phrases</em>
+   - Score: 4
+42. <code>sendEmail_To+cc+bcc_011</code> - sendEmail
+   - <em>To + CC + BCC email with inline code example</em>
+   - Score: 3.5
+43. <code>sendEmail_To+cc+bcc_015</code> - sendEmail
+   - <em>To + CC + BCC email with follow-up request</em>
+   - Score: 2.5
+44. <code>sendEmail_To+cc+bcc_021</code> - sendEmail
+   - <em>To + CC + BCC internal announcement</em>
+   - Score: 3
+45. <code>sendEmail_To+cc+bcc_023</code> - sendEmail
+   - <em>To + CC + BCC email with version history summary</em>
+   - Score: 2.5
+46. <code>sendEmail_To+cc+bcc_026</code> - sendEmail
+   - <em>To + CC + BCC email with KPI summary</em>
+   - Score: 2.5
+47. <code>sendEmail_To+cc+bcc_028</code> - sendEmail
+   - <em>To + CC + BCC email summarizing customer feedback</em>
+   - Score: 4
+48. <code>sendEmail_To+cc+bcc_031</code> - sendEmail
+   - <em>To + CC + BCC email with calendar invite link</em>
+   - Score: 3.75
+49. <code>sendEmail_To+cc+bcc_042</code> - sendEmail
+   - <em>To + CC + BCC email with persuasive tone</em>
+   - Score: 3
+50. <code>sendEmail_To+cc+bcc_049</code> - sendEmail
+   - <em>To + CC + BCC email with KPIs and roadmap</em>
+   - Score: 2.75
+51. <code>sendEmail_To+cc+bcc_051</code> - sendEmail
+   - <em>To + CC + BCC with placeholder mismatch</em>
+   - Score: 3.5
+52. <code>sendEmail_To+cc+bcc_054</code> - sendEmail
+   - <em>To + CC + BCC simple email</em>
+   - Score: 2.75
+53. <code>sendEmail_To+cc+bcc_055</code> - sendEmail
+   - <em>To + CC + BCC multiple recipients</em>
+   - Score: 3.25
+54. <code>sendEmail_To+cc+bcc_064</code> - sendEmail
+   - <em>To + CC + BCC multiple formatting</em>
+   - Score: 2.75
+55. <code>sendEmail_To+cc+bcc_066</code> - sendEmail
+   - <em>To + CC + BCC follow-up request</em>
+   - Score: 2.75
+56. <code>sendEmail_To+cc+bcc_071</code> - sendEmail
+   - <em>To + CC + BCC personalized note</em>
+   - Score: 3.5
+57. <code>sendEmail_To+cc+bcc_072</code> - sendEmail
+   - <em>To + CC + BCC internal announcement</em>
+   - Score: 2.75
+58. <code>sendEmail_To+cc+bcc_084</code> - sendEmail
+   - <em>To + CC + BCC accessibility note</em>
+   - Score: 3
+59. <code>sendEmail_To+cc+bcc_092</code> - sendEmail
+   - <em>To + CC + BCC tone: motivational</em>
+   - Score: 2.75
+60. <code>sendEmail_To+cc+bcc_097</code> - sendEmail
+   - <em>To + CC + BCC dual-language sections</em>
+   - Score: 3.5</p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-22 09:04:43</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-22 09:04:43</footer>
+</body>
+</html>

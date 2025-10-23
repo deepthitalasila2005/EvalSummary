@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251021.6</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251021.6</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251021.6_20251021_175136_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</a></li>
+    </ul></li>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</a></li>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251021.6_20251021_175136.json</code>
+<strong>Test Run:</strong>2025-10-21 17:51:36
+<strong>Report Created:</strong>2025-10-21 21:47:34</p>
+
+<p><strong>Bugs to File:</strong>53 cases
+<strong>Total Failures Analyzed:</strong>74</p>
+
+<h2 id="tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>No Tools Called:</strong>
+21 cases</p>
+
+<h3 id="detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</h3>
+
+<p><strong>1. <code>test_case_006</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>vague_deadline</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule a meeting with a deadline constraint (before end of week) without specific time</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>2. <code>test_case_012</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>multiple</em>same<em>name</em>relative_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with multiple people sharing same name (both Tahir) with relative date and vague time</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>3. <code>test_case_023</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>first</em>name<em>relative</em>date_topic</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by first name on relative day for specific input, no time specified</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>4. <code>test_case_028</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>role</em>context_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by full name with role context (engineer) at specific date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>5. <code>test_case_029</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>role</em>context<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule call with person by full name with department context (sales) on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>6. <code>test_case_049</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>department</em>team<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with entire department/team (Product team) on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>7. <code>test_case_067</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>between<em>two</em>teams_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule sync meeting between two different manager's teams on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>8. <code>test_case_074</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>person</em>and<em>their</em>boss<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person and their boss (manager) on relative date (tomorrow)</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>9. <code>test_case_078</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>manager</em>and<em>skip</em>level<em>reports</em>relative_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with manager and their skip-level reports (reports' reports) on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>10. <code>test_case_089</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>role</em>disambiguated<em>and</em>multiple<em>same</em>name<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with people disambiguated by department and multiple people with same name on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>11. <code>test_case_100</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>changed</em>attendee_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with replacement attendee instead of originally intended person on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>12. <code>test_case_102</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>new</em>role<em>holder</em>instead<em>of</em>old_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with new person in leadership role instead of previous person in that role on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>13. <code>test_case_107</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>work</em>arrangement<em>based</em>team<em>relative</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with team members filtered by work arrangement (remote) on relative date at time</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>14. <code>test_case_111</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>specific</em>level<em>role</em>for<em>purpose</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with role at specific level (Principal engineers) with purpose on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>15. <code>test_case_112</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>role</em>level<em>by</em>expertise_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with role at level filtered by specific expertise/knowledge on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>16. <code>test_case_113</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>clearance</em>based<em>attendees</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting filtered by security clearance requirement at specific date and time</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>17. <code>test_case_117</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>two</em>people<em>date</em>simple</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Simple meeting scheduling with two people by name on specific date without time specified</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>18. <code>test_case_119</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>relative</em>date_minimal</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Minimal meeting scheduling with one person on relative date (tomorrow) with no additional details</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>19. <code>test_case_120</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>day</em>of<em>week</em>simple</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Simple sync meeting scheduling with one person on day of week without time</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>20. <code>test_case_142</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>day</em>conflicting<em>time</em>references</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Meeting scheduling with Baisakhi on Thursday at 11 AM</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>21. <code>test_case_150</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>emergency</em>relative_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Emergency sync scheduling with one person in relative time period (this afternoon)</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><em>Total 21 failures in this category</em></p>
+
+<hr />
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Right Tools Called But Failed:</strong>
+19 cases</p>
+
+<ul>
+<li><strong>Tool Call Successful But Test Failed:</strong>
+34 cases</li>
+</ul>
+
+<h3 id="bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>19
+<strong>Recommended Action:</strong>File infrastructure bug - tool implementation needs fixing. Check tool parameters, API endpoints, and error handling.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_001</code> - schedule<em>meeting</em>with<em>name</em>date<em>time
+   - *Schedule a meeting with a single person (Nithin) at a specific date and time wit...*
+   - Score: 3.5
+2. <code>test_case_003</code> - schedule</em>meeting<em>with</em>name<em>relative</em>date<em>time
+   - *Schedule a meeting using day of week (Friday) with specific time and purpose*
+   - Score: 2.75
+3. <code>test_case_014</code> - schedule</em>meeting<em>with</em>last<em>name</em>date<em>time
+   - *Schedule meeting with person referenced by last name at specific date and time w...*
+   - Score: 2.25
+4. <code>test_case_016</code> - schedule</em>meeting<em>with</em>multiple<em>last</em>names<em>date</em>time
+   - <em>Schedule meeting with two people by last names at specific date and time with pu...</em>
+   - Score: 3
+5. <code>test_case_019</code> - schedule<em>meeting</em>with<em>last</em>name<em>relative</em>date<em>topic
+   - *Schedule meeting with person by last name about specific topic on relative futur...*
+   - Score: 2.75
+6. <code>test_case_031</code> - schedule</em>meeting<em>with</em>name<em>status</em>context<em>relative</em>date
+   - <em>Schedule meeting with person by first name with status context (new hire) on rel...</em>
+   - Score: 2.75
+7. <code>test_case_039</code> - schedule<em>meeting</em>with<em>manager</em>and<em>specific</em>reports<em>date
+   - *Schedule session with manager and specific subset of their reports (PM leads) at...*
+   - Score: 2.5
+8. <code>test_case_043</code> - schedule</em>meeting<em>with</em>full<em>name</em>project<em>context</em>relative<em>date
+   - *Schedule meeting with person by full name with project context on relative day*
+   - Score: 3
+9. <code>test_case_062</code> - schedule</em>meeting<em>with</em>role<em>group</em>across<em>organization</em>date<em>time
+   - *Schedule meeting with a specific role group (engineering managers) across the en...*
+   - Score: 2.75
+10. <code>test_case_076</code> - schedule</em>meeting<em>with</em>manager<em>and</em>leadership<em>team</em>relative<em>date</em>time
+   - <em>Schedule meeting with manager and their leadership team on relative date at spec...</em>
+   - Score: 2.25
+11. <code>test_case_077</code> - schedule<em>meeting</em>with<em>person</em>full<em>name</em>and<em>named</em>manager<em>relative</em>date
+   - <em>Schedule meeting with person by full name and their specifically named manager o...</em>
+   - Score: 2.5
+12. <code>test_case_087</code> - schedule<em>meeting</em>with<em>person</em>and<em>executive</em>group<em>date</em>time
+   - <em>Schedule meeting with specific person and all executives at VP level at date and...</em>
+   - Score: 3
+13. <code>test_case_092</code> - schedule<em>meeting</em>with<em>primary</em>or<em>alternative</em>based<em>on</em>availability<em>date
+   - *Schedule meeting with primary person or alternative if primary is out/unavailabl...*
+   - Score: 2.5
+14. <code>test_case_095</code> - schedule</em>meeting<em>with</em>preferred<em>person</em>with<em>role</em>or<em>alternative</em>relative<em>date
+   - *Schedule meeting with preferred person (with role context) or named alternative ...*
+   - Score: 2.5
+15. <code>test_case_106</code> - schedule</em>meeting<em>with</em>location<em>based</em>team<em>relative</em>date<em>time
+   - *Schedule meeting with team at specific office location on relative date at speci...*
+   - Score: 2.75
+16. <code>test_case_110</code> - schedule</em>meeting<em>with</em>role<em>across</em>organization<em>relative</em>date
+   - <em>Schedule meeting with all people in specific role (architects) across organizati...</em>
+   - Score: 2.5
+17. <code>test_case_123</code> - schedule<em>meeting</em>with<em>single</em>person<em>date</em>minimal
+   - <em>Minimal meeting scheduling with one person by first name on specific date</em>
+   - Score: 2.75
+18. <code>test_case_131</code> - schedule<em>meeting</em>with<em>single</em>person<em>date</em>topic<em>specific
+   - *Meeting scheduling with one person at date for specific discussion topic (PM dis...*
+   - Score: 2.75
+19. <code>test_case_133</code> - schedule</em>meeting<em>on</em>behalf<em>of</em>manager<em>with</em>team_date
+   - <em>Schedule meeting on behalf of another person (Srikumar) with their team on speci...</em>
+   - Score: 2.25</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. <code>test_case_001</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule a meeting with a single person (Nithin) at a specific date and time with a meeting purpose</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>listUsers, mcp<em>CalendarTools</em>graph<em>createEvent reliability. Reason: Graph API call failed for tool 'mcp</em>CalendarTools_...</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendargetUser✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0504f287-ffad-4276-bdb1-5a9aac465e02</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=429 (). CorrelationId=9ede53b9-1f45-4519-8ed4-2b8ff1e3cfa7 GraphRequestId=9ede53b9-1f45-4519-8ed4-2b8ff1e3cfa7 | Tool Error: CorrelationId: 9ede53b9-1f45-4519-8ed4-2b8ff1e3cfa7, TimeStamp: 2025-10-21</em>17:52:21</li>
+</ul>
+
+<p><strong>2. <code>test_case_003</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>relative<em>date</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule a meeting using day of week (Friday) with specific time and purpose</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph<em>getMyProfile, mcp</em>graph<em>listUsers reliability. Reason: Graph API call failed for tool 'mcp</em>CalendarTools_...</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getMyProfile✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5606c888-7d26-4115-a6b6-ea1fd4732add</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=429 (). CorrelationId=f4c1c7a8-e6f4-408a-a65e-78e814d4277e GraphRequestId=f4c1c7a8-e6f4-408a-a65e-78e814d4277e | Tool Error: CorrelationId: f4c1c7a8-e6f4-408a-a65e-78e814d4277e, TimeStamp: 2025-10-21</em>17:52:21</li>
+</ul>
+
+<p><strong>3. <code>test_case_005</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>relative_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule a meeting with relative time reference (this afternoon) requiring interpretation of time range</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>getMyProfile, mcp</em>CalendarTools<em>graph</em>findMeetingTimes reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph_getMyProfile✅, CalendarfindMeetingTimes✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>93252176-a232-4a7b-a991-3d7bf7fde8e6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>4. <code>test_case_008</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>disambiguated</em>names_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with multiple people who share first names but have different last names, no specific time given</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e1d73be9-ffd5-426f-bcb9-49023b1bfaeb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>5. <code>test_case_013</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>last</em>names<em>relative</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with three people referenced by last names only with relative date and specific time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>443befdc-166d-498e-805f-ad5091f6b66a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>6. <code>test_case_014</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>last</em>name<em>date</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person referenced by last name at specific date and time with purpose</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b6ba8081-c5c9-44bb-8280-d1f354038242</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Krishnan?%24select=id%2Cmail%2CuserPrincipalName%2CdisplayName. Status=404 (Not Found). CorrelationId=b6ba8081-c5c9-44bb-8280-d1f354038242 GraphRequestId=b6ba8081-c5c9-44bb-8280-d1f354038242 | Tool Error: CorrelationId: b6ba8081-c5c9-44bb-8280-d1f354038242, TimeStamp: 2025-10-21</em>17:52:27</li>
+</ul>
+
+<p><strong>7. <code>test_case_016</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>multiple</em>last<em>names</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with two people by last names at specific date and time with purpose</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>32b85f43-7a7d-4574-bc8b-8bca08163b4f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Chaudhuri. Status=404 (Not Found). CorrelationId=32b85f43-7a7d-4574-bc8b-8bca08163b4f GraphRequestId=32b85f43-7a7d-4574-bc8b-8bca08163b4f | Tool Error: CorrelationId: 32b85f43-7a7d-4574-bc8b-8bca08163b4f, TimeStamp: 2025-10-21</em>17:52:29 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Jhunjhunwala. Status=404 (Not Found). CorrelationId=c39e3f47-6c65-4842-ad5a-51372fd3060c GraphRequestId=c39e3f47-6c65-4842-ad5a-51372fd3060c | Tool Error: CorrelationId: c39e3f47-6c65-4842-ad5a-51372fd3060c, TimeStamp: 2025-10-21</em>17:52:29</li>
+</ul>
+
+<p><strong>8. <code>test_case_019</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>last</em>name<em>relative</em>date_topic</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by last name about specific topic on relative future date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6a655de9-adaa-4fe1-a7e3-b329a8ef1175</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/me?%24select=mail. Status=404 (Not Found). CorrelationId=6a655de9-adaa-4fe1-a7e3-b329a8ef1175 GraphRequestId=6a655de9-adaa-4fe1-a7e3-b329a8ef1175 | Tool Error: CorrelationId: 6a655de9-adaa-4fe1-a7e3-b329a8ef1175, TimeStamp: 2025-10-21</em>17:52:29</li>
+</ul>
+
+<p><strong>9. <code>test_case_025</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>context</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by full name with additional context (role: PM) at specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>listCalendarView reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistCalendarView✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>38aae61e-0044-4852-b07b-6404ec773664</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>10. <code>test_case_026</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>context</em>relative_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by full name with work context (backend) on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>662466b6-0f5c-42bc-829d-508fb20c7f8b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>11. <code>test_case_030</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>reporting<em>context</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by first name with reporting relationship context at specific date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7339d12e-9603-4a34-8728-fc7b2e35ea8e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>12. <code>test_case_031</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>status<em>context</em>relative_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by first name with status context (new hire) on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendarlistUsers✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4b3cd85f-5f7a-4650-bc78-987a510c877a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/me?%24select=mail. Status=404 (Not Found). CorrelationId=4b3cd85f-5f7a-4650-bc78-987a510c877a GraphRequestId=4b3cd85f-5f7a-4650-bc78-987a510c877a | Tool Error: CorrelationId: 4b3cd85f-5f7a-4650-bc78-987a510c877a, TimeStamp: 2025-10-21</em>17:52:43 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/me?%24select=userPrincipalName. Status=404 (Not Found). CorrelationId=4235615e-6fcd-41fc-9f37-7065026db1d4 GraphRequestId=4235615e-6fcd-41fc-9f37-7065026db1d4 | Tool Error: CorrelationId: 4235615e-6fcd-41fc-9f37-7065026db1d4, TimeStamp: 2025-10-21</em>17:52:47</li>
+</ul>
+
+<p><strong>13. <code>test_case_033</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>title<em>context</em>relative_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by first name with executive title context on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ab1503e1-53fd-48e4-bbdf-6070e4260917</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>14. <code>test_case_034</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>role</em>reporting<em>context</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by full name with role and reporting context at specific date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, graph_getDirectReports✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e530bb05-1b9f-470a-82b5-1f9ed560bd03</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>15. <code>test_case_039</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>manager</em>and<em>specific</em>reports_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule session with manager and specific subset of their reports (PM leads) at specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getUserProfile✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>124cc80f-ffde-403e-984b-a0732dc3951d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/James?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=124cc80f-ffde-403e-984b-a0732dc3951d GraphRequestId=124cc80f-ffde-403e-984b-a0732dc3951d | Tool Error: CorrelationId: 124cc80f-ffde-403e-984b-a0732dc3951d, TimeStamp: 2025-10-21_17:52:49</li>
+</ul>
+
+<p><strong>16. <code>test_case_043</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>project</em>context<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by full name with project context on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>createEvent, mcp</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d28017dc-f8c0-4d4b-bcf1-9e51bb207783</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>createEvent': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/events. Status=400 (Bad Request). CorrelationId=f1bfb37c-e631-4a49-bce8-c4666293fc7a GraphRequestId=f1bfb37c-e631-4a49-bce8-c4666293fc7a | Tool Error: CorrelationId: f1bfb37c-e631-4a49-bce8-c4666293fc7a, TimeStamp: 2025-10-21</em>17:52:56</li>
+</ul>
+
+<p><strong>17. <code>test_case_044</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>work<em>context</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by first name with specific work accomplishment context at date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>createEvent, mcp<em>CalendarTools</em>graph_listEvents reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistEvents✅, CalendarlistEvents✅, CalendarlistEvents✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8b48022b-c1f2-40c6-ade4-64f93e058ddf</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>18. <code>test_case_045</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>project</em>context<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by full name with project context (M&amp;A) on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>listCalendarView reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistCalendarView✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>713dbbd6-dd0a-49af-909e-c2487c7140ba</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>19. <code>test_case_046</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>name</em>team<em>context</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule call with person by first name with team context at specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>291f9be1-bdb8-40c5-b315-326b26e6e600</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>20. <code>test_case_050</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>department</em>relative<em>date</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule sync meeting with entire department (Engineering) on relative date at specific time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ed5728f8-4efc-41f3-9c65-7b920170c478</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>21. <code>test_case_051</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>person</em>and<em>department</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule planning session with specific person and department (PM) at specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2801f992-f220-4e13-9ac8-ecfd61a96a31</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>22. <code>test_case_053</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>person</em>and<em>organization</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with specific person and entire organization/department on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>0d496da5-8420-4ca0-8173-f0a6f92801c4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>23. <code>test_case_060</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>specific</em>role<em>from</em>organization<em>relative</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with specific role level (Principal PMs) from a manager's organization on relative date at time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e5f70515-49e4-4b41-93a6-cdf4e42f67a7</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>24. <code>test_case_062</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>role</em>group<em>across</em>organization<em>date</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with a specific role group (engineering managers) across the entire organization at date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>8cfcc984-9dee-411b-a399-4f877b0c0efc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24top=25&amp;%24select=id%2CdisplayName%2Cmail%2CjobTitle%2CuserPrincipalName&amp;%24filter=contains%28jobTitle%2C%27manager%27%29. Status=400 (Bad Request). CorrelationId=8cfcc984-9dee-411b-a399-4f877b0c0efc GraphRequestId=8cfcc984-9dee-411b-a399-4f877b0c0efc | Tool Error: CorrelationId: 8cfcc984-9dee-411b-a399-4f877b0c0efc, TimeStamp: 2025-10-21_17:53:17</li>
+</ul>
+
+<p><strong>25. <code>test_case_066</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>multiple</em>departments<em>relative</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule cross-functional meeting with two departments together on relative date at specific time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ab132969-963c-42b4-a013-09c0c4abd491</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>26. <code>test_case_068</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>three</em>departments_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule alignment meeting with three departments together on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f0c8992c-d0c0-4f37-ae26-c4d57d879eb8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>27. <code>test_case_071</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>project</em>team_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with all members working on a specific project on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4fdd2ea6-116e-46de-a78b-4197d61cfd45</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>28. <code>test_case_076</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>manager</em>and<em>leadership</em>team<em>relative</em>date_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with manager and their leadership team on relative date at specific time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>graph_listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2e73dfd7-74b8-4a72-999d-d313b5839c45</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/James?%24select=userPrincipalName. Status=404 (Not Found). CorrelationId=2e73dfd7-74b8-4a72-999d-d313b5839c45 GraphRequestId=2e73dfd7-74b8-4a72-999d-d313b5839c45 | Tool Error: CorrelationId: 2e73dfd7-74b8-4a72-999d-d313b5839c45, TimeStamp: 2025-10-21</em>17:53:37</li>
+</ul>
+
+<p><strong>29. <code>test_case_077</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>person</em>full<em>name</em>and<em>named</em>manager<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person by full name and their specifically named manager on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>381fe9cb-7cf1-4253-930c-96c0db73ca9f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Rakesh%20Krishnan?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=381fe9cb-7cf1-4253-930c-96c0db73ca9f GraphRequestId=381fe9cb-7cf1-4253-930c-96c0db73ca9f | Tool Error: CorrelationId: 381fe9cb-7cf1-4253-930c-96c0db73ca9f, TimeStamp: 2025-10-21</em>17:53:38 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=c1ecf613-ad76-40f5-bb04-26bbc28eeddc GraphRequestId=c1ecf613-ad76-40f5-bb04-26bbc28eeddc | Tool Error: CorrelationId: c1ecf613-ad76-40f5-bb04-26bbc28eeddc, TimeStamp: 2025-10-21</em>17:53:38</li>
+</ul>
+
+<p><strong>30. <code>test_case_079</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>manager</em>direct<em>and</em>indirect<em>reports</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with manager, their direct reports, and skip-level reports (two levels down) on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>getDirectReports✅, graph</em>getDirectReports✅, graph<em>getDirectReports✅, graph</em>getDirectReports✅, graph_getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>00dcaec4-9e12-4dcc-92f2-b1b16b0db670</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>31. <code>test_case_082</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>all</em>people<em>same</em>name<em>work</em>relationship<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with all people sharing same name who work together on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>listUsers, mcp<em>CalendarTools</em>graph<em>listEvents, mcp</em>CalendarTools<em>graph</em>findMeetingTimes reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendargetUser✅, CalendargetUser✅, CalendargetUser✅, CalendarlistEvents✅, CalendarlistEvents✅, CalendarlistEvents✅, CalendarfindMeetingTimes✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>38b244f3-89ef-4e98-b80d-139f7bc7e0ce</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>32. <code>test_case_084</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>persons</em>department<em>colleagues</em>relative_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person's colleagues within specific department on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>5cdbc85d-0611-4553-93bd-a20773a4a383</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>33. <code>test_case_086</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>multiple</em>complex<em>name</em>groups<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with multiple people including duplicates (both Nair, all three Hao) and individual (James) on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>findMeetingTimes reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, CalendarlistUsers✅, CalendarfindMeetingTimes✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4d07b73e-e65e-42a9-920d-08d4f7693b93</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>34. <code>test_case_087</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>person</em>and<em>executive</em>group<em>date</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with specific person and all executives at VP level at date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>listUsers, mcp<em>CalendarTools</em>graph_createEvent reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendargetUser✅, CalendargetUser✅, CalendargetUser✅, CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>11df82c5-434c-4243-8a6d-8569453903e1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/srikumar?%24select=mail%2CuserPrincipalName%2CdisplayName. Status=404 (Not Found). CorrelationId=77067402-d31e-435e-a751-c3f3b475b10e GraphRequestId=77067402-d31e-435e-a751-c3f3b475b10e | Tool Error: CorrelationId: 77067402-d31e-435e-a751-c3f3b475b10e, TimeStamp: 2025-10-21</em>17:53:47</li>
+</ul>
+
+<p><strong>35. <code>test_case_092</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>primary</em>or<em>alternative</em>based<em>on</em>availability_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with primary person or alternative if primary is out/unavailable on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>19b3edbf-6103-474d-8462-360c06ec73d0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar. Status=404 (Not Found). CorrelationId=19b3edbf-6103-474d-8462-360c06ec73d0 GraphRequestId=19b3edbf-6103-474d-8462-360c06ec73d0 | Tool Error: CorrelationId: 19b3edbf-6103-474d-8462-360c06ec73d0, TimeStamp: 2025-10-21</em>17:53:54 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Hao. Status=404 (Not Found). CorrelationId=e65de809-f27d-4675-8a27-4373670a2981 GraphRequestId=e65de809-f27d-4675-8a27-4373670a2981 | Tool Error: CorrelationId: e65de809-f27d-4675-8a27-4373670a2981, TimeStamp: 2025-10-21</em>17:53:55</li>
+</ul>
+
+<p><strong>36. <code>test_case_093</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>specific</em>person<em>or</em>role<em>group</em>alternative<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with specific person or any person from role group as alternative on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>fc71e01a-b035-4b58-8822-0b1106df3116</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>37. <code>test_case_094</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>preferred</em>person<em>or</em>role<em>group</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule call with preferred specific person from role group, or any from that role group as alternative on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6bb4e751-a845-4b4f-9b19-6cb24ee6776b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>38. <code>test_case_095</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>preferred</em>person<em>with</em>role<em>or</em>alternative<em>relative</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with preferred person (with role context) or named alternative on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_getUser reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendargetUser✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>dd5755e6-2841-4c54-957b-fb69d251eb34</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Rakesh%20Madhavan. Status=404 (Not Found). CorrelationId=dd5755e6-2841-4c54-957b-fb69d251eb34 GraphRequestId=dd5755e6-2841-4c54-957b-fb69d251eb34 | Tool Error: CorrelationId: dd5755e6-2841-4c54-957b-fb69d251eb34, TimeStamp: 2025-10-21</em>17:53:58 | Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Jon. Status=404 (Not Found). CorrelationId=181f690f-3d46-4cbe-a1ef-ee8f058c1f86 GraphRequestId=181f690f-3d46-4cbe-a1ef-ee8f058c1f86 | Tool Error: CorrelationId: 181f690f-3d46-4cbe-a1ef-ee8f058c1f86, TimeStamp: 2025-10-21</em>17:53:59</li>
+</ul>
+
+<p><strong>39. <code>test_case_096</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>role</em>based<em>on</em>rotation<em>or</em>schedule_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person in specific role/rotation (on-call engineer) without knowing their name on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>444cad09-6cfb-48d5-a0e8-f56306f8de75</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>40. <code>test_case_097</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>group</em>excluding<em>specific</em>person<em>date</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with role group but explicitly excluding one specific person at date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b602f1da-9c3b-4624-b8f8-c1ddc4b54ab6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>41. <code>test_case_099</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>role</em>group<em>excluding</em>multiple<em>same</em>name_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule session with role group but excluding multiple people with same name on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>913e0df9-3c4f-4a68-b13c-eef1afd3c430</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>42. <code>test_case_105</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>team</em>by<em>function</em>relative_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with team identified by their function/responsibility on relative day</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>69ab3056-b613-4bed-8588-b048b393780e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>43. <code>test_case_106</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>location</em>based<em>team</em>relative<em>date</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with team at specific office location on relative date at specific time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>98276508-11ef-430c-9cd4-f42cf1f388eb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24top=100&amp;%24select=displayName%2Cmail%2CuserPrincipalName%2CphysicalDeliveryOfficeName&amp;%24filter=physicalDeliveryOfficeName%20eq%20%27Seattle%27. Status=400 (Bad Request). CorrelationId=98276508-11ef-430c-9cd4-f42cf1f388eb GraphRequestId=98276508-11ef-430c-9cd4-f42cf1f388eb | Tool Error: CorrelationId: 98276508-11ef-430c-9cd4-f42cf1f388eb, TimeStamp: 2025-10-21_17:54:09</li>
+</ul>
+
+<p><strong>44. <code>test_case_108</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>person</em>timezone<em>context</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with person referenced with timezone context on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>listUsers, mcp<em>CalendarTools</em>graph_listCalendarView reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendargetUser✅, CalendarlistCalendarView✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>608a5234-168f-413c-b1b3-92e5afd599bf</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>45. <code>test_case_110</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>role</em>across<em>organization</em>relative_date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with all people in specific role (architects) across organization on relative date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2c1512ef-8de4-4edd-84dd-801b72ef81ac</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24top=10&amp;%24select=displayName%2Cmail%2CjobTitle%2CuserPrincipalName&amp;%24filter=contains%28jobTitle%2C%20%27architect%27%29. Status=400 (Bad Request). CorrelationId=2c1512ef-8de4-4edd-84dd-801b72ef81ac GraphRequestId=2c1512ef-8de4-4edd-84dd-801b72ef81ac | Tool Error: CorrelationId: 2c1512ef-8de4-4edd-84dd-801b72ef81ac, TimeStamp: 2025-10-21_17:54:12</li>
+</ul>
+
+<p><strong>46. <code>test_case_122</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>full</em>name<em>role</em>context<em>date</em>simple</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Meeting scheduling with person by full name and role context on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bedabc5b-805c-4df9-addf-b35ee71068d1</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>47. <code>test_case_123</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>date</em>minimal</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Minimal meeting scheduling with one person by first name on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>getUser, mcp</em>CalendarTools<em>graph</em>listUsers reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendargetUser✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cfe6d124-e6a6-463d-a7ee-7aaa65f7b5b5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>getUser': Failed to call graph API at https://graph.microsoft.com/v1.0/users/me?%24select=userPrincipalName. Status=404 (Not Found). CorrelationId=d2438b8b-901b-4965-8148-e7d5b982e540 GraphRequestId=d2438b8b-901b-4965-8148-e7d5b982e540 | Tool Error: CorrelationId: d2438b8b-901b-4965-8148-e7d5b982e540, TimeStamp: 2025-10-21</em>17:54:24</li>
+</ul>
+
+<p><strong>48. <code>test_case_127</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>relative</em>week<em>specific</em>day</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Meeting scheduling with one person on specific day of next week (Wednesday)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>CalendarTools<em>graph</em>findMeetingTimes reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarfindMeetingTimes✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6b8d6c53-7d62-4fa4-baa9-412639573b66</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>49. <code>test_case_128</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>date</em>minimal_duplicate</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Minimal meeting scheduling with person by first name on date (potential duplicate name)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6aa551ae-8341-4b3b-a288-20322497f70d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>50. <code>test_case_131</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>date</em>topic_specific</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Meeting scheduling with one person at date for specific discussion topic (PM discussion)</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_findMeetingTimes reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarfindMeetingTimes✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>998feecd-8482-4a5c-98b2-8459adf0cc6e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>findMeetingTimes': Failed to call graph API at https://graph.microsoft.com/v1.0/users/dc4d7332-aeae-463d-9ce1-734538235cc0/findMeetingTimes. Status=400 (Bad Request). CorrelationId=998feecd-8482-4a5c-98b2-8459adf0cc6e GraphRequestId=998feecd-8482-4a5c-98b2-8459adf0cc6e | Tool Error: CorrelationId: 998feecd-8482-4a5c-98b2-8459adf0cc6e, TimeStamp: 2025-10-21</em>17:54:31</li>
+</ul>
+
+<p><strong>51. <code>test_case_133</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>on<em>behalf</em>of<em>manager</em>with<em>team</em>date</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting on behalf of another person (Srikumar) with their team on specific date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUserProfile reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_getUserProfile✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b285f9de-f537-4491-84c0-eface947460d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/Srikumar?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=b285f9de-f537-4491-84c0-eface947460d GraphRequestId=b285f9de-f537-4491-84c0-eface947460d | Tool Error: CorrelationId: b285f9de-f537-4491-84c0-eface947460d, TimeStamp: 2025-10-21_17:54:32</li>
+</ul>
+
+<p><strong>52. <code>test_case_143</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>date</em>time<em>explicit</em>duration</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Meeting scheduling with explicit duration (30 minutes) at specific date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>be37e27d-8a49-4319-a5a3-96d4881ef013</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>53. <code>test_case_146</code></strong>- <strong>Category:</strong>
+**schedule<em>meeting</em>with<em>single</em>person<em>date</em>time<em>long</em>duration</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Planning session scheduling with explicit long duration (2 hours) at specific date and time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_createEvent reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarcreateEvent✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e43eef43-cca6-42a8-b20d-e5f83fba9375</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><em>Total 53 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>34
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_005</code> - schedule<em>meeting</em>with<em>name</em>relative<em>time
+   - *Schedule a meeting with relative time reference (this afternoon) requiring inter...*
+   - Score: 2.75
+2. <code>test_case_008</code> - schedule</em>meeting<em>with</em>disambiguated<em>names</em>date
+   - <em>Schedule meeting with multiple people who share first names but have different l...</em>
+   - Score: 3
+3. <code>test_case_013</code> - schedule<em>meeting</em>with<em>last</em>names<em>relative</em>date<em>time
+   - *Schedule meeting with three people referenced by last names only with relative d...*
+   - Score: 2.25
+4. <code>test_case_025</code> - schedule</em>meeting<em>with</em>full<em>name</em>context<em>date
+   - *Schedule meeting with person by full name with additional context (role: PM) at ...*
+   - Score: 3.5
+5. <code>test_case_026</code> - schedule</em>meeting<em>with</em>full<em>name</em>context<em>relative</em>date
+   - <em>Schedule meeting with person by full name with work context (backend) on relativ...</em>
+   - Score: 2.5
+6. <code>test_case_030</code> - schedule<em>meeting</em>with<em>name</em>reporting<em>context</em>date<em>time
+   - *Schedule meeting with person by first name with reporting relationship context a...*
+   - Score: 2.75
+7. <code>test_case_033</code> - schedule</em>meeting<em>with</em>name<em>title</em>context<em>relative</em>date
+   - <em>Schedule meeting with person by first name with executive title context on relat...</em>
+   - Score: 2.25
+8. <code>test_case_034</code> - schedule<em>meeting</em>with<em>full</em>name<em>role</em>reporting<em>context</em>date<em>time
+   - *Schedule meeting with person by full name with role and reporting context at spe...*
+   - Score: 3.5
+9. <code>test_case_044</code> - schedule</em>meeting<em>with</em>name<em>work</em>context<em>date</em>time
+   - <em>Schedule meeting with person by first name with specific work accomplishment con...</em>
+   - Score: 2.25
+10. <code>test_case_045</code> - schedule<em>meeting</em>with<em>full</em>name<em>project</em>context<em>relative</em>date
+   - <em>Schedule meeting with person by full name with project context (M&amp;A) on relative...</em>
+   - Score: 3.25
+11. <code>test_case_046</code> - schedule<em>meeting</em>with<em>name</em>team<em>context</em>date
+   - <em>Schedule call with person by first name with team context at specific date</em>
+   - Score: 3
+12. <code>test_case_050</code> - schedule<em>meeting</em>with<em>department</em>relative<em>date</em>time
+   - <em>Schedule sync meeting with entire department (Engineering) on relative date at s...</em>
+   - Score: 2.5
+13. <code>test_case_051</code> - schedule<em>meeting</em>with<em>person</em>and<em>department</em>date
+   - <em>Schedule planning session with specific person and department (PM) at specific d...</em>
+   - Score: 2.75
+14. <code>test_case_053</code> - schedule<em>meeting</em>with<em>person</em>and<em>organization</em>date
+   - <em>Schedule meeting with specific person and entire organization/department on spec...</em>
+   - Score: 2.5
+15. <code>test_case_060</code> - schedule<em>meeting</em>with<em>specific</em>role<em>from</em>organization<em>relative</em>date<em>time
+   - *Schedule meeting with specific role level (Principal PMs) from a manager's organ...*
+   - Score: 2.5
+16. <code>test_case_066</code> - schedule</em>meeting<em>with</em>multiple<em>departments</em>relative<em>date</em>time
+   - <em>Schedule cross-functional meeting with two departments together on relative date...</em>
+   - Score: 2.75
+17. <code>test_case_068</code> - schedule<em>meeting</em>with<em>three</em>departments<em>date
+   - *Schedule alignment meeting with three departments together on specific date*
+   - Score: 2.5
+18. <code>test_case_071</code> - schedule</em>meeting<em>with</em>project<em>team</em>date
+   - <em>Schedule meeting with all members working on a specific project on specific date</em>
+   - Score: 2.25
+19. <code>test_case_079</code> - schedule<em>meeting</em>with<em>manager</em>direct<em>and</em>indirect<em>reports</em>date
+   - <em>Schedule meeting with manager, their direct reports, and skip-level reports (two...</em>
+   - Score: 0
+20. <code>test_case_082</code> - schedule<em>meeting</em>with<em>all</em>people<em>same</em>name<em>work</em>relationship<em>relative</em>date
+   - <em>Schedule meeting with all people sharing same name who work together on relative...</em>
+   - Score: 2.75
+21. <code>test_case_084</code> - schedule<em>meeting</em>with<em>persons</em>department<em>colleagues</em>relative<em>date
+   - *Schedule meeting with person's colleagues within specific department on relative...*
+   - Score: 2.5
+22. <code>test_case_086</code> - schedule</em>meeting<em>with</em>multiple<em>complex</em>name<em>groups</em>relative<em>date
+   - *Schedule meeting with multiple people including duplicates (both Nair, all three...*
+   - Score: 3
+23. <code>test_case_093</code> - schedule</em>meeting<em>with</em>specific<em>person</em>or<em>role</em>group<em>alternative</em>relative<em>date
+   - *Schedule meeting with specific person or any person from role group as alternati...*
+   - Score: 2.5
+24. <code>test_case_094</code> - schedule</em>meeting<em>with</em>preferred<em>person</em>or<em>role</em>group<em>date
+   - *Schedule call with preferred specific person from role group, or any from that r...*
+   - Score: 2.75
+25. <code>test_case_096</code> - schedule</em>meeting<em>with</em>role<em>based</em>on<em>rotation</em>or<em>schedule</em>date
+   - <em>Schedule meeting with person in specific role/rotation (on-call engineer) withou...</em>
+   - Score: 2.5
+26. <code>test_case_097</code> - schedule<em>meeting</em>with<em>group</em>excluding<em>specific</em>person<em>date</em>time
+   - <em>Schedule meeting with role group but explicitly excluding one specific person at...</em>
+   - Score: 2.25
+27. <code>test_case_099</code> - schedule<em>meeting</em>with<em>role</em>group<em>excluding</em>multiple<em>same</em>name<em>date
+   - *Schedule session with role group but excluding multiple people with same name on...*
+   - Score: 2.5
+28. <code>test_case_105</code> - schedule</em>meeting<em>with</em>team<em>by</em>function<em>relative</em>date
+   - <em>Schedule meeting with team identified by their function/responsibility on relati...</em>
+   - Score: 2.5
+29. <code>test_case_108</code> - schedule<em>meeting</em>with<em>person</em>timezone<em>context</em>date
+   - <em>Schedule meeting with person referenced with timezone context on specific date</em>
+   - Score: 3
+30. <code>test_case_122</code> - schedule<em>meeting</em>with<em>full</em>name<em>role</em>context<em>date</em>simple
+   - <em>Meeting scheduling with person by full name and role context on specific date</em>
+   - Score: 2.25
+31. <code>test_case_127</code> - schedule<em>meeting</em>with<em>single</em>person<em>relative</em>week<em>specific</em>day
+   - <em>Meeting scheduling with one person on specific day of next week (Wednesday)</em>
+   - Score: 2.5
+32. <code>test_case_128</code> - schedule<em>meeting</em>with<em>single</em>person<em>date</em>minimal<em>duplicate
+   - *Minimal meeting scheduling with person by first name on date (potential duplicat...*
+   - Score: 2.75
+33. <code>test_case_143</code> - schedule</em>meeting<em>with</em>single<em>person</em>date<em>time</em>explicit<em>duration
+   - *Meeting scheduling with explicit duration (30 minutes) at specific date and time*
+   - Score: 3.75
+34. <code>test_case_146</code> - schedule</em>meeting<em>with</em>single<em>person</em>date<em>time</em>long_duration
+   - <em>Planning session scheduling with explicit long duration (2 hours) at specific da...</em>
+   - Score: 3.5</p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-21 21:47:34</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-21 21:47:34</footer>
+</body>
+</html>

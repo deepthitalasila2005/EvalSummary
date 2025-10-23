@@ -1,0 +1,46 @@
+/* Permanent dark layout */
+body { font-family: system-ui, Arial, sans-serif; margin: 0; background:#1f2933; color:#e0e8f9; line-height:1.55; }
+header { background: linear-gradient(135deg,#102a43,#243b53); color:#d9e2ec; padding:1.1rem 2rem; }
+header h1 { margin:0; font-size:1.4rem; font-weight:600; }
+main { max-width:1150px; margin:2rem auto; background:#243b53; padding:2.25rem 2.75rem; border-radius:14px; box-shadow:0 4px 28px rgba(0,0,0,.55); }
+footer { text-align:center; font-size:.7rem; color:#9fb3c8; margin:3rem 0 1.5rem; }
+
+/* Typography (dark) */
+h1,h2,h3,h4 { font-weight:600; color:#d9e2ec; line-height:1.25; }
+h2 { margin-top:2.4rem; padding-top:1rem; border-top:2px solid #334e68; }
+code, pre { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+pre { background:#102a43; color:#f0f4f8; padding:1rem; border-radius:8px; overflow:auto; }
+code { background:#334e68; color:#f0f4f8; padding:.2rem .4rem; border-radius:4px; }
+p { margin: 1rem 0; }
+table { width:100%; border-collapse:collapse; margin:1.4rem 0; font-size:.85rem; }
+th, td { border:1px solid #334e68; padding:.55rem .7rem; text-align:left; }
+th { background:#334e68; color:#f0f4f8; }
+tr:nth-child(even){ background:#2d3e50; }
+
+/* Links */
+a { color:#3d8bfd; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Lists */
+ul { padding-left:1.25rem; }
+ul.report-index { list-style:none; padding:0; columns:2; column-gap:2rem; }
+ul.report-index li { break-inside:avoid; margin:.4rem 0; }
+
+/* TOC */
+.toc { background:#2d3e50; border:1px solid #334e68; padding:1rem 1.2rem; border-radius:10px; margin-bottom:2rem; }
+.toc h2 { margin-top:0; border:none; padding-top:0; color:#f0f4f8; }
+.toc ul { list-style:none; padding:0; }
+.toc li { margin:.45rem 0; }
+
+/* Utility */
+.badge { display:inline-block; background:#486581; color:#fff; padding:.2rem .55rem; border-radius:4px; font-size:.6rem; letter-spacing:.5px; text-transform:uppercase; }
+.pair-links { margin:1rem 0 2rem; font-size:.8rem; }
+.pair-links a { margin-right:1rem; }
+
+/* Removed theme toggle & light mode */
+
+/* Responsive */
+@media (max-width:900px){
+	main { padding:1.5rem 1.25rem; }
+	ul.report-index { columns:1; }
+}

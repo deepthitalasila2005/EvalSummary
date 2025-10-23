@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251021.6</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251021.6</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251021.6_20251021_183634_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</a></li>
+    </ul></li>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251021.6_20251021_183634.json</code>
+<strong>Test Run:</strong>2025-10-21 18:36:34
+<strong>Report Created:</strong>2025-10-21 21:47:35</p>
+
+<p><strong>Bugs to File:</strong>2 cases
+<strong>Total Failures Analyzed:</strong>3</p>
+
+<h2 id="tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>No Tools Called:</strong>
+1 cases</p>
+
+<h3 id="detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</h3>
+
+<p><strong>1. Nl<em><code>test_case_002</code></strong>- <strong>Category:</strong>
+**schedule</em>meeting<em>with</em>multiple<em>same</em>name<em>relative</em>time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Schedule meeting with multiple people sharing same name (both Tahir) with relative date and vague time</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><em>Total 1 failures in this category</em></p>
+
+<hr />
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Tool Call Successful But Test Failed:</strong>
+2 cases</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. <code>test_case_003</code></strong>- <strong>Category:</strong>
+**create<em>event</em>basic</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create meeting with specific platform, duration, attendee and technical topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>095cbe50-6b8f-4e06-812e-81b0cd9ca6ec</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>2. Optimal<em><code>test_case_001</code></strong>- <strong>Category:</strong>
+**find</em>meeting_time</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Find optimal 2-hour time slot with Srikumar for design workshop within current month</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>findMeetingTimes, mcp</em>graph<em>getMyProfile, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getMyProfile✅, CalendarfindMeetingTimes✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c0ff6858-ee3e-4742-8ffa-262f2507cc0e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><em>Total 2 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>2
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_003</code> - create<em>event</em>basic
+   - <em>Create meeting with specific platform, duration, attendee and technical topic</em>
+   - Score: 1
+2. <code>Optimal_</code>test<em>case</em>001`` - find<em>meeting</em>time
+   - <em>Find optimal 2-hour time slot with Srikumar for design workshop within current m...</em>
+   - Score: 1</p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-21 21:47:35</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-21 21:47:35</footer>
+</body>
+</html>

@@ -1,0 +1,2320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs & Analysis | Build 20251021.6</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Automated evaluation report" />
+</head>
+<body>
+    <header>
+        <h1>Bugs & Analysis - Build 20251021.6</h1>
+        <p class="subtitle">Bugs & Analysis Report</p>
+    </header>
+    <main>
+        <div class="pair-links"><span class="badge">Related</span><a href="evaluation_report_ado_20251021.6_20251021_192356_report.html">Main Report</a></div>
+        <div class="toc"><h2>Contents</h2><ul>
+  <li><a href="#bugs-analysis-report">Bugs &amp; Analysis Report</a>
+  <ul>
+    <li><a href="#tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</a>
+    <ul>
+      <li><a href="#detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</a></li>
+    </ul></li>
+    <li><a href="#tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</a></li>
+      <li><a href="#detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</a></li>
+    </ul></li>
+    <li><a href="#other-failures-other-failures">🐛 Other Failures {#other-failures}</a>
+    <ul>
+      <li><a href="#bug-to-file-other-failures">🐛 Bug to File: Other Failures</a></li>
+    </ul></li>
+  </ul></li>
+</ul>
+</div>
+        <h1 id="bugs-analysis-report">Bugs &amp; Analysis Report</h1>
+
+<p><strong>Source File:</strong><code>evaluation_report_ado_20251021.6_20251021_192356.json</code>
+<strong>Test Run:</strong>2025-10-21 19:23:56
+<strong>Report Created:</strong>2025-10-21 21:47:36</p>
+
+<p><strong>Bugs to File:</strong>65 cases
+<strong>Total Failures Analyzed:</strong>147</p>
+
+<h2 id="tool-selection-failures-tool-selection-failures">🐛 Tool Selection Failures {#tool-selection-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>No Tools Called:</strong>
+82 cases</p>
+
+<h3 id="detailed-analysis-tool-selection-failures">🔍 Detailed Analysis: Tool Selection Failures</h3>
+
+<p><strong>1. <code>test_case_005</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat channel from email identified by subject topic</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>2. <code>test_case_007</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from currently active/open email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>3. <code>test_case_009</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Convert currently active email thread to chat</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>4. <code>test_case_010</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email conversation user is viewing</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>5. <code>test_case_011</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from most recently received email thread</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>6. <code>test_case_012</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with all participants from contextual email chain</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>7. <code>test_case_014</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Convert email discussion to chat by specific subject</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>8. <code>test_case_016</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create group chat from email thread by subject</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>9. <code>test_case_018</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Convert email to real-time chat by exact title</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>10. <code>test_case_026</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with complete participant list from sender's email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>11. <code>test_case_028</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email excluding CC recipients</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>12. <code>test_case_030</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat excluding BCC recipients and external consultants</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>13. <code>test_case_032</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with only active participants who replied</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>14. <code>test_case_033</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat filtered by participant role or department</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>15. <code>test_case_034</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat filtered for leadership team members only</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>16. <code>test_case_036</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with direct stakeholders excluding informational recipients</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>17. <code>test_case_037</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat filtered for decision makers excluding observers</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>18. <code>test_case_039</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email and exclude specific participant</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>19. <code>test_case_048</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by sender with partial name display</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>20. <code>test_case_049</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by list of participant names</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>21. <code>test_case_053</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with ambiguous name and topic</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>22. <code>test_case_055</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with initialed participant name and topic</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>23. <code>test_case_058</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with abbreviated participant name and topic</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>24. <code>test_case_061</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with mixed internal and external participants</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>25. <code>test_case_063</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with contextual customer reference</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>26. <code>test_case_064</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from long email thread with complete participant list</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>27. <code>test_case_066</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from multi-day thread with evolving participant list</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>28. <code>test_case_067</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from long thread using most recent participants</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>29. <code>test_case_068</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from forwarded email using only current recipients</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>30. <code>test_case_069</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from forwarded email including all recipients across forwards</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>31. <code>test_case_070</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from multi-forwarded email by specific person</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>32. <code>test_case_072</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from forwarded email including all participants in chain</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>33. <code>test_case_074</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from reply-all thread filtering for active participants</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>34. <code>test_case_075</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat excluding non-responsive participants from reply-all</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>35. <code>test_case_076</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create secure chat from confidential email thread</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>36. <code>test_case_077</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with executive confidential marking</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>37. <code>test_case_078</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from legally privileged email thread</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>38. <code>test_case_079</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create secure chat from email with sensitive information</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>39. <code>test_case_080</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email excluding external vendor participants</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>40. <code>test_case_082</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with email content as initial message</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>41. <code>test_case_084</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with complete email thread history</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>42. <code>test_case_086</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with reference link to original email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>43. <code>test_case_087</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat and migrate email attachments to chat</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>44. <code>test_case_088</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with all email attachments transferred</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>45. <code>test_case_089</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat uploading specific attachment type</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>46. <code>test_case_090</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat preserving all email files and attachments</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>47. <code>test_case_091</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with specific important attachment</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>48. <code>test_case_092</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat migrating attachments to chat storage system</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>49. <code>test_case_094</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat highlighting key decisions from email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>50. <code>test_case_095</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat highlighting outstanding questions from email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>51. <code>test_case_096</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with context from related email threads</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>52. <code>test_case_097</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat linking related email conversations</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>53. <code>test_case_098</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat preserving historical context from email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>54. <code>test_case_099</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with reference to previous month's email thread</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>55. <code>test_case_100</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email sent to specific person's team</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>56. <code>test_case_103</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email sent to role-based group</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>57. <code>test_case_104</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email involving specific organization</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>58. <code>test_case_105</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email between two teams</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>59. <code>test_case_106</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email across multiple VP orgs</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>60. <code>test_case_108</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from cross-organizational email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>61. <code>test_case_111</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from skip-level meeting email by date</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>62. <code>test_case_113</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from broad email with relevance filtering</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>63. <code>test_case_114</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create focused chat from broad all-hands email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>64. <code>test_case_116</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create immediate chat from critical email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>65. <code>test_case_117</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create emergency chat from incident email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>66. <code>test_case_120</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create instant chat from priority zero bug email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>67. <code>test_case_125</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from non-English or untranslated email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>68. <code>test_case_127</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Analyze email and suggest optimal participants for chat</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>69. <code>test_case_128</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Identify and filter key stakeholders for chat creation</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>70. <code>test_case_129</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Filter participants by engagement level for chat</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>71. <code>test_case_130</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Analyze engagement and create chat with active participants</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>72. <code>test_case_131</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Identify decision-making participants for chat</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>73. <code>test_case_132</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Add email participants to existing related chat</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>74. <code>test_case_133</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Check for duplicate chat before creating new one</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>75. <code>test_case_135</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with multiple participants on same topic</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>76. <code>test_case_137</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat filtering for leadership roles only</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>77. <code>test_case_139</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with participant having matrix reporting structure</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>78. <code>test_case_143</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create multiple chats from single email by topic segmentation</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>79. <code>test_case_144</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with participant in dual reporting structure</li>
+<li><strong>💡 Analysis:</strong>
+Wrong tool selected or defaulted to general knowledge - enhance AI tool selection training</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>80. <code>test_case_145</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from follow-up email matching original participants</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>81. <code>test_case_146</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with inline reply structure</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><strong>82. <code>test_case_147</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from standup email</li>
+<li><strong>💡 Analysis:</strong>
+Should have used email tools but didn't - improve tool selection logic for email operations</li>
+<li><strong>🔧 Tools Called:</strong>
+None (possible tool selection issue)</li>
+</ul>
+
+<p><em>Total 82 failures in this category</em></p>
+
+<hr />
+
+<h2 id="tool-execution-failures-tool-execution-failures">🐛 Tool Execution Failures {#tool-execution-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<p><strong>📊 Breakdown:</strong>- <strong>Right Tools Called But Failed:</strong>
+32 cases</p>
+
+<ul>
+<li><strong>Tool Call Successful But Test Failed:</strong>
+33 cases</li>
+</ul>
+
+<h3 id="bug-to-file-tool-execution-failures">🐛 Bug to File: Tool Execution Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>32
+<strong>Recommended Action:</strong>File infrastructure bug - tool implementation needs fixing. Check tool parameters, API endpoints, and error handling.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_008</code> - create<em>chat</em>from<em>email
+   - *Create group chat from current contextual email*
+   - Score: 2.75
+2. <code>test_case_015</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email identified by sender and subject</em>
+   - Score: 2.75
+3. <code>test_case_021</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by sender, relative date, and topic*
+   - Score: 3
+4. <code>test_case_027</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email including only direct recipients, excluding CC</em>
+   - Score: 3.25
+5. <code>test_case_029</code> - create<em>chat</em>from<em>email
+   - *Create chat with core participants excluding CC'd people*
+   - Score: 3.5
+6. <code>test_case_038</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email and add additional participant not in original</em>
+   - Score: 3.25
+7. <code>test_case_041</code> - create<em>chat</em>from<em>email
+   - *Create chat from email correcting participant list by adding missed person*
+   - Score: 3.5
+8. <code>test_case_044</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email by participant, team reference, and topic</em>
+   - Score: 3
+9. <code>test_case_047</code> - create<em>chat</em>from<em>email
+   - *Create chat from email identifying multiple people with same name by CC status*
+   - Score: 3.25
+10. <code>test_case_051</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email by partial names and topic</em>
+   - Score: 2.75
+11. <code>test_case_052</code> - create<em>chat</em>from<em>email
+   - *Create chat from email with informal first-name participant display*
+   - Score: 2.25
+12. <code>test_case_054</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email with shortened display name</em>
+   - Score: 2.75
+13. <code>test_case_056</code> - create<em>chat</em>from<em>email
+   - *Create chat from email with participant nickname and topic*
+   - Score: 2.75
+14. <code>test_case_059</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email with participant name and last name initial</em>
+   - Score: 2.75
+15. <code>test_case_060</code> - create<em>chat</em>from<em>email
+   - *Create chat from email including external participant by email address*
+   - Score: 2.75
+16. <code>test_case_062</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email with external consultant and topic</em>
+   - Score: 2.75
+17. <code>test_case_071</code> - create<em>chat</em>from<em>email
+   - *Create chat from forwarded email with only latest recipients*
+   - Score: 2.75
+18. <code>test_case_081</code> - create</em>chat<em>from</em>email
+   - <em>Create chat preserving email subject as chat topic/name</em>
+   - Score: 3
+19. <code>test_case_083</code> - create<em>chat</em>from<em>email
+   - *Create chat with email thread attached as context*
+   - Score: 3.25
+20. <code>test_case_085</code> - create</em>chat<em>from</em>email
+   - <em>Create chat with summarized email discussion</em>
+   - Score: 3.5
+21. <code>test_case_093</code> - create<em>chat</em>from<em>email
+   - *Create chat converting email action items to tasks*
+   - Score: 3
+22. <code>test_case_101</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from team email filtered by manager's reports</em>
+   - Score: 2.75
+23. <code>test_case_102</code> - create<em>chat</em>from<em>email
+   - *Create chat from email sent to organizational unit*
+   - Score: 2.75
+24. <code>test_case_109</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email between individual and executive group</em>
+   - Score: 2.75
+25. <code>test_case_110</code> - create<em>chat</em>from<em>email
+   - *Create chat from email with manager-report relationship*
+   - Score: 3
+26. <code>test_case_112</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email to director-level group</em>
+   - Score: 3.25
+27. <code>test_case_118</code> - create<em>chat</em>from<em>email
+   - *Create immediate chat from high-priority email*
+   - Score: 2.75
+28. <code>test_case_121</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email by time of day reference</em>
+   - Score: 3.25
+29. <code>test_case_122</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by specific time and topic*
+   - Score: 2.75
+30. <code>test_case_134</code> - create</em>chat<em>from</em>email
+   - <em>Create chat handling multiple people with same first name and varied display</em>
+   - Score: 3.25
+31. <code>test_case_136</code> - create<em>chat</em>from<em>email
+   - *Create chat filtering by seniority level*
+   - Score: 3.25
+32. <code>test_case_141</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email by sender, timezone-specific time, and topic</em>
+   - Score: 3.25</p>
+
+<h3 id="detailed-analysis-tool-execution-failures">🔍 Detailed Analysis: Tool Execution Failures</h3>
+
+<p><strong>1. <code>test_case_001</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email thread identified by subject with all participants</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e299bf03-1539-4faf-8b63-7449fd0f4dde</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>2. <code>test_case_002</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create group chat from email thread identified by sender name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>7a46b121-ed26-4ed0-91a3-74cbecc00a8b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>3. <code>test_case_003</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Convert email conversation to Teams chat by subject</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, graph</em>listUsers✅, graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>841de644-a944-41c7-9fd9-29869e4f035d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>4. <code>test_case_004</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email thread identified by sender and time reference</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2a0bc18b-a5f7-460d-a587-b58390027283</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>5. <code>test_case_006</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create group chat from email thread for collaboration purposes</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>listUsers, mcp<em>MailTools</em>graph<em>mail</em>getMessage reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>58d54663-c407-443e-98d1-b45918a1f7e2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>6. <code>test_case_008</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create group chat from current contextual email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>listSent, mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>listSent✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>86ef2a33-ae22-4dea-af10-aca7ce83d6bc</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4e8c8e8c-f56d-4d7b-afbf-3a97d75aebe1 GraphRequestId=4e8c8e8c-f56d-4d7b-afbf-3a97d75aebe1 | Tool Error: CorrelationId: 4e8c8e8c-f56d-4d7b-afbf-3a97d75aebe1, TimeStamp: 2025-10-21</em>19:24:40</li>
+</ul>
+
+<p><strong>7. <code>test_case_013</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email identified by specific subject line</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>cbfa18df-6f05-4771-a6ec-49d3674bd219</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>8. <code>test_case_015</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email identified by sender and subject</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c90ba64c-654e-4712-8f92-a3b1b32309c4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=66562039-5468-47aa-9566-e4080cabc205 GraphRequestId=66562039-5468-47aa-9566-e4080cabc205 | Tool Error: CorrelationId: 66562039-5468-47aa-9566-e4080cabc205, TimeStamp: 2025-10-21</em>19:24:44</li>
+</ul>
+
+<p><strong>9. <code>test_case_017</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email identified by sender and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, Mailmail</em>searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e0910bb7-8ff1-4278-80ee-f917ae3d9878</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>10. <code>test_case_019</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email identified by sender and specific time</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6e5e7b44-18ee-4ff8-afd6-8b7ee62ee3b0</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>11. <code>test_case_020</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Convert email to chat by sender, date, and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>298baa74-d424-4fde-b084-62c92b4af2f3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>12. <code>test_case_021</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by sender, relative date, and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>86a9c182-f5b0-488b-9591-76feedb77699</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=2a634dc9-8ca3-415b-b75b-df8153bc9bb8 GraphRequestId=2a634dc9-8ca3-415b-b75b-df8153bc9bb8 | Tool Error: CorrelationId: 2a634dc9-8ca3-415b-b75b-df8153bc9bb8, TimeStamp: 2025-10-21</em>19:24:49</li>
+</ul>
+
+<p><strong>13. <code>test_case_022</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by sender, relative time, and subject</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d6f5074d-4b80-4fd1-a397-6529e70d644e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>14. <code>test_case_023</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by sender, week reference, and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>664723bd-eebe-4cf2-92be-d1a71097843d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>15. <code>test_case_024</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Convert most recent email from specific sender to group chat</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>58d20742-75b0-4728-b619-11c7fd35a1a9</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>16. <code>test_case_025</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by bug ID including To and CC recipients</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b59f2b4d-4658-4f33-b8cf-945976839e59</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>17. <code>test_case_027</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email including only direct recipients, excluding CC</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>listSent, mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>listSent✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>43b87407-7e78-49c6-bcd5-f9ba37150af4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=eb51b468-2ac7-4517-a3b2-02a47f825786 GraphRequestId=eb51b468-2ac7-4517-a3b2-02a47f825786 | Tool Error: CorrelationId: eb51b468-2ac7-4517-a3b2-02a47f825786, TimeStamp: 2025-10-21</em>19:24:53</li>
+</ul>
+
+<p><strong>18. <code>test_case_029</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with core participants excluding CC'd people</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>MailTools<em>graph</em>mail_getMessage reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e80c8a2d-7ee7-410a-b5b5-8d4d85c657c2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=3e709450-d3c9-46cd-9296-ecc616b5afdc GraphRequestId=3e709450-d3c9-46cd-9296-ecc616b5afdc | Tool Error: CorrelationId: 3e709450-d3c9-46cd-9296-ecc616b5afdc, TimeStamp: 2025-10-21</em>19:24:57</li>
+</ul>
+
+<p><strong>19. <code>test_case_031</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat filtering for internal employees only</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4b69151d-3575-4ae9-b8d3-3212c110e64d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>20. <code>test_case_035</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat filtered for specific role from email thread</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>14498fd5-56ba-454a-b635-f6ce6b856c4a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>21. <code>test_case_038</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email and add additional participant not in original</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>graph<em>listUsers, mcp</em>MailTools<em>graph</em>mail_getMessage reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b887cf8f-30b9-48aa-b075-11cfc7245549</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f0ba198e-61f9-4198-a1c4-4337271f24e3 GraphRequestId=f0ba198e-61f9-4198-a1c4-4337271f24e3 | Tool Error: CorrelationId: f0ba198e-61f9-4198-a1c4-4337271f24e3, TimeStamp: 2025-10-21</em>19:25:08</li>
+</ul>
+
+<p><strong>22. <code>test_case_040</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email adding participant for specific expertise</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b8018b80-3ee7-489b-9eaa-ab460f065f0e</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>23. <code>test_case_041</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email correcting participant list by adding missed person</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, Mailmail</em>searchMessages✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6c383048-dc9f-4a14-a055-0cd04e96b1f2</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=cdc00fbe-d8f6-40b1-b3db-6e080ddd55f2 GraphRequestId=cdc00fbe-d8f6-40b1-b3db-6e080ddd55f2 | Tool Error: CorrelationId: cdc00fbe-d8f6-40b1-b3db-6e080ddd55f2, TimeStamp: 2025-10-21</em>19:25:09</li>
+</ul>
+
+<p><strong>24. <code>test_case_042</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from most recent email by sender and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>bcb6c927-690d-465e-9012-8392b86d397a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>25. <code>test_case_043</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by participant and discussion topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>71ebb72a-b37c-4f0d-9b49-42e69126a04a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>26. <code>test_case_044</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by participant, team reference, and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>getUserProfile, mcp<em>graph</em>getDirectReports, mcp<em>MailTools</em>graph<em>mail</em>getMessage reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>getUserProfile✅, graph</em>getDirectReports✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a47ca2ec-ff49-4825-b2b3-b2319e40ad21</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/hao.vemulapalli%40contoso.com?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=faae9035-c477-45de-ac60-92f6863ed6ba GraphRequestId=faae9035-c477-45de-ac60-92f6863ed6ba | Tool Error: CorrelationId: faae9035-c477-45de-ac60-92f6863ed6ba, TimeStamp: 2025-10-21<em>19:25:08 | Tool Error: Graph API call failed for tool 'mcp</em>graph<em>getDirectReports': Failed to call graph API at https://graph.microsoft.com/v1.0/users/hao.vemulapalli%40contoso.com/directReports?%24select=id%2CdisplayName%2Cmail%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=6868ba9a-491c-4ef0-b910-2beb1163268d GraphRequestId=6868ba9a-491c-4ef0-b910-2beb1163268d | Tool Error: CorrelationId: 6868ba9a-491c-4ef0-b910-2beb1163268d, TimeStamp: 2025-10-21</em>19:25:09</li>
+</ul>
+
+<p><strong>27. <code>test_case_046</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by multiple participants and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>094a624e-fca1-47f8-a02f-47bf7ac63d13</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>28. <code>test_case_047</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email identifying multiple people with same name by CC status</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, graph</em>listUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b3489c4b-c0dc-4650-8fdf-66b131f67a19</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=9f64c4d0-b5a0-4fa5-8504-dce08d60f965 GraphRequestId=9f64c4d0-b5a0-4fa5-8504-dce08d60f965 | Tool Error: CorrelationId: 9f64c4d0-b5a0-4fa5-8504-dce08d60f965, TimeStamp: 2025-10-21</em>19:25:10</li>
+</ul>
+
+<p><strong>29. <code>test_case_050</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with first-name-only recipient display</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>fe06a633-7313-40f3-a25a-c1a33b6194cf</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>30. <code>test_case_051</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by partial names and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>1e0d3bc4-c428-400d-ac4a-6d834b76e2b4</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d8f15966-8a79-4ff5-9b48-b3fc186920f8 GraphRequestId=d8f15966-8a79-4ff5-9b48-b3fc186920f8 | Tool Error: CorrelationId: d8f15966-8a79-4ff5-9b48-b3fc186920f8, TimeStamp: 2025-10-21</em>19:25:11</li>
+</ul>
+
+<p><strong>31. <code>test_case_052</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with informal first-name participant display</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat_listChats reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>chat</em>listChats✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b7403de8-225d-40cd-b2ed-1cbb30a7695b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>listChats': Failed to call graph API at https://graph.microsoft.com/v1.0/chats?%24top=20&amp;%24orderby=lastMessagePreview%2FcreatedDateTime%20desc. Status=403 (Forbidden). CorrelationId=b7403de8-225d-40cd-b2ed-1cbb30a7695b GraphRequestId=b7403de8-225d-40cd-b2ed-1cbb30a7695b | Tool Error: CorrelationId: b7403de8-225d-40cd-b2ed-1cbb30a7695b, TimeStamp: 2025-10-21</em>19:25:10</li>
+</ul>
+
+<p><strong>32. <code>test_case_054</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with shortened display name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>88dce05c-123f-4d0a-bd58-3a55ced512a6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=202ac950-0684-4068-a6ce-2082a70362b0 GraphRequestId=202ac950-0684-4068-a6ce-2082a70362b0 | Tool Error: CorrelationId: 202ac950-0684-4068-a6ce-2082a70362b0, TimeStamp: 2025-10-21</em>19:25:13</li>
+</ul>
+
+<p><strong>33. <code>test_case_056</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with participant nickname and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>2333b3d2-c384-4f80-ae56-7b73ba028be3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4f7f571d-e6fd-44ea-9220-ae6ed1ef5c2b GraphRequestId=4f7f571d-e6fd-44ea-9220-ae6ed1ef5c2b | Tool Error: CorrelationId: 4f7f571d-e6fd-44ea-9220-ae6ed1ef5c2b, TimeStamp: 2025-10-21</em>19:25:16</li>
+</ul>
+
+<p><strong>34. <code>test_case_057</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by date, participant with initial, and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>085712b5-f229-4e82-8b17-19db26dfb154</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>35. <code>test_case_059</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with participant name and last name initial</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>42d00687-3024-435a-893e-575242b4da69</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=735f9afe-4a25-4878-9fca-ba42ae881c22 GraphRequestId=735f9afe-4a25-4878-9fca-ba42ae881c22 | Tool Error: CorrelationId: 735f9afe-4a25-4878-9fca-ba42ae881c22, TimeStamp: 2025-10-21</em>19:25:18</li>
+</ul>
+
+<p><strong>36. <code>test_case_060</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email including external participant by email address</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ae95d046-cd28-4daf-a519-6096864b3f1b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=a91f2c46-c8f3-49e6-b6aa-74bf66c291ec GraphRequestId=a91f2c46-c8f3-49e6-b6aa-74bf66c291ec | Tool Error: CorrelationId: a91f2c46-c8f3-49e6-b6aa-74bf66c291ec, TimeStamp: 2025-10-21</em>19:25:19</li>
+</ul>
+
+<p><strong>37. <code>test_case_062</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with external consultant and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>d6fce9f3-67d0-4059-89f2-ee3ff9d1acbe</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=d6fce9f3-67d0-4059-89f2-ee3ff9d1acbe GraphRequestId=d6fce9f3-67d0-4059-89f2-ee3ff9d1acbe | Tool Error: CorrelationId: d6fce9f3-67d0-4059-89f2-ee3ff9d1acbe, TimeStamp: 2025-10-21</em>19:25:17</li>
+</ul>
+
+<p><strong>38. <code>test_case_065</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email chain by sender and start date</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>49f7545f-ec5f-4331-bfd1-b2a9028913a8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>39. <code>test_case_071</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from forwarded email with only latest recipients</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>getMessage reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_getMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6db9ed31-df71-4924-9af8-99649ec38928</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>MailTools</em>graph<em>mail</em>getMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/me/messages/Singhal. Status=400 (Bad Request). CorrelationId=6db9ed31-df71-4924-9af8-99649ec38928 GraphRequestId=6db9ed31-df71-4924-9af8-99649ec38928 | Tool Error: CorrelationId: 6db9ed31-df71-4924-9af8-99649ec38928, TimeStamp: 2025-10-21_19:25:22</li>
+</ul>
+
+<p><strong>40. <code>test_case_073</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from large reply-all thread</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a96bd407-9a10-495d-a0d0-40db49bfda25</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>41. <code>test_case_081</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat preserving email subject as chat topic/name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>64bc5cc5-65f2-4384-927e-6fe88af80259</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=4d0422fa-a67c-42da-8b4b-8fe461b2b79b GraphRequestId=4d0422fa-a67c-42da-8b4b-8fe461b2b79b | Tool Error: CorrelationId: 4d0422fa-a67c-42da-8b4b-8fe461b2b79b, TimeStamp: 2025-10-21</em>19:25:30</li>
+</ul>
+
+<p><strong>42. <code>test_case_083</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with email thread attached as context</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>graph<em>listUsers, mcp</em>MailTools<em>graph</em>mail_getMessage reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>listUsers✅, Mailmail</em>getMessage✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>dec86eb3-4846-4940-8969-3d9766e5e57b</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b8f18487-efae-49c7-bce2-ae9b1d479ec4 GraphRequestId=b8f18487-efae-49c7-bce2-ae9b1d479ec4 | Tool Error: CorrelationId: b8f18487-efae-49c7-bce2-ae9b1d479ec4, TimeStamp: 2025-10-21</em>19:25:36</li>
+</ul>
+
+<p><strong>43. <code>test_case_085</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with summarized email discussion</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>9aa1f084-7d9b-431a-97d2-f56b704cce6f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=fd12d2f3-6efc-47a1-835f-d6e690374ad6 GraphRequestId=fd12d2f3-6efc-47a1-835f-d6e690374ad6 | Tool Error: CorrelationId: fd12d2f3-6efc-47a1-835f-d6e690374ad6, TimeStamp: 2025-10-21</em>19:25:33</li>
+</ul>
+
+<p><strong>44. <code>test_case_093</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat converting email action items to tasks</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>MailTools<em>graph</em>mail_getMessage reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>e8f13b80-cb0c-4083-aa10-d8749847eb81</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=6e625890-e1fd-4938-9622-e09a08f4ff42 GraphRequestId=6e625890-e1fd-4938-9622-e09a08f4ff42 | Tool Error: CorrelationId: 6e625890-e1fd-4938-9622-e09a08f4ff42, TimeStamp: 2025-10-21</em>19:25:42</li>
+</ul>
+
+<p><strong>45. <code>test_case_101</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from team email filtered by manager's reports</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>938c3ad7-bc61-4448-a18c-78f26a24a47a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=f9c038ab-6dd5-41c3-8a58-105557506777 GraphRequestId=f9c038ab-6dd5-41c3-8a58-105557506777 | Tool Error: CorrelationId: f9c038ab-6dd5-41c3-8a58-105557506777, TimeStamp: 2025-10-21</em>19:25:42</li>
+</ul>
+
+<p><strong>46. <code>test_case_102</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email sent to organizational unit</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability. Reason: 400 (Bad Request)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>156fcbe0-1203-451f-8744-59deb022e656</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>CalendarTools</em>graph<em>listUsers': Failed to call graph API at https://graph.microsoft.com/v1.0/users?%24search=%22Organization%3AOleinik%27s%20PM%22&amp;%24top=20&amp;%24select=userPrincipalName%2Cmail%2CdisplayName. Status=400 (Bad Request). CorrelationId=156fcbe0-1203-451f-8744-59deb022e656 GraphRequestId=156fcbe0-1203-451f-8744-59deb022e656 | Tool Error: CorrelationId: 156fcbe0-1203-451f-8744-59deb022e656, TimeStamp: 2025-10-21</em>19:25:39</li>
+</ul>
+
+<p><strong>47. <code>test_case_107</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with participants identified by department and name</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph_listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, CalendarlistUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a16b67e6-d5f2-4b59-bc4c-9ac50324fcff</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>48. <code>test_case_109</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email between individual and executive group</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c73f4a54-e8f5-4d10-a1f0-5adfaf6f195d</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=c849be7d-ad3d-4ec9-866b-e886e07ca09e GraphRequestId=c849be7d-ad3d-4ec9-866b-e886e07ca09e | Tool Error: CorrelationId: c849be7d-ad3d-4ec9-866b-e886e07ca09e, TimeStamp: 2025-10-21</em>19:25:47</li>
+</ul>
+
+<p><strong>49. <code>test_case_110</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email with manager-report relationship</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getUsersManager, mcp<em>graph</em>getDirectReports, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getUsersManager✅, graph<em>getDirectReports✅, graph</em>getUsersManager✅, graph<em>getDirectReports✅, graph</em>getUsersManager✅, graph<em>getDirectReports✅, graph</em>getUsersManager✅, graph<em>getDirectReports✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>18c11536-0bd0-455d-ac7f-66289aadf478</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=483f5d65-a30b-4c98-92e3-6b3eca0fe553 GraphRequestId=483f5d65-a30b-4c98-92e3-6b3eca0fe553 | Tool Error: CorrelationId: 483f5d65-a30b-4c98-92e3-6b3eca0fe553, TimeStamp: 2025-10-21</em>19:25:54</li>
+</ul>
+
+<p><strong>50. <code>test_case_112</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email to director-level group</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>graph<em>listUsers, mcp</em>MailTools<em>graph</em>mail_getMessage reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>listUsers✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>ce4db26c-7acc-4c3d-bea2-eaa9d2620bfb</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=7f6bacfa-036c-4c92-b7af-230b5d9b4fc7 GraphRequestId=7f6bacfa-036c-4c92-b7af-230b5d9b4fc7 | Tool Error: CorrelationId: 7f6bacfa-036c-4c92-b7af-230b5d9b4fc7, TimeStamp: 2025-10-21</em>19:25:53</li>
+</ul>
+
+<p><strong>51. <code>test_case_115</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create urgent chat from time-sensitive email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4cf27473-07b4-4414-9f76-0ad11ed4988c</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>52. <code>test_case_118</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create immediate chat from high-priority email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>getUserProfile, mcp<em>graph</em>listUsers, mcp<em>MailTools</em>graph<em>mail</em>getMessage reliability. Reason: 404 (Not Found)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>76f815f5-1575-4eea-8f61-9a0ffe771a0a</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>getUserProfile': Failed to call graph API at https://graph.microsoft.com/v1.0/users/james.oleinik%40contoso.com?%24select=displayName%2Cmail%2Cid%2CuserPrincipalName. Status=404 (Not Found). CorrelationId=0ad84877-50a0-4192-b888-2232d8481a56 GraphRequestId=0ad84877-50a0-4192-b888-2232d8481a56 | Tool Error: CorrelationId: 0ad84877-50a0-4192-b888-2232d8481a56, TimeStamp: 2025-10-21_19:25:57</li>
+</ul>
+
+<p><strong>53. <code>test_case_119</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create urgent action-required chat from email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>c550fddb-6019-4a5f-bfe9-e782b37af70f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>54. <code>test_case_121</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by time of day reference</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>getUserProfile, mcp<em>graph</em>chat_createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, graph</em>getUserProfile✅, graph<em>getUserProfile✅, graph</em>getUserProfile✅, graph<em>getUserProfile✅, graph</em>chat_createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6789785b-3613-49b3-a8ac-802743ceb392</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=0ed189e6-4a3a-4050-85f1-4d8c963c8d45 GraphRequestId=0ed189e6-4a3a-4050-85f1-4d8c963c8d45 | Tool Error: CorrelationId: 0ed189e6-4a3a-4050-85f1-4d8c963c8d45, TimeStamp: 2025-10-21</em>19:25:57</li>
+</ul>
+
+<p><strong>55. <code>test_case_122</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by specific time and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>chat<em>postMessage, mcp</em>MailTools<em>graph</em>mail<em>searchMessages, mcp</em>MailTools<em>graph</em>mail_getMessage reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>chat</em>postMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f97ea5b4-cbe5-443a-a845-5926a335b849</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>postMessage': Failed to call graph API at https://graph.microsoft.com/v1.0/chats/AAQkADhkYTJjOGZhLWEwODYtNDdiOC1iZTBmLTIwMzhjM2MzN2Q1MwAQALJiEeB9tdBAtjgDnBDGcA8%3D/messages. Status=403 (Forbidden). CorrelationId=74e51a6b-11a9-4fb4-b9b0-95f7223bba01 GraphRequestId=74e51a6b-11a9-4fb4-b9b0-95f7223bba01 | Tool Error: CorrelationId: 74e51a6b-11a9-4fb4-b9b0-95f7223bba01, TimeStamp: 2025-10-21</em>19:25:57</li>
+</ul>
+
+<p><strong>56. <code>test_case_123</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by day, time period, sender and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b30532a2-d7e0-4462-bbbb-30d395dce426</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>57. <code>test_case_124</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by day, time period, sender and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4b26b91e-408f-4a43-8a91-3a2ccccd1fd8</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>58. <code>test_case_126</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by participant and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>a60710db-62eb-408c-9e72-431fd75a0c65</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>59. <code>test_case_134</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat handling multiple people with same first name and varied display</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>CalendarTools</em>graph<em>listUsers, mcp</em>graph<em>chat</em>createChat reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+CalendarlistUsers✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>f8273606-315a-49f9-a584-7dd962143563</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=cb862e12-dec3-4028-be96-7be6f8b85cc9 GraphRequestId=cb862e12-dec3-4028-be96-7be6f8b85cc9 | Tool Error: CorrelationId: cb862e12-dec3-4028-be96-7be6f8b85cc9, TimeStamp: 2025-10-21</em>19:26:05</li>
+</ul>
+
+<p><strong>60. <code>test_case_136</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat filtering by seniority level</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>getDirectReports, mcp<em>graph</em>getUserProfile, mcp<em>graph</em>chat<em>createChat, mcp</em>graph_listUsers reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+graph<em>listUsers✅, graph</em>getDirectReports✅, graph<em>getDirectReports✅, graph</em>getDirectReports✅, graph<em>getUserProfile✅, graph</em>getDirectReports✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b0ddbd01-8046-4c27-9c14-9bcb4d60af0f</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=b502ba6c-7948-4b10-8bc2-b8cd2da46f20 GraphRequestId=b502ba6c-7948-4b10-8bc2-b8cd2da46f20 | Tool Error: CorrelationId: b502ba6c-7948-4b10-8bc2-b8cd2da46f20, TimeStamp: 2025-10-21</em>19:26:14</li>
+</ul>
+
+<p><strong>61. <code>test_case_138</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat handling participant title change during thread</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>b50aebba-661b-494c-8304-08107e61d6e6</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>62. <code>test_case_140</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat highlighting specific decisions by participant</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>MailTools</em>graph<em>mail</em>getMessage reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>6ee4356c-7aa1-4b7f-974c-653dce509fd3</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>63. <code>test_case_141</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat from email by sender, timezone-specific time, and topic</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages, mcp<em>graph</em>chat<em>createChat, mcp</em>MailTools<em>graph</em>mail_getMessage reliability. Reason: 403 (Forbidden)</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail<em>searchMessages✅, Mailmail</em>getMessage✅, graph<em>chat</em>createChat✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>4f98876f-141d-47bf-a531-700b2ac849e5</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+Tool Error: Graph API call failed for tool 'mcp<em>graph</em>chat<em>createChat': Failed to call graph API at https://graph.microsoft.com/v1.0/chats. Status=403 (Forbidden). CorrelationId=2e12df52-2443-4bc2-8d4f-260ad3340a11 GraphRequestId=2e12df52-2443-4bc2-8d4f-260ad3340a11 | Tool Error: CorrelationId: 2e12df52-2443-4bc2-8d4f-260ad3340a11, TimeStamp: 2025-10-21</em>19:26:11</li>
+</ul>
+
+<p><strong>64. <code>test_case_142</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat with dynamic participant addition based on recent activity</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>MailTools</em>graph<em>mail</em>searchMessages reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+Mailmail_searchMessages✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>3ce130c7-780a-4f7b-b7e7-813dc8d76c61</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><strong>65. <code>test_case_148</code></strong>- <strong>Category:</strong>
+**create<em>chat</em>from_email</p>
+
+<ul>
+<li><strong>Description:</strong>
+**Create chat including external resources linked in email</li>
+<li><strong>💡 Analysis:</strong>
+Tool execution failed despite correct selection - investigate mcp<em>graph</em>listUsers reliability</li>
+<li><strong>🔧 Tools Called:</strong>
+graph_listUsers✅</li>
+<li><strong>🔗 Correlation ID:</strong>
+<code>35141497-1b6e-4278-bf96-c1da0fd02678</code></li>
+<li><strong>🔍 Failure Reason:</strong>
+No specific error details available</li>
+</ul>
+
+<p><em>Total 65 failures in this category</em></p>
+
+<hr />
+
+<h2 id="other-failures-other-failures">🐛 Other Failures {#other-failures}</h2>
+
+<p><strong>Failure Reason:</strong>No specific error message</p>
+
+<h3 id="bug-to-file-other-failures">🐛 Bug to File: Other Failures</h3>
+
+<p><strong>Affected Test Cases:</strong>33
+<strong>Recommended Action:</strong>File general bug - requires manual investigation to determine root cause and appropriate team assignment.</p>
+
+<p><strong>Failed Test Case Details:</strong>1. <code>test_case_001</code> - create<em>chat</em>from<em>email
+   - *Create chat from email thread identified by subject with all participants*
+   - Score: 2.5
+2. <code>test_case_002</code> - create</em>chat<em>from</em>email
+   - <em>Create group chat from email thread identified by sender name</em>
+   - Score: 3
+3. <code>test_case_003</code> - create<em>chat</em>from<em>email
+   - *Convert email conversation to Teams chat by subject*
+   - Score: 3.25
+4. <code>test_case_004</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email thread identified by sender and time reference</em>
+   - Score: 2.25
+5. <code>test_case_006</code> - create<em>chat</em>from<em>email
+   - *Create group chat from email thread for collaboration purposes*
+   - Score: 2.75
+6. <code>test_case_013</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email identified by specific subject line</em>
+   - Score: 2.5
+7. <code>test_case_017</code> - create<em>chat</em>from<em>email
+   - *Create chat from email identified by sender and topic*
+   - Score: 2.75
+8. <code>test_case_019</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email identified by sender and specific time</em>
+   - Score: 2.5
+9. <code>test_case_020</code> - create<em>chat</em>from<em>email
+   - *Convert email to chat by sender, date, and topic*
+   - Score: 2.25
+10. <code>test_case_022</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email by sender, relative time, and subject</em>
+   - Score: 2.5
+11. <code>test_case_023</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by sender, week reference, and topic*
+   - Score: 2.5
+12. <code>test_case_024</code> - create</em>chat<em>from</em>email
+   - <em>Convert most recent email from specific sender to group chat</em>
+   - Score: 2.25
+13. <code>test_case_025</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by bug ID including To and CC recipients*
+   - Score: 2.25
+14. <code>test_case_031</code> - create</em>chat<em>from</em>email
+   - <em>Create chat filtering for internal employees only</em>
+   - Score: 3
+15. <code>test_case_035</code> - create<em>chat</em>from<em>email
+   - *Create chat filtered for specific role from email thread*
+   - Score: 2.5
+16. <code>test_case_040</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email adding participant for specific expertise</em>
+   - Score: 3
+17. <code>test_case_042</code> - create<em>chat</em>from<em>email
+   - *Create chat from most recent email by sender and topic*
+   - Score: 2.25
+18. <code>test_case_043</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email by participant and discussion topic</em>
+   - Score: 3
+19. <code>test_case_046</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by multiple participants and topic*
+   - Score: 2.75
+20. <code>test_case_050</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email with first-name-only recipient display</em>
+   - Score: 2.5
+21. <code>test_case_057</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by date, participant with initial, and topic*
+   - Score: 2.75
+22. <code>test_case_065</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email chain by sender and start date</em>
+   - Score: 2.5
+23. <code>test_case_073</code> - create<em>chat</em>from<em>email
+   - *Create chat from large reply-all thread*
+   - Score: 2.75
+24. <code>test_case_107</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email with participants identified by department and name</em>
+   - Score: 2.75
+25. <code>test_case_115</code> - create<em>chat</em>from<em>email
+   - *Create urgent chat from time-sensitive email*
+   - Score: 2.75
+26. <code>test_case_119</code> - create</em>chat<em>from</em>email
+   - <em>Create urgent action-required chat from email</em>
+   - Score: 2.25
+27. <code>test_case_123</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by day, time period, sender and topic*
+   - Score: 2.5
+28. <code>test_case_124</code> - create</em>chat<em>from</em>email
+   - <em>Create chat from email by day, time period, sender and topic</em>
+   - Score: 2.25
+29. <code>test_case_126</code> - create<em>chat</em>from<em>email
+   - *Create chat from email by participant and topic*
+   - Score: 2.5
+30. <code>test_case_138</code> - create</em>chat<em>from</em>email
+   - <em>Create chat handling participant title change during thread</em>
+   - Score: 2.5
+31. <code>test_case_140</code> - create<em>chat</em>from<em>email
+   - *Create chat highlighting specific decisions by participant*
+   - Score: 2
+32. <code>test_case_142</code> - create</em>chat<em>from</em>email
+   - <em>Create chat with dynamic participant addition based on recent activity</em>
+   - Score: 2.5
+33. <code>test_case_148</code> - create<em>chat</em>from_email
+   - <em>Create chat including external resources linked in email</em>
+   - Score: 2.5</p>
+
+<hr />
+
+<hr />
+
+<p><em>Combined bugs &amp; analysis report generated by Test Analysis Tool on 2025-10-21 21:47:36</em></p>
+
+    </main>
+    <footer>Generated on 2025-10-21 21:47:36</footer>
+</body>
+</html>
