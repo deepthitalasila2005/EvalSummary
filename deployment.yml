@@ -1,0 +1,73 @@
+trigger:
+  branches:
+    include:
+      - master
+      - main
+
+pr:
+  branches:
+    include:
+      - master
+      - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  # Replace with your Static Web App name
+  staticWebAppName: 'EvalSummaryApp'
+  # Replace with your resource group name
+  resourceGroupName: 'AthenaDevelopmentWusRG'
+  # Azure subscription service connection name
+  azureSubscription: 'LocalEvalResources-MI-ServiceConnection'
+
+stages:
+- stage: Build
+  displayName: 'Build Stage'
+  jobs:
+  - job: Build
+    displayName: 'Build Job'
+    steps:
+    - checkout: self
+      submodules: true
+
+    - task: NodeTool@0
+      displayName: 'Setup Node.js'
+      inputs:
+        versionSpec: '18.x'
+
+    - script: |
+        npm install -g @azure/static-web-apps-cli
+      displayName: 'Install Static Web Apps CLI'
+
+    - script: |
+        node build.js
+      displayName: 'Build Application'
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Build Artifacts'
+      inputs:
+        pathToPublish: '$(Build.SourcesDirectory)/dist'
+        artifactName: 'static-web-app'
+
+- stage: Deploy
+  displayName: 'Deploy Stage'
+  dependsOn: Build
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  jobs:
+  - deployment: Deploy
+    displayName: 'Deploy to Azure Static Web Apps'
+    environment: 'production'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - download: current
+            artifact: 'static-web-app'
+
+          - task: AzureStaticWebApp@0
+            displayName: 'Deploy to Azure Static Web Apps'
+            inputs:
+              app_location: '$(Pipeline.Workspace)/static-web-app'
+              azure_static_web_apps_api_token: '$(AZURE_STATIC_WEB_APPS_API_TOKEN)'
+              action: 'upload'
