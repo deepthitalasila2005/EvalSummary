@@ -53,7 +53,7 @@ stages:
 - stage: Deploy
   displayName: 'Deploy Stage'
   dependsOn: Build
-  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
   jobs:
   - deployment: Deploy
     displayName: 'Deploy to Azure Static Web Apps'
